@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TemplateReport>
+  <ItemTemplates>
+    <ItemTemplate Path="ItemTemplates\Android\Layouts\XT Android Toolbar Layout\Definitions\CSharp.vstemplate" Name="XT Android Toolbar Layout" Description="XML template for a simple Android toolbar" ProjectType="CSharp" ProjectSubType="" />
+  </ItemTemplates>
+  <ProjectTemplates />
+  <Snippets />
+</TemplateReport>
