@@ -1,16 +1,16 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
-    <DefaultName>xt-toolbar.xml</DefaultName>
-    <Name>XT Android Toolbar Layout</Name>
-    <Description>XML template for a simple Android toolbar</Description>
+    <DefaultName>xt-activity.xml</DefaultName>
+    <Name>XT Android Activity Layout</Name>
+    <Description>XML template for an empty Android activity</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <TemplateID>2866675c-2010-4498-acc1-d36d84e628b3</TemplateID>
+    <TemplateID>65197798-4682-45e6-9bf4-d2d9e2929527</TemplateID>
     <SortOrder>1000</SortOrder>
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem ReplaceParameters="true" TargetFileName="xt-toolbar.xml">xt-toolbar.xml</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="xt-activity.xml">xt-activity.xml</ProjectItem>
   </TemplateContent>
 </VSTemplate>

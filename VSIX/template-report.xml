@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TemplateReport>
   <ItemTemplates>
+    <ItemTemplate Path="ItemTemplates\Android\Layouts\XT Android Activity Layout\Definitions\CSharp.vstemplate" Name="XT Android Activity Layout" Description="XML template for an empty Android activity" ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="ItemTemplates\Android\Layouts\XT Android Fragment Layout\Definitions\CSharp.vstemplate" Name="XT Android Fragment Layout" Description="XML template for an empty Android fragment" ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class\Definitions\CSharp.vstemplate" Name="XT Android MvvmCross Setup Class" Description="Setup Class for a Xamarin MvvmCross Android app" ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="ItemTemplates\Android\Layouts\XT Android Parallax Layout\Definitions\CSharp.vstemplate" Name="XT Android Parallax Layout" Description="XML template for an Android parallax layout" ProjectType="CSharp" ProjectSubType="" />
     <ItemTemplate Path="ItemTemplates\Android\Layouts\XT Android Toolbar Layout\Definitions\CSharp.vstemplate" Name="XT Android Toolbar Layout" Description="XML template for a simple Android toolbar" ProjectType="CSharp" ProjectSubType="" />
   </ItemTemplates>
   <ProjectTemplates />
