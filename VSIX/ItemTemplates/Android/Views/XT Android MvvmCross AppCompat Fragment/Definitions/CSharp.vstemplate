@@ -10,7 +10,23 @@
     <SortOrder>1000</SortOrder>
   </TemplateData>
   <TemplateContent>
-    <References />
+    <References>
+      <Reference>
+        <Assembly>Android.OS</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Android.Runtime</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Android.Views</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>MvvmCross.Droid.Shared.Attributes</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>MvvmCross.Droid.Support.V4</Assembly>
+      </Reference>
+    </References>
     <ProjectItem ReplaceParameters="true" TargetFileName="Fragment.cs">Fragment.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

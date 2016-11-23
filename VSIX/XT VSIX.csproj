@@ -44,7 +44,8 @@
     <TemplateBuilderTargets Condition=" '$(TemplateBuilderTargets)'=='' ">$([System.IO.Path]::GetFullPath( $(MSBuildProjectDirectory)\..\packages\TemplateBuilder.1.1.4.9-beta\tools\ligershark.templates.targets ))</TemplateBuilderTargets>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class\Setup.cs" />
+    <Compile Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class - Advanced\Setup.cs" />
+    <Compile Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class - Basic\Setup.cs" />
     <Compile Include="ItemTemplates\Android\Views\XT Android MvvmCross AppCompat Activity\Activity.cs" />
     <Compile Include="ItemTemplates\Android\Views\XT Android MvvmCross AppCompat Fragment\Fragment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,7 +64,8 @@
     <Content Include="ItemTemplates\Android\Layouts\XT Android Parallax Layout\icon.png" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Parallax Layout\xt-parallax.xml" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Toolbar Layout\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class\icon.png" />
+    <Content Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class - Advanced\icon.png" />
+    <Content Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class - Basic\icon.png" />
     <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross AppCompat Activity\icon.png" />
     <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross AppCompat Fragment\icon.png" />
     <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross AppCompat Activity\Definitions\CSharp.vstemplate" />
@@ -74,11 +76,12 @@
     <Content Include="ItemTemplates\Android\Layouts\XT Android Activity Layout\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Fragment Layout\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Parallax Layout\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class - Basic\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Collapsing Toolbar Layout\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Drawer Layout\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Fragment Activity Layout\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross AppCompat Fragment\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class - Advanced\Definitions\CSharp.vstemplate" />
     <None Include="packages.config" />
     <None Include="Properties\template-builder.props" />
     <None Include="source.extension.vsixmanifest">
@@ -97,7 +100,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ItemTemplates\Android\Miscellaneous\XT Android Values Folders\" />
     <Folder Include="ItemTemplates\iOS\Miscellaneous\XT iOS MvvmCross Setup Class\" />
     <Folder Include="ItemTemplates\iOS\Views\XT iOS FluentLayout ViewController\" />
     <Folder Include="ItemTemplates\Shared\Miscellaneous\XT MvvmCross App Class\" />

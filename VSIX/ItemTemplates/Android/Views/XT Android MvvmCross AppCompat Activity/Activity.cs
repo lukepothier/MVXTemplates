@@ -1,12 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Android.App;
+using Android.Content.PM;
+using Android.OS;
+using Android.Support.V7.App;
+using Android.Views;
 
-namespace XT.VSIX.ItemTemplates.Android.Views.XT_Android_MvvmCross_AppCompat_Activity
+namespace $rootnamespace$
 {
-    class Activity
+    [Activity(Label = "",
+            Theme = "@style/MyAppTheme",
+            LaunchMode = LaunchMode.SingleTask,
+            ScreenOrientation = ScreenOrientation.User,
+            WindowSoftInputMode = SoftInput.AdjustPan | SoftInput.StateHidden)]
+    public class Activity : AppCompatActivity
     {
+    
+        #region Activity LifeCycle
+
+        protected override void OnCreate(Bundle bundle)
+        {
+            var setupSingleton = MvxAndroidSetupSingleton.EnsureSingletonAvailable(ApplicationContext);
+            setupSingleton.EnsureInitialized();
+
+            base.OnCreate(bundle);
+
+            SetContentView(Resource.Layout.activity_dashboard_main);
+        }
+
+        #endregion
     }
 }

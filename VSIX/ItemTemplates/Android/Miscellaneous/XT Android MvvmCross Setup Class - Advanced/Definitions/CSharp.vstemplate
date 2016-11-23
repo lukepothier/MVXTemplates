@@ -1,0 +1,32 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>Setup.cs</DefaultName>
+    <Name>XT Android MvvmCross Setup Class - Advanced</Name>
+    <Description>Advanced setup Class for a Xamarin MvvmCross Android app</Description>
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>e7795739-1f67-4410-9889-6856dc42d607</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>Android.Content</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>MvvmCross.Core.Platform</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>MvvmCross.Core.ViewModels</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>MvvmCross.Droid.Platform</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>MvvmCross.Droid.Views</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Setup.cs">Setup.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

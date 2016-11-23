@@ -1,0 +1,18 @@
+﻿using Android.Content;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Droid.Platform;
+
+namespace $rootnamespace$
+{
+    public class Setup : MvxAndroidSetup
+    {
+        public Setup(Context applicationContext)
+               : base(applicationContext)
+        {
+        }
+
+        // CreateApp() is the only method for which an override is required in Setup, however there are many other methods that you will probably need or want to override within Setup
+        // Learn more about using Setup to register custom bindings, improve startup performace, and more at https://github.com/MvvmCross/MvvmCross/wiki/Customizing-using-App-and-Setup#setupcs
+        protected override IMvxApplication CreateApp() => new App();
+    }
+}
