@@ -2,7 +2,7 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>Fragment.cs</DefaultName>
-    <Name>XT Android MvvmCross Fragment Class</Name>
+    <Name>XT Android MvvmCross AppCompat Fragment Class</Name>
     <Description>Fragment based on the Android support libraries for backwards compatibility</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
@@ -12,16 +12,10 @@
   <TemplateContent>
     <References>
       <Reference>
-        <Assembly>Android.OS</Assembly>
+        <Assembly>Mono.Android</Assembly>
       </Reference>
       <Reference>
-        <Assembly>Android.Runtime</Assembly>
-      </Reference>
-      <Reference>
-        <Assembly>Android.Views</Assembly>
-      </Reference>
-      <Reference>
-        <Assembly>MvvmCross.Droid.Shared.Attributes</Assembly>
+        <Assembly>MvvmCross.Droid.Shared</Assembly>
       </Reference>
       <Reference>
         <Assembly>MvvmCross.Droid.Support.V4</Assembly>

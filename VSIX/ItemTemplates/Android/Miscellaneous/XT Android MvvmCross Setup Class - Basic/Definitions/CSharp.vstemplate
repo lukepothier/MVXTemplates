@@ -2,8 +2,8 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>Setup.cs</DefaultName>
-    <Name>XT Android MvvmCross Setup Class - Basic</Name>
-    <Description>Basic setup Class for a Xamarin MvvmCross Android app</Description>
+    <Name>XT Android MvvmCross AppCompat Setup Class - Basic</Name>
+    <Description>Basic setup Class for a Xamarin MvvmCross Android app using AppCompat</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <TemplateID>6f731be7-fbc2-4bc9-b3ca-05a580e79985</TemplateID>
@@ -12,16 +12,16 @@
   <TemplateContent>
     <References>
       <Reference>
-        <Assembly>Android.Content</Assembly>
+        <Assembly>Mono.Android</Assembly>
       </Reference>
       <Reference>
-        <Assembly>MvvmCross.Core.ViewModels</Assembly>
+        <Assembly>MvvmCross.Core</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>MvvmCross.Droid</Assembly>
       </Reference>
       <Reference>
         <Assembly>MvvmCross.Droid.Support.V7.AppCompat</Assembly>
-      </Reference>
-      <Reference>
-        <Assembly>MvvmCross.Droid.Platform</Assembly>
       </Reference>
     </References>
     <ProjectItem ReplaceParameters="true" TargetFileName="Setup.cs">Setup.cs</ProjectItem>

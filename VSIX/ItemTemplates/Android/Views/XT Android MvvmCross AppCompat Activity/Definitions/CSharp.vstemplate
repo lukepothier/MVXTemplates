@@ -12,19 +12,10 @@
   <TemplateContent>
     <References>
       <Reference>
-        <Assembly>Android.App</Assembly>
+        <Assembly>Mono.Android</Assembly>
       </Reference>
       <Reference>
-        <Assembly>Android.Content.PM</Assembly>
-      </Reference>
-      <Reference>
-        <Assembly>Android.OS</Assembly>
-      </Reference>
-      <Reference>
-        <Assembly>Android.Support.V7.App</Assembly>
-      </Reference>
-      <Reference>
-        <Assembly>Android.Views</Assembly>
+        <Assembly>Xamarin.Android.Support.v7.AppCompat</Assembly>
       </Reference>
     </References>
     <ProjectItem ReplaceParameters="true" TargetFileName="Activity.cs">Activity.cs</ProjectItem>
