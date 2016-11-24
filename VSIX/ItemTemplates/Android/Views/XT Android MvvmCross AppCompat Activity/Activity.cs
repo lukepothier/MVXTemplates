@@ -3,29 +3,28 @@ using Android.Content.PM;
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Views;
+using Mvx.Droid.Support.V7.AppCompat;
 
 namespace $rootnamespace$
 {
-    [Activity(Label = "",
-            Theme = "@style/MyAppTheme",
-            LaunchMode = LaunchMode.SingleTask,
-            ScreenOrientation = ScreenOrientation.User,
+    [Activity(Theme = "@style/MyAppTheme",
             WindowSoftInputMode = SoftInput.AdjustPan | SoftInput.StateHidden)]
-    public class Activity : AppCompatActivity
+public class Activity : MvxAppCompatActivity<MyViewModel>
+{
+
+    #region Activity LifeCycle
+
+    protected override void OnCreate(Bundle bundle)
     {
-    
-        #region Activity LifeCycle
+        // The following two lines can be removed if this activity is navigated to immediately after the splash screen
+        var setupSingleton = MvxAndroidSetupSingleton.EnsureSingletonAvailable(ApplicationContext);
+        setupSingleton.EnsureInitialized();
 
-        protected override void OnCreate(Bundle bundle)
-        {
-            var setupSingleton = MvxAndroidSetupSingleton.EnsureSingletonAvailable(ApplicationContext);
-            setupSingleton.EnsureInitialized();
+        base.OnCreate(bundle);
 
-            base.OnCreate(bundle);
-
-            SetContentView(Resource.Layout.activity_dashboard_main);
-        }
-
-        #endregion
+        SetContentView(Resource.Layout.my_resource_name);
     }
+
+    #endregion
+}
 }

@@ -21,6 +21,9 @@
         <Assembly>MvvmCross.Core.ViewModels</Assembly>
       </Reference>
       <Reference>
+        <Assembly>MvvmCross.Droid.Support.V7.AppCompat</Assembly>
+      </Reference>
+      <Reference>
         <Assembly>MvvmCross.Droid.Platform</Assembly>
       </Reference>
       <Reference>
