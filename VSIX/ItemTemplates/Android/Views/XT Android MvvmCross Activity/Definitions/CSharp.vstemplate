@@ -2,7 +2,7 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>Activity.cs</DefaultName>
-    <Name>XT Android MvvmCross AppCompat Activity Class</Name>
+    <Name>XT Android MvvmCross Activity Class</Name>
     <Description>AppCompat Activity based on the Android support libraries for backwards compatibility</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>

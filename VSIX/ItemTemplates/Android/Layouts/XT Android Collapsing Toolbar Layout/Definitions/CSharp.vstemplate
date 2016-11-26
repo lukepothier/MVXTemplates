@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
-    <DefaultName>xt-collapsing-toolbar.xml</DefaultName>
+    <DefaultName>xt_collapsing_toolbar.xml</DefaultName>
     <Name>XT Android Collapsing Toolbar Layout</Name>
     <Description>XML template for a collapsing toolbar</Description>
     <Icon>icon.png</Icon>
@@ -11,6 +11,6 @@
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem ReplaceParameters="true" TargetFileName="xt-collapsing-toolbar.xml">xt-collapsing-toolbar.xml</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="xt_collapsing_toolbar.xml">xt_collapsing_toolbar.xml</ProjectItem>
   </TemplateContent>
 </VSTemplate>

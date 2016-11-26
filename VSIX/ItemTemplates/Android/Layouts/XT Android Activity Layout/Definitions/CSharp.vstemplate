@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
-    <DefaultName>xt-activity.xml</DefaultName>
+    <DefaultName>xt_activity.xml</DefaultName>
     <Name>XT Android Activity Layout</Name>
     <Description>XML template for an empty Android activity</Description>
     <Icon>icon.png</Icon>
@@ -11,6 +11,6 @@
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem ReplaceParameters="true" TargetFileName="xt-activity.xml">xt-activity.xml</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="xt_activity.xml">xt_activity.xml</ProjectItem>
   </TemplateContent>
 </VSTemplate>

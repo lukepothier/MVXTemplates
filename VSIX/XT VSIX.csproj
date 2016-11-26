@@ -46,29 +46,32 @@
   <ItemGroup>
     <Compile Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class - Advanced\Setup.cs" />
     <Compile Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class - Basic\Setup.cs" />
-    <Compile Include="ItemTemplates\Android\Views\XT Android MvvmCross AppCompat Activity\Activity.cs" />
-    <Compile Include="ItemTemplates\Android\Views\XT Android MvvmCross AppCompat Fragment\Fragment.cs" />
+    <Compile Include="ItemTemplates\Android\Views\XT Android MvvmCross Activity\Activity.cs" />
+    <Compile Include="ItemTemplates\Android\Views\XT Android MvvmCross Fragment\Fragment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ItemTemplates\Android\Layouts\XT Android Activity Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\XT Android Activity Layout\xt-activity.xml" />
+    <Content Include="ItemTemplates\Android\Layouts\XT Android Activity Layout\xt_activity.xml" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Collapsing Toolbar Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\XT Android Collapsing Toolbar Layout\xt-collapsing-toolbar.xml" />
+    <Content Include="ItemTemplates\Android\Layouts\XT Android Collapsing Toolbar Layout\xt_collapsing_toolbar.xml" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Drawer Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\XT Android Drawer Layout\xt-drawer-layout.xml" />
+    <Content Include="ItemTemplates\Android\Layouts\XT Android Drawer Layout\xt_drawer.xml" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Fragment Activity Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\XT Android Fragment Activity Layout\xt-fragment-activity.xml" />
+    <Content Include="ItemTemplates\Android\Layouts\XT Android Fragment Activity Layout\xt_fragment_activity.xml" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Fragment Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\XT Android Fragment Layout\xt-fragment.xml" />
+    <Content Include="ItemTemplates\Android\Layouts\XT Android Fragment Layout\xt_fragment.xml" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Parallax Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\XT Android Parallax Layout\xt-parallax.xml" />
+    <Content Include="ItemTemplates\Android\Layouts\XT Android Parallax Layout\xt_parallax.xml" />
+    <Content Include="ItemTemplates\Android\Layouts\XT Android Slide-out Menu Layout\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Layouts\XT Android Slide-out Menu Layout\icon.png" />
+    <Content Include="ItemTemplates\Android\Layouts\XT Android Slide-out Menu Layout\xt_slideout_menu.xml" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Toolbar Layout\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class - Advanced\icon.png" />
     <Content Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class - Basic\icon.png" />
-    <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross AppCompat Activity\icon.png" />
-    <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross AppCompat Fragment\icon.png" />
-    <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross AppCompat Activity\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross Activity\icon.png" />
+    <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross Fragment\icon.png" />
+    <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross Activity\Definitions\CSharp.vstemplate" />
     <Content Include="LICENSE">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -80,7 +83,7 @@
     <Content Include="ItemTemplates\Android\Layouts\XT Android Collapsing Toolbar Layout\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Drawer Layout\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Layouts\XT Android Fragment Activity Layout\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross AppCompat Fragment\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross Fragment\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class - Advanced\Definitions\CSharp.vstemplate" />
     <None Include="packages.config" />
     <None Include="Properties\template-builder.props" />
@@ -90,7 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ItemTemplates\Android\Layouts\XT Android Toolbar Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\XT Android Toolbar Layout\xt-toolbar.xml" />
+    <Content Include="ItemTemplates\Android\Layouts\XT Android Toolbar Layout\xt_toolbar.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

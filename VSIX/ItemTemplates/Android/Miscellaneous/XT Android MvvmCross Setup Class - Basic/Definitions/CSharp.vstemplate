@@ -2,8 +2,8 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>Setup.cs</DefaultName>
-    <Name>XT Android MvvmCross AppCompat Setup Class - Basic</Name>
-    <Description>Basic setup Class for a Xamarin MvvmCross Android app using AppCompat</Description>
+    <Name>XT Android MvvmCross Setup Class - Basic</Name>
+    <Description>Basic setup Class for a Xamarin MvvmCross Android app</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <TemplateID>6f731be7-fbc2-4bc9-b3ca-05a580e79985</TemplateID>

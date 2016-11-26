@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
-    <DefaultName>xt-fragment.xml</DefaultName>
+    <DefaultName>xt_fragment.xml</DefaultName>
     <Name>XT Android Fragment Layout</Name>
     <Description>XML template for an empty Android fragment</Description>
     <Icon>icon.png</Icon>
@@ -11,6 +11,6 @@
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem ReplaceParameters="true" TargetFileName="xt-fragment.xml">xt-fragment.xml</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="xt_fragment.xml">xt_fragment.xml</ProjectItem>
   </TemplateContent>
 </VSTemplate>

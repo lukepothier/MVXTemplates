@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
-    <DefaultName>xt-parallax.xml</DefaultName>
+    <DefaultName>xt_parallax.xml</DefaultName>
     <Name>XT Android Parallax Layout</Name>
     <Description>XML template for an Android parallax layout</Description>
     <Icon>icon.png</Icon>
@@ -11,6 +11,6 @@
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem ReplaceParameters="true" TargetFileName="xt-parallax.xml">xt-parallax.xml</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="xt_parallax.xml">xt_parallax.xml</ProjectItem>
   </TemplateContent>
 </VSTemplate>

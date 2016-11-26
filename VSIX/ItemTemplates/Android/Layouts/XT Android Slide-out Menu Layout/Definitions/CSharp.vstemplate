@@ -1,16 +1,16 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
-    <DefaultName>xt_toolbar.xml</DefaultName>
-    <Name>XT Android Toolbar Layout</Name>
-    <Description>XML template for a simple Android toolbar</Description>
+    <DefaultName>xt_slideout_menu.xml</DefaultName>
+    <Name>XT Slide-out Menu Layout</Name>
+    <Description>XML template for Android slide-out menu layout</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <TemplateID>2866675c-2010-4498-acc1-d36d84e628b3</TemplateID>
+    <TemplateID>12c2f640-44ed-4f24-8152-8f61a44425f6</TemplateID>
     <SortOrder>1000</SortOrder>
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem ReplaceParameters="true" TargetFileName="xt_toolbar.xml">xt_toolbar.xml</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="xt_slideout_menu.xml">xt_slideout_menu.xml</ProjectItem>
   </TemplateContent>
 </VSTemplate>

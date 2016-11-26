@@ -2,7 +2,7 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>Fragment.cs</DefaultName>
-    <Name>XT Android MvvmCross AppCompat Fragment Class</Name>
+    <Name>XT Android MvvmCross Fragment Class</Name>
     <Description>Fragment based on the Android support libraries for backwards compatibility</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
