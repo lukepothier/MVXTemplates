@@ -48,6 +48,8 @@
     <Compile Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class - Basic\Setup.cs" />
     <Compile Include="ItemTemplates\Android\Views\XT Android MvvmCross Activity\Activity.cs" />
     <Compile Include="ItemTemplates\Android\Views\XT Android MvvmCross Fragment\Fragment.cs" />
+    <Compile Include="ItemTemplates\iOS\Miscellaneous\XT iOS MvvmCross Setup Class - Advanced\Setup.cs" />
+    <Compile Include="ItemTemplates\iOS\Miscellaneous\XT iOS MvvmCross Setup Class - Basic\Setup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -72,6 +74,8 @@
     <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross Activity\icon.png" />
     <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross Fragment\icon.png" />
     <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross Activity\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\Miscellaneous\XT iOS MvvmCross Setup Class - Advanced\icon.png" />
+    <Content Include="ItemTemplates\iOS\Miscellaneous\XT iOS MvvmCross Setup Class - Basic\icon.png" />
     <Content Include="LICENSE">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -85,6 +89,8 @@
     <Content Include="ItemTemplates\Android\Layouts\XT Android Fragment Activity Layout\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross Fragment\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class - Advanced\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\Miscellaneous\XT iOS MvvmCross Setup Class - Basic\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\Miscellaneous\XT iOS MvvmCross Setup Class - Advanced\Definitions\CSharp.vstemplate" />
     <None Include="packages.config" />
     <None Include="Properties\template-builder.props" />
     <None Include="source.extension.vsixmanifest">
@@ -103,7 +109,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ItemTemplates\iOS\Miscellaneous\XT iOS MvvmCross Setup Class\" />
     <Folder Include="ItemTemplates\iOS\Views\XT iOS FluentLayout ViewController\" />
     <Folder Include="ItemTemplates\Shared\Miscellaneous\XT MvvmCross App Class\" />
     <Folder Include="ItemTemplates\Shared\ViewModels\XT MvvmCross ViewModel\" />
