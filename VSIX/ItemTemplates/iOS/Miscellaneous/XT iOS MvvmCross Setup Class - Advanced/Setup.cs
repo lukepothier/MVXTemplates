@@ -1,7 +1,12 @@
-﻿using MvvmCross.Binding.Bindings.Target.Construction;
+﻿using System;
+using System.Collections.Generic;
+using MvvmCross.Binding.Bindings.Target.Construction;
 using MvvmCross.Core.ViewModels;
+using MvvmCross.Core.Views;
 using MvvmCross.iOS.Platform;
 using MvvmCross.iOS.Views.Presenters;
+using MvvmCross.Platform;
+using UIKit;
 
 namespace $rootnamespace$
 {
@@ -46,14 +51,14 @@ namespace $rootnamespace$
         // Reflection is very expensive, and the cost can be avoided by providing a dictionary of your mappings here
         // At scale, apps will start up measurably faster if this override exists
         protected override void InitializeViewLookup()
+        {
+            var viewModelViewLookup = new Dictionary<Type, Type>()
             {
-                var viewModelViewLookup = new Dictionary<Type, Type>()
-                    {
-                        { typeof (MyViewModel), typeof(MyView) }
-                    };
+                [typeof (MyViewModel)] = typeof(MyView)
+            };
 
-                var container = Mvx.Resolve<IMvxViewsContainer>();
-                container.AddAll(viewModelViewLookup);
-            }
+            var container = Mvx.Resolve<IMvxViewsContainer>();
+            container.AddAll(viewModelViewLookup);
         }
+    }
 }
