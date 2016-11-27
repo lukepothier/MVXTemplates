@@ -16,8 +16,14 @@ namespace $rootnamespace$
         // Learn more about using Setup to register custom bindings, platform services, and more at https://github.com/MvvmCross/MvvmCross/wiki/Customizing-using-App-and-Setup#setupcs
         protected override IMvxApplication CreateApp() => new App();
 
-        // Using Android support libraries requires the use of a non-standard presenter
+        // Using Android fragments requires the use of a fragment presenter
+        // If use of fragments are not required you can remove this override, which will default to the use of MvxAndroidViewPresenter
         // Learn more about custom view presenters at https://slodge.blogspot.com/2013/06/presenter-roundup.html
-        protected override IMvxAndroidViewPresenter CreateViewPresenter() => new MvxFragmentPresenter(AndroidViewAssemblies);
-    }
+        protected override IMvxAndroidViewPresenter CreateViewPresenter()
+        {
+            var mvxPresenter = new MvxFragmentsPresenter(AndroidViewAssemblies);
+            Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxPresenter);
+            return mvxPresenter;
+        }
+}
 }
