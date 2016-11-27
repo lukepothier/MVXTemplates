@@ -1,13 +1,18 @@
-﻿using Android.Content;
-using MvvmCross.Core.Platform;
+﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
+using Android.Content;
+using MvvmCross.Binding.Bindings.Target.Construction;
 using MvvmCross.Core.ViewModels;
+using MvvmCross.Core.Views;
+using MvvmCross.Droid.Shared.Presenter;
 using MvvmCross.Droid.Support.V7.AppCompat;
-using MvvmCross.Droid.Platform;
 using MvvmCross.Droid.Views;
+using MvvmCross.Platform;
 
 namespace $rootnamespace$
 {
-    public class Setup : MvxAndroidAppCompatSetup
+    public class Setup : MvxAppCompatSetup
     {
         public Setup(Context applicationContext)
                : base(applicationContext)
@@ -40,16 +45,20 @@ namespace $rootnamespace$
         // For apps that make use of custom Android views, you need to provide the assemblies in which MvvmCross should look to find the views
         // This is particularly useful for apps which make use of the Android support libraries
         // Below are some commonly used assemblies - remove the ones your app doesn't require
-        protected override IEnumerable<Assembly> AndroidViewAssemblies => 
-            new List<Assembly>(base.AndroidViewAssemblies)
-                {
-                    typeof(Android.Support.Design.Widget.FloatingActionButton).Assembly,
-                    typeof(MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView).Assembly
-                };
+        protected override IEnumerable<Assembly> AndroidViewAssemblies => new List<Assembly>(base.AndroidViewAssemblies)
+        {
+            typeof(Android.Support.Design.Widget.FloatingActionButton).Assembly,
+            typeof(MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView).Assembly
+        };
 
         // A custom presenter is a necessity if an app employs complex navigation techniques like split-screens, tabs, and the like
         // Learn more about custom view presenters at https://slodge.blogspot.com/2013/06/presenter-roundup.html
-        protected override IMvxAndroidViewPresenter CreateViewPresenter() => new MyPresenter(AndroidViewAssemblies);
+        protected override IMvxAndroidViewPresenter CreateViewPresenter()
+        {
+            var mvxPresenter = new MyCustomPresenter(AndroidViewAssemblies);
+            Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxPresenter);
+            return mvxPresenter;
+        }
 
         // TODO :: Benchmark and decide whether this is worth including
         // If the InitializeViewLookup override does not exist, MvvmCross will use reflection to map Android views to ViewModels
@@ -57,10 +66,10 @@ namespace $rootnamespace$
         // At scale, apps will start up measurably faster if this override exists
         protected override void InitializeViewLookup()
         {
-            var viewModelViewLookup = new Dictionary<Type, Type>()
-                        {
-                            { typeof (MyViewModel), typeof(MyView) }
-                        };
+            var viewModelViewLookup = new Dictionary<Type, Type>
+            {
+                [typeof(MyViewModel)] = typeof(MyView)
+            };
 
             var container = Mvx.Resolve<IMvxViewsContainer>();
             container.AddAll(viewModelViewLookup);
