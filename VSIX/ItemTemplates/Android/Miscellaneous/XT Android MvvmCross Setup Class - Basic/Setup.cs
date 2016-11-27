@@ -1,12 +1,14 @@
 ﻿using Android.Content;
 using MvvmCross.Core.ViewModels;
+using MvvmCross.Droid.Shared.Presenter;
 using MvvmCross.Droid.Support.V7.AppCompat;
-using MvvmCross.Droid.Platform;
+using MvvmCross.Droid.Views;
+using MvvmCross.Platform;
 
 namespace $rootnamespace$
 {
-    public class Setup : MvxAndroidAppCompatSetup
-    {
+    public class Setup : MvxAppCompatSetup
+{
         public Setup(Context applicationContext)
                : base(applicationContext)
         {
