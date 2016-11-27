@@ -47,15 +47,21 @@ namespace $rootnamespace$
                     typeof(MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView).Assembly
                 };
 
+        // Using Android fragments requires the use of MvxFragmentsPresenter
         // A custom presenter is a necessity if an app employs complex navigation techniques like split-screens, tabs, and the like
         // Learn more about custom view presenters at https://slodge.blogspot.com/2013/06/presenter-roundup.html
-        protected override IMvxAndroidViewPresenter CreateViewPresenter() => new MyPresenter(AndroidViewAssemblies);
+        protected override IMvxAndroidViewPresenter CreateViewPresenter()
+        {
+            var mvxPresenter = new MvxFragmentsPresenter(AndroidViewAssemblies);
+            Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxPresenter);
+            return mvxPresenter;
+        }
 
-        // TODO :: Benchmark and decide whether this is worth including
-        // If the InitializeViewLookup override does not exist, MvvmCross will use reflection to map Android views to ViewModels
-        // Reflection is very expensive, and the cost can be avoided by providing a dictionary of your mappings here
-        // At scale, apps will start up measurably faster if this override exists
-        protected override void InitializeViewLookup()
+    // TODO :: Benchmark and decide whether this is worth including
+    // If the InitializeViewLookup override does not exist, MvvmCross will use reflection to map Android views to ViewModels
+    // Reflection is very expensive, and the cost can be avoided by providing a dictionary of your mappings here
+    // At scale, apps will start up measurably faster if this override exists
+    protected override void InitializeViewLookup()
         {
             var viewModelViewLookup = new Dictionary<Type, Type>()
                         {
