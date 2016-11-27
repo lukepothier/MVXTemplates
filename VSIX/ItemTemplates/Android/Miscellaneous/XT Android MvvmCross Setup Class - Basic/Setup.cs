@@ -8,7 +8,7 @@ using MvvmCross.Platform;
 namespace $rootnamespace$
 {
     public class Setup : MvxAppCompatSetup
-{
+    {
         public Setup(Context applicationContext)
                : base(applicationContext)
         {
@@ -27,5 +27,5 @@ namespace $rootnamespace$
             Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxPresenter);
             return mvxPresenter;
         }
-}
+    }
 }
