@@ -39,6 +39,7 @@ A collection of Visual Studio item and project templates for use in Xamarin appl
 * FluentLayout View Controller
 * FluentLayout Table View Controller
 * FluentLayout Collection View Controller
+* FluentLayout Tab Bar View Controller
 
 #### Miscellaneous
 
