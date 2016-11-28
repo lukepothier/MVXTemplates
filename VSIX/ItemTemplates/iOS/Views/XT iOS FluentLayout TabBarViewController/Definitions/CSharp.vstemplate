@@ -1,0 +1,23 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>TabBarViewController.cs</DefaultName>
+    <Name>XT iOS MvvmCross FluentLayout UITabBarViewController</Name>
+    <Description>iOS MvvmCross UITabBarViewController with FluentLayout</Description>
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>193fd6e3-3eaa-4b8a-bcda-383e5b10841b</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>MvvmCross.iOS</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Xamarin.iOS</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true" TargetFileName="TabBarViewController.cs">TabBarViewController.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

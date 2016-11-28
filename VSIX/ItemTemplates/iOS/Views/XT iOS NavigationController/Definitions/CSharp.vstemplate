@@ -1,0 +1,20 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>NavigationController.cs</DefaultName>
+    <Name>XT iOS MvvmCross FluentLayout UINavigationController</Name>
+    <Description>iOS MvvmCross UINavigationController with FluentLayout</Description>
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>90b8008e-4ee6-4e60-a718-97145885436a</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>Xamarin.iOS</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true" TargetFileName="NavigationController.cs">NavigationController.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

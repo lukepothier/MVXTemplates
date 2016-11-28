@@ -50,6 +50,11 @@
     <Compile Include="ItemTemplates\Android\Views\XT Android MvvmCross Fragment\Fragment.cs" />
     <Compile Include="ItemTemplates\iOS\Miscellaneous\XT iOS MvvmCross Setup Class - Advanced\Setup.cs" />
     <Compile Include="ItemTemplates\iOS\Miscellaneous\XT iOS MvvmCross Setup Class - Basic\Setup.cs" />
+    <Compile Include="ItemTemplates\iOS\Views\XT iOS FluentLayout CollectionViewController\CollectionViewController.cs" />
+    <Compile Include="ItemTemplates\iOS\Views\XT iOS FluentLayout TabBarViewController\TabBarViewController.cs" />
+    <Compile Include="ItemTemplates\iOS\Views\XT iOS FluentLayout TableViewController\TableViewController.cs" />
+    <Compile Include="ItemTemplates\iOS\Views\XT iOS FluentLayout ViewController\ViewController.cs" />
+    <Compile Include="ItemTemplates\iOS\Views\XT iOS NavigationController\NavigationController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -76,6 +81,13 @@
     <Content Include="ItemTemplates\Android\Views\XT Android MvvmCross Activity\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\iOS\Miscellaneous\XT iOS MvvmCross Setup Class - Advanced\icon.png" />
     <Content Include="ItemTemplates\iOS\Miscellaneous\XT iOS MvvmCross Setup Class - Basic\icon.png" />
+    <Content Include="ItemTemplates\iOS\Views\XT iOS FluentLayout TabBarViewController\icon.png" />
+    <Content Include="ItemTemplates\iOS\Views\XT iOS FluentLayout CollectionViewController\icon.png" />
+    <Content Include="ItemTemplates\iOS\Views\XT iOS FluentLayout TableViewController\icon.png" />
+    <Content Include="ItemTemplates\iOS\Views\XT iOS FluentLayout CollectionViewController\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\Views\XT iOS FluentLayout ViewController\icon.png" />
+    <Content Include="ItemTemplates\iOS\Views\XT iOS NavigationController\icon.png" />
+    <Content Include="ItemTemplates\iOS\Views\XT iOS FluentLayout ViewController\Definitions\CSharp.vstemplate" />
     <Content Include="LICENSE">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -91,6 +103,9 @@
     <Content Include="ItemTemplates\Android\Miscellaneous\XT Android MvvmCross Setup Class - Advanced\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\iOS\Miscellaneous\XT iOS MvvmCross Setup Class - Basic\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\iOS\Miscellaneous\XT iOS MvvmCross Setup Class - Advanced\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\Views\XT iOS FluentLayout TableViewController\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\Views\XT iOS NavigationController\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\Views\XT iOS FluentLayout TabBarViewController\Definitions\CSharp.vstemplate" />
     <None Include="packages.config" />
     <None Include="Properties\template-builder.props" />
     <None Include="source.extension.vsixmanifest">
@@ -109,7 +124,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ItemTemplates\iOS\Views\XT iOS FluentLayout ViewController\" />
     <Folder Include="ItemTemplates\Shared\Miscellaneous\XT MvvmCross App Class\" />
     <Folder Include="ItemTemplates\Shared\ViewModels\XT MvvmCross ViewModel\" />
     <Folder Include="ProjectTemplates\XT Android UI Test Project\" />

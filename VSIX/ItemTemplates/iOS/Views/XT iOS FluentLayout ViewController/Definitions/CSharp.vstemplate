@@ -1,0 +1,23 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>ViewController.cs</DefaultName>
+    <Name>XT iOS MvvmCross FluentLayout UIViewController</Name>
+    <Description>iOS MvvmCross UIViewController with FluentLayout</Description>
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>3bf30f94-adeb-4d88-a08e-21d4f7b14940</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>MvvmCross.iOS</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Xamarin.iOS</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true" TargetFileName="ViewController.cs">ViewController.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
