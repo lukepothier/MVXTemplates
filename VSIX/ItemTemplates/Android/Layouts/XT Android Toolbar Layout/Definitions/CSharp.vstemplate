@@ -11,6 +11,6 @@
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem ReplaceParameters="true" TargetFileName="xt_toolbar.xml">xt_toolbar.xml</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.xml">xt_toolbar.xml</ProjectItem>
   </TemplateContent>
 </VSTemplate>

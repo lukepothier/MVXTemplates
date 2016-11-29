@@ -21,6 +21,6 @@
         <Assembly>MvvmCross.Droid.Support.V4</Assembly>
       </Reference>
     </References>
-    <ProjectItem ReplaceParameters="true" TargetFileName="Fragment.cs">Fragment.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.cs">Fragment.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

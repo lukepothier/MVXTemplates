@@ -15,6 +15,6 @@
         <Assembly>Xamarin.iOS</Assembly>
       </Reference>
     </References>
-    <ProjectItem ReplaceParameters="true" TargetFileName="NavigationController.cs">NavigationController.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.cs">NavigationController.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

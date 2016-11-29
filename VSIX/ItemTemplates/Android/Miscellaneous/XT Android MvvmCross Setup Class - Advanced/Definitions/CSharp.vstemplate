@@ -24,6 +24,6 @@
         <Assembly>MvvmCross.Droid.Support.V7.AppCompat</Assembly>
       </Reference>
     </References>
-    <ProjectItem ReplaceParameters="true" TargetFileName="Setup.cs">Setup.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.cs">Setup.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

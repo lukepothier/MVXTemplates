@@ -11,6 +11,6 @@
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem ReplaceParameters="true" TargetFileName="xt_fragment_activity.xml">xt_fragment_activity.xml</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.xml">xt_fragment_activity.xml</ProjectItem>
   </TemplateContent>
 </VSTemplate>
