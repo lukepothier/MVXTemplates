@@ -9,7 +9,7 @@ namespace $rootnamespace$
 {
     [MvxFragment(typeof(MyViewModel), Resource.Id.my_resource_id)]
     [Register("$rootnamespace$.MyFragmentName")]
-    public class Fragment : MvxFragment<MyViewModel>
+    public class $safeitemname$ : MvxFragment<MyViewModel>
     {
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {

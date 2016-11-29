@@ -18,6 +18,6 @@
         <Assembly>Xamarin.iOS</Assembly>
       </Reference>
     </References>
-    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.cs">ViewController.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">ViewController.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

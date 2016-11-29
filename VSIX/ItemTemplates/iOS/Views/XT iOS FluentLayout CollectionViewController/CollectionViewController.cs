@@ -3,7 +3,7 @@ using UIKit;
 
 namespace $rootnamespace$
 {
-    public class CollectionViewController : MvxCollectionViewController<MyViewModel>
+    public class $safeitemname$ : MvxCollectionViewController<MyViewModel>
     {
 
     }

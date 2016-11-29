@@ -3,7 +3,7 @@ using UIKit;
 
 namespace $rootnamespace$
 {
-    public class TableViewController : MvxTableViewController<MyViewModel>
+    public class $safeitemname$ : MvxTableViewController<MyViewModel>
     {
     }
 }

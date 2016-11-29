@@ -2,7 +2,7 @@
 
 namespace $rootnamespace$
 {
-    public class NavigationController
+    public class $safeitemname$
     {
     }
 }

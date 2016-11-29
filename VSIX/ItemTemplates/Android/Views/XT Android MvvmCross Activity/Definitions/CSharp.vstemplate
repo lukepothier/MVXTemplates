@@ -18,6 +18,6 @@
         <Assembly>Xamarin.Android.Support.v7.AppCompat</Assembly>
       </Reference>
     </References>
-    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.cs">Activity.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">Activity.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

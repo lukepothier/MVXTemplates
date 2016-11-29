@@ -9,7 +9,7 @@ namespace $rootnamespace$
 {
     [Activity(Theme = "@style/MyAppTheme",
             WindowSoftInputMode = SoftInput.AdjustPan | SoftInput.StateHidden)]
-    public class Activity : MvxAppCompatActivity<MyViewModel>
+    public class $safeitemname$ : MvxAppCompatActivity<MyViewModel>
     {
 
         #region Activity LifeCycle

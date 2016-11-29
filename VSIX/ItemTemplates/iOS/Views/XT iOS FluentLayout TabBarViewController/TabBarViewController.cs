@@ -3,7 +3,7 @@ using UIKit;
 
 namespace $rootnamespace$
 {
-    public class TabBarViewController : MvxTabBarViewController<MyViewController>
+    public class $safeitemname$ : MvxTabBarViewController<MyViewModel>
     {
     }
 }

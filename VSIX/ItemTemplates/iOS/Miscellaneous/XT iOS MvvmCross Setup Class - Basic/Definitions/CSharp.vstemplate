@@ -18,6 +18,6 @@
         <Assembly>MvvmCross.iOS</Assembly>
       </Reference>
     </References>
-    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.cs">Setup.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">Setup.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
