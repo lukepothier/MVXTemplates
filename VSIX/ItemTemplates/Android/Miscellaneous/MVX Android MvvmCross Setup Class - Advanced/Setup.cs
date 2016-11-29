@@ -45,11 +45,12 @@ namespace $rootnamespace$
         // For apps that make use of custom Android views, you need to provide the assemblies in which MvvmCross should look to find the views
         // This is particularly useful for apps which make use of the Android support libraries
         // Below are some commonly used assemblies - remove the ones your app doesn't require
-        protected override IEnumerable<Assembly> AndroidViewAssemblies => new List<Assembly>(base.AndroidViewAssemblies)
-        {
-            typeof(Android.Support.Design.Widget.FloatingActionButton).Assembly,
-            typeof(MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView).Assembly
-        };
+        protected override IEnumerable<Assembly> AndroidViewAssemblies 
+            => new List<Assembly>(base.AndroidViewAssemblies)
+            {
+                typeof(Android.Support.Design.Widget.FloatingActionButton).Assembly,
+                typeof(MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView).Assembly
+            };
 
         // A custom presenter is a necessity if an app employs complex navigation techniques like split-screens, tabs, and the like
         // Learn more about custom view presenters at https://slodge.blogspot.com/2013/06/presenter-roundup.html

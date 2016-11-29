@@ -12,6 +12,15 @@
   <TemplateContent>
     <References>
       <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Cirrious.FluentLayouts.Touch</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>MvvmCross.Binding</Assembly>
+      </Reference>
+      <Reference>
         <Assembly>MvvmCross.iOS</Assembly>
       </Reference>
       <Reference>
@@ -19,5 +28,7 @@
       </Reference>
     </References>
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">TableViewController.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$TableSource.cs">TableSource.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$TableCell.cs">TableCell.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

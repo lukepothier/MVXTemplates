@@ -44,7 +44,8 @@ namespace $rootnamespace$
 
         // A custom presenter is a necessity if an app employs complex navigation techniques like split-screens, tabs, and the like
         // Learn more about custom view presenters at https://slodge.blogspot.com/2013/06/presenter-roundup.html
-        protected override IMvxIosViewPresenter CreatePresenter() => new MyCustomPresenter(ApplicationDelegate, Window);
+        protected override IMvxIosViewPresenter CreatePresenter() 
+            => new MyCustomPresenter(ApplicationDelegate, Window);
 
         // TODO :: Benchmark and decide whether this is worth including
         // If the InitializeViewLookup override does not exist, MvvmCross will use reflection to map iOS views to ViewModels

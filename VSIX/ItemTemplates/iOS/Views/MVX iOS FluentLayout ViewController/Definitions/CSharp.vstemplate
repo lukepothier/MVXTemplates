@@ -12,6 +12,12 @@
   <TemplateContent>
     <References>
       <Reference>
+        <Assembly>Cirrious.FluentLayouts.Touch</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>MvvmCross.Binding</Assembly>
+      </Reference>
+      <Reference>
         <Assembly>MvvmCross.iOS</Assembly>
       </Reference>
       <Reference>
