@@ -1,0 +1,16 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>mvx_fragment.xml</DefaultName>
+    <Name>MVX Android Fragment Layout</Name>
+    <Description>XML template for an empty Android fragment</Description>
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>d4de2664-3632-4bc6-8c99-c2579d9d7500</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.xml">mvx_fragment.xml</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

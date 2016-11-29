@@ -1,4 +1,4 @@
-xamarin-templates
+MVXTemplates
 ======
 
 A collection of Visual Studio item and project templates for use in Xamarin applications, with particular emphasis on MvvmCross
@@ -73,9 +73,9 @@ A collection of Visual Studio item and project templates for use in Xamarin appl
 ## Snippets
 
 
-* xtprop
-* xtcom
-* xtacom
+* mvxprop
+* mvxcom
+* mvxacom
 
 ## Sample App
 

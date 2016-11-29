@@ -1,0 +1,16 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>mvx_activity.xml</DefaultName>
+    <Name>MVX Android Activity Layout</Name>
+    <Description>XML template for an empty Android activity</Description>
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>65197798-4682-45e6-9bf4-d2d9e2929527</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.xml">mvx_activity.xml</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

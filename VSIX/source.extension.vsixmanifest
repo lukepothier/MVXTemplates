@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="XT VSIX.Luke Pothier.3b4a0b56-7f92-4f5e-8de3-fe5bb43c7678" Version="1.0" Language="en-US" Publisher="Luke Pothier" />
-    <DisplayName>Xamarin Templates VSIX Installer</DisplayName>
-    <Description xml:space="preserve">VSIX Installer for the Xamarin Templates item and project templates at https://github.com/lukepothier/xamarin-templates</Description>
-    <MoreInfo>https://github.com/lukepothier/xamarin-templates</MoreInfo>
+    <Identity Id="VSIX.Luke Pothier.3b4a0b56-7f92-4f5e-8de3-fe5bb43c7678" Version="1.0" Language="en-US" Publisher="Luke Pothier" />
+    <DisplayName>MVXTemplates VSIX Installer</DisplayName>
+    <Description xml:space="preserve">VSIX Installer for the MVXTemplates item and project templates at https://github.com/lukepothier/MVXTemplates</Description>
+    <MoreInfo>https://github.com/lukepothier/MVXTemplates</MoreInfo>
     <License>LICENSE</License>
   </Metadata>
   <Installation>
