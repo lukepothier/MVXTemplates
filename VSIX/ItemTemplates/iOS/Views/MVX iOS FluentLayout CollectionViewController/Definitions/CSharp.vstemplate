@@ -12,6 +12,15 @@
   <TemplateContent>
     <References>
       <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Cirrious.FluentLayouts.Touch</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>MvvmCross.Binding</Assembly>
+      </Reference>
+      <Reference>
         <Assembly>MvvmCross.iOS</Assembly>
       </Reference>
       <Reference>
@@ -19,5 +28,7 @@
       </Reference>
     </References>
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">CollectionViewController.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$CollectionSource.cs">CollectionSource.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$CollectionCell.cs">CollectionCell.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

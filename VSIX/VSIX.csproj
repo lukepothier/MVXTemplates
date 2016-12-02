@@ -50,6 +50,12 @@
     <Compile Include="ItemTemplates\Android\Views\MVX Android MvvmCross Fragment\Fragment.cs" />
     <Compile Include="ItemTemplates\iOS\Miscellaneous\MVX iOS MvvmCross Setup Class - Advanced\Setup.cs" />
     <Compile Include="ItemTemplates\iOS\Miscellaneous\MVX iOS MvvmCross Setup Class - Basic\Setup.cs" />
+    <Compile Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout CollectionViewController\CollectionCell.cs">
+      <DependentUpon>CollectionViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout CollectionViewController\CollectionSource.cs">
+      <DependentUpon>CollectionViewController.cs</DependentUpon>
+    </Compile>
     <Compile Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout CollectionViewController\CollectionViewController.cs" />
     <Compile Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout TabBarViewController\TabBarViewController.cs" />
     <Compile Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout TableViewController\TableCell.cs">
