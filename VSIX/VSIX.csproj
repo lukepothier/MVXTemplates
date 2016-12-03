@@ -66,7 +66,6 @@
     </Compile>
     <Compile Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout TableViewController\TableViewController.cs" />
     <Compile Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout ViewController\ViewController.cs" />
-    <Compile Include="ItemTemplates\iOS\Views\MVX iOS NavigationController\NavigationController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -98,7 +97,6 @@
     <Content Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout TableViewController\icon.png" />
     <Content Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout CollectionViewController\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout ViewController\icon.png" />
-    <Content Include="ItemTemplates\iOS\Views\MVX iOS NavigationController\icon.png" />
     <Content Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout ViewController\Definitions\CSharp.vstemplate" />
     <Content Include="LICENSE">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -116,7 +114,6 @@
     <Content Include="ItemTemplates\iOS\Miscellaneous\MVX iOS MvvmCross Setup Class - Basic\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\iOS\Miscellaneous\MVX iOS MvvmCross Setup Class - Advanced\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout TableViewController\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\iOS\Views\MVX iOS NavigationController\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout TabBarViewController\Definitions\CSharp.vstemplate" />
     <None Include="packages.config" />
     <None Include="Properties\template-builder.props" />
