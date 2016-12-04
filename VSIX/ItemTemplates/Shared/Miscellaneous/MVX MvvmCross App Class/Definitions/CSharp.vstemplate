@@ -1,0 +1,23 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>App.cs</DefaultName>
+    <Name>MVX MvvmCross App Class</Name>
+    <Description>MvvmCross App Class</Description>
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>c1ae3129-4402-4398-95bd-f8e9e794e6c4</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>MvvmCross.Core</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>MvvmCross.Platform</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">App.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
