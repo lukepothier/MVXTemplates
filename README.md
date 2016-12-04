@@ -35,7 +35,6 @@ A collection of Visual Studio item and project templates for use in MvvmCross Xa
 
 #### Views
 
-* Navigation Controller
 * FluentLayout View Controller
 * FluentLayout Table View Controller
 * FluentLayout Collection View Controller

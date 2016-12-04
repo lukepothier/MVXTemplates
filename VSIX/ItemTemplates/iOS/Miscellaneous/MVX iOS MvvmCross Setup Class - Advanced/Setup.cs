@@ -10,9 +10,9 @@ using UIKit;
 
 namespace $rootnamespace$
 {
-    public class Setup : MvxIosSetup
+    public class $safeitemname$ : MvxIosSetup
     {
-        public Setup(MvxApplicationDelegate applicationDelegate, UIWindow window)
+        public $safeitemname$(MvxApplicationDelegate applicationDelegate, UIWindow window)
                : base(applicationDelegate, window)
         {
         }

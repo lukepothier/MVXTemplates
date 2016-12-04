@@ -7,9 +7,9 @@ using MvvmCross.Platform;
 
 namespace $rootnamespace$
 {
-    public class Setup : MvxAppCompatSetup
+    public class $safeitemname$ : MvxAppCompatSetup
     {
-        public Setup(Context applicationContext)
+        public $safeitemname$(Context applicationContext)
                : base(applicationContext)
         {
         }
