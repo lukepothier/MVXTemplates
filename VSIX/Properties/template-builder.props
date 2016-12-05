@@ -12,7 +12,9 @@
    -->
   <PropertyGroup>
     <!-- This is the subfolder name where the templates will show up in Visual Studio. -->
-    <ls-TemplateSubFolder>My Custom Templates</ls-TemplateSubFolder>
+    <ls-TemplateSubFolder>MVX Templates</ls-TemplateSubFolder>
+    <UseHostCompilerIfAvailable>false</UseHostCompilerIfAvailable>
+    <IncludeTemplateBuilderNuGetPkgInVsix>true</IncludeTemplateBuilderNuGetPkgInVsix>
 
     <!---
     You can set the following property to false to disable creating the template report
