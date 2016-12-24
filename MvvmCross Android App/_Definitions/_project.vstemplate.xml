@@ -1,0 +1,29 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>MvvmCross Android App</Name>
+    <Description>MvvmCross Android App</Description>
+    <DefaultName>Droid</DefaultName>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>icon.png</Icon>
+    <TemplateID>$guid1$</TemplateID>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$rootnamespace$.csproj" File="MvvmCross Android App.csproj" ReplaceParameters="true">
+    </Project>
+    <!--
+    <CustomParameters>
+      <CustomParameter Name="$TemplateName$" Value="Add template name here" />
+      <CustomParameter Name="$TemplateID$" Value="Add GUID here" />
+	    <CustomParameter Name="$TemplateType$" Value="Item" />
+    </CustomParameters>
+    -->
+  </TemplateContent>
+</VSTemplate>

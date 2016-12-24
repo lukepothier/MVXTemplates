@@ -22,6 +22,8 @@
     <ItemTemplate Path="ItemTemplates\Shared\ViewModels\MVX MvvmCross ViewModel\Definitions\CSharp.vstemplate" Name="MVX MvvmCross ViewModel" Description="MvvmCross ViewModel" ProjectType="CSharp" ProjectSubType="" />
     <ItemTemplate Path="ItemTemplates\Android\Layouts\MVX Android Slide-out Menu Layout\Definitions\CSharp.vstemplate" Name="MVX Slide-out Menu Layout" Description="XML template for Android slide-out menu layout" ProjectType="CSharp" ProjectSubType="" />
   </ItemTemplates>
-  <ProjectTemplates />
+  <ProjectTemplates>
+    <ProjectTemplate Path="..\MvvmCross Android App\_Definitions\_project.vstemplate.xml" Name="MvvmCross Android App" Description="MvvmCross Android App" ProjectType="CSharp" ProjectSubType="" />
+  </ProjectTemplates>
   <Snippets />
 </TemplateReport>

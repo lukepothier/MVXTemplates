@@ -150,6 +150,11 @@
     <Folder Include="ProjectTemplates\MVX MvvmCross PCL\" />
     <Folder Include="ProjectTemplates\MVX Xamarin Unit Test Project\" />
   </ItemGroup>
+  <ItemGroup>
+    <TemplateReference Include="MvvmCross Android App.csproj">
+      <PathToProject>../MvvmCross%20Android%20App/MvvmCross%20Android%20App.csproj</PathToProject>
+    </TemplateReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(TemplateBuilderTargets)" Condition="Exists('$(TemplateBuilderTargets)')" Label="TemplateBuilder" />
