@@ -18,12 +18,10 @@
   <TemplateContent>
     <Project TargetFileName="$rootnamespace$.csproj" File="MvvmCross Android App.csproj" ReplaceParameters="true">
     </Project>
-    <!--
     <CustomParameters>
-      <CustomParameter Name="$TemplateName$" Value="Add template name here" />
-      <CustomParameter Name="$TemplateID$" Value="Add GUID here" />
-	    <CustomParameter Name="$TemplateType$" Value="Item" />
+      <CustomParameter Name="$TemplateName$" Value="MvvmCross Android App" />
+      <CustomParameter Name="$TemplateID$" Value="$guid1$" />
+	    <CustomParameter Name="$TemplateType$" Value="Project" />
     </CustomParameters>
-    -->
   </TemplateContent>
 </VSTemplate>
