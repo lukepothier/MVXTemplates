@@ -11,17 +11,17 @@
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-    <Icon>icon.png</Icon>
+    <Icon>template-icon.png</Icon>
     <TemplateID>$guid1$</TemplateID>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="$rootnamespace$.csproj" File="MvvmCross Android App.csproj" ReplaceParameters="true">
+    <Project TargetFileName="$projectname$.csproj" File="MvvmCross Android App.csproj" ReplaceParameters="true">
     </Project>
     <CustomParameters>
       <CustomParameter Name="$TemplateName$" Value="MvvmCross Android App" />
-      <CustomParameter Name="$TemplateID$" Value="$guid1$" />
-	    <CustomParameter Name="$TemplateType$" Value="Project" />
+      <CustomParameter Name="$TemplateID$" Value="$guid2$" />
+      <CustomParameter Name="$TemplateType$" Value="Project" />
     </CustomParameters>
   </TemplateContent>
 </VSTemplate>
