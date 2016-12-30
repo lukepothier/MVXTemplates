@@ -87,6 +87,8 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <BundleResource Include="template-icon.png" />
+    <Compile Include="Setup.cs" />
+    <Compile Include="Views\FirstViewController.cs" />
     <Content Include="_Definitions\_project.vstemplate.xml" />
     <Content Include="_preprocess.xml" />
     <None Include="Info.plist">
@@ -99,6 +101,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Cirrious.FluentLayouts.Touch, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cirrious.FluentLayout.2.5.0\lib\Xamarin.iOS10\Cirrious.FluentLayouts.Touch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MvvmCross.Binding, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MvvmCross.Binding.4.4.0\lib\Xamarin.iOS10\MvvmCross.Binding.dll</HintPath>
       <Private>True</Private>
@@ -133,7 +139,7 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
