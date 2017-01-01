@@ -1,0 +1,26 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>MvvmCross PCL</Name>
+    <Description>MvvmCross PCL</Description>
+    <DefaultName>PCL</DefaultName>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType></ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>template-icon.png</Icon>
+    <TemplateID>$guid1$</TemplateID>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$projectname$.csproj" File="MvvmCross PCL.csproj" ReplaceParameters="true">
+    </Project>
+    <CustomParameters>
+      <CustomParameter Name="$TemplateName$" Value="MvvmCross PCL" />
+      <CustomParameter Name="$TemplateID$" Value="$guid2$" />
+      <CustomParameter Name="$TemplateType$" Value="Project" />
+    </CustomParameters>
+  </TemplateContent>
+</VSTemplate>
