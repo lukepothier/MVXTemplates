@@ -2,12 +2,13 @@
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.iOS.Views;
 using UIKit;
+//using MyPCL
 
 namespace $safeprojectname$
 {
-    public class FirstViewController : MvxViewController<FirstViewModel>
+    public class MyViewController : MvxViewController<MyViewModel>
     {
-        MvxFluentBindingDescriptionSet<FirstViewController, FirstViewModel> _bindingSet;
+        MvxFluentBindingDescriptionSet<MyViewController, MyViewModel> _bindingSet;
 
         public override void ViewDidLoad()
         {
@@ -42,7 +43,7 @@ namespace $safeprojectname$
 
         void Bind()
         {
-            _bindingSet = this.CreateBindingSet<FirstViewController, FirstViewModel>();
+            _bindingSet = this.CreateBindingSet<MyViewController, MyViewModel>();
 
             // Bind your UI elements to ViewModel members using _bindingSet.Bind
 

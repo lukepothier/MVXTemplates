@@ -1,8 +1,8 @@
 ﻿<resources>
-  <style name="MvvmCross_Android_App" parent="MvvmCross_Android_App.Base">
+  <style name="$safeprojectname$" parent="$safeprojectname$.Base">
   </style>
   <!-- Base theme applied regardless of API level -->
-  <style name="MvvmCross_Android_App.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+  <style name="$safeprojectname$.Base" parent="Theme.AppCompat.Light.DarkActionBar">
     <!-- If you are using revision 22.1, use 'windowNoTitle' without 'android:' -->
     <item name="windowNoTitle">true</item>
     <!-- If you're using the toolbar, no need to show ActionBar -->

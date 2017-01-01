@@ -134,7 +134,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Views\Activities\FirstActivity.cs" />
+    <Compile Include="Views\Activities\MyActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Setup.cs" />
@@ -153,6 +153,9 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\layout\toolbar.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\" />

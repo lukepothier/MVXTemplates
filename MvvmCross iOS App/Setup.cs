@@ -1,6 +1,7 @@
 using MvvmCross.Core.ViewModels;
 using MvvmCross.iOS.Platform;
 using UIKit;
+//using MyPCL
 
 namespace $safeprojectname$
 {

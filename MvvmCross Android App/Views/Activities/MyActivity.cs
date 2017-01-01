@@ -1,15 +1,19 @@
-﻿using Android.App;
-using Android.Content.PM;
+﻿using Android;
+using Android.App;
+using Android.Widget;
 using Android.OS;
-using Android.Support.V7.App;
+using MvvmCross.Droid.Support.V7.AppCompat;
 using Android.Views;
-using Mvx.Droid.Support.V7.AppCompat;
+using MvvmCross.Droid.Platform;
+//using MyPCL
 
-namespace $rootnamespace$
+namespace $safeprojectname$
 {
-    [Activity(Theme = "@style/MyAppTheme",
-            WindowSoftInputMode = SoftInput.AdjustPan | SoftInput.StateHidden)]
-    public class $safeitemname$ : MvxAppCompatActivity<MyViewModel>
+    [Activity(Theme = "@style/$safeprojectname$", 
+        WindowSoftInputMode = SoftInput.AdjustPan | SoftInput.StateHidden, 
+        Label = nameof(MyActivity), 
+        MainLauncher = true)]
+    public class MyActivity : MvxAppCompatActivity<MyViewModel>
     {
         #region Activity LifeCycle
 
@@ -21,7 +25,7 @@ namespace $rootnamespace$
 
             base.OnCreate(bundle);
 
-            SetContentView(Resource.Layout.my_resource_name);
+            SetContentView(Resource.Layout.layout_first);
         }
 
         #endregion
