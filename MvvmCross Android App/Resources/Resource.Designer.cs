@@ -1638,8 +1638,8 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0a000a
 			public const int MvxBindingTagUnique = 2131361802;
 			
-			// aapt resource value: 0x7f0a0056
-			public const int action0 = 2131361878;
+			// aapt resource value: 0x7f0a0059
+			public const int action0 = 2131361881;
 			
 			// aapt resource value: 0x7f0a0047
 			public const int action_bar = 2131361863;
@@ -1665,8 +1665,8 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0a0048
 			public const int action_context_bar = 2131361864;
 			
-			// aapt resource value: 0x7f0a005a
-			public const int action_divider = 2131361882;
+			// aapt resource value: 0x7f0a005d
+			public const int action_divider = 2131361885;
 			
 			// aapt resource value: 0x7f0a0002
 			public const int action_menu_divider = 2131361794;
@@ -1695,6 +1695,9 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0a001f
 			public const int always = 2131361823;
 			
+			// aapt resource value: 0x7f0a0066
+			public const int appbar = 2131361894;
+			
 			// aapt resource value: 0x7f0a001c
 			public const int beginning = 2131361820;
 			
@@ -1704,20 +1707,26 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0a0030
 			public const int buttonPanel = 2131361840;
 			
-			// aapt resource value: 0x7f0a0057
-			public const int cancel_action = 2131361879;
+			// aapt resource value: 0x7f0a005a
+			public const int cancel_action = 2131361882;
 			
 			// aapt resource value: 0x7f0a003e
 			public const int checkbox = 2131361854;
 			
-			// aapt resource value: 0x7f0a005d
-			public const int chronometer = 2131361885;
+			// aapt resource value: 0x7f0a0060
+			public const int chronometer = 2131361888;
 			
 			// aapt resource value: 0x7f0a0020
 			public const int collapseActionView = 2131361824;
 			
 			// aapt resource value: 0x7f0a0036
 			public const int contentPanel = 2131361846;
+			
+			// aapt resource value: 0x7f0a0058
+			public const int content_frame = 2131361880;
+			
+			// aapt resource value: 0x7f0a0056
+			public const int coordinator_layout = 2131361878;
 			
 			// aapt resource value: 0x7f0a003c
 			public const int custom = 2131361852;
@@ -1740,8 +1749,8 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0a001d
 			public const int end = 2131361821;
 			
-			// aapt resource value: 0x7f0a0062
-			public const int end_padder = 2131361890;
+			// aapt resource value: 0x7f0a0065
+			public const int end_padder = 2131361893;
 			
 			// aapt resource value: 0x7f0a002a
 			public const int expand_activities_button = 2131361834;
@@ -1764,14 +1773,14 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0a002b
 			public const int image = 2131361835;
 			
-			// aapt resource value: 0x7f0a0061
-			public const int info = 2131361889;
+			// aapt resource value: 0x7f0a0064
+			public const int info = 2131361892;
 			
-			// aapt resource value: 0x7f0a005b
-			public const int line1 = 2131361883;
+			// aapt resource value: 0x7f0a005e
+			public const int line1 = 2131361886;
 			
-			// aapt resource value: 0x7f0a005f
-			public const int line3 = 2131361887;
+			// aapt resource value: 0x7f0a0062
+			public const int line3 = 2131361890;
 			
 			// aapt resource value: 0x7f0a000b
 			public const int listMode = 2131361803;
@@ -1779,8 +1788,8 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0a002d
 			public const int list_item = 2131361837;
 			
-			// aapt resource value: 0x7f0a0059
-			public const int media_actions = 2131361881;
+			// aapt resource value: 0x7f0a005c
+			public const int media_actions = 2131361884;
 			
 			// aapt resource value: 0x7f0a001e
 			public const int middle = 2131361822;
@@ -1881,8 +1890,8 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0a001a
 			public const int src_over = 2131361818;
 			
-			// aapt resource value: 0x7f0a0058
-			public const int status_bar_latest_event_content = 2131361880;
+			// aapt resource value: 0x7f0a005b
+			public const int status_bar_latest_event_content = 2131361883;
 			
 			// aapt resource value: 0x7f0a0041
 			public const int submenuarrow = 2131361857;
@@ -1893,23 +1902,29 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0a000d
 			public const int tabMode = 2131361805;
 			
-			// aapt resource value: 0x7f0a0060
-			public const int text = 2131361888;
+			// aapt resource value: 0x7f0a0063
+			public const int text = 2131361891;
 			
-			// aapt resource value: 0x7f0a005e
-			public const int text2 = 2131361886;
+			// aapt resource value: 0x7f0a0061
+			public const int text2 = 2131361889;
 			
 			// aapt resource value: 0x7f0a0039
 			public const int textSpacerNoButtons = 2131361849;
 			
-			// aapt resource value: 0x7f0a005c
-			public const int time = 2131361884;
+			// aapt resource value: 0x7f0a0067
+			public const int textview_toolbar_title = 2131361895;
+			
+			// aapt resource value: 0x7f0a005f
+			public const int time = 2131361887;
 			
 			// aapt resource value: 0x7f0a002f
 			public const int title = 2131361839;
 			
 			// aapt resource value: 0x7f0a0034
 			public const int title_template = 2131361844;
+			
+			// aapt resource value: 0x7f0a0057
+			public const int toolbar = 2131361879;
 			
 			// aapt resource value: 0x7f0a0025
 			public const int top = 2131361829;
@@ -2084,6 +2099,9 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f030026
 			public const int support_simple_spinner_dropdown_item = 2130903078;
 			
+			// aapt resource value: 0x7f030027
+			public const int toolbar = 2130903079;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -2214,6 +2232,12 @@ namespace $safeprojectname$
 		
 		public partial class Style
 		{
+			
+			// aapt resource value: 0x7f07014b
+			public const int $safeprojectname$ = 2131165515;
+			
+			// aapt resource value: 0x7f07014c
+			public const int $safeprojectname$_Base = 2131165516;
 			
 			// aapt resource value: 0x7f07008a
 			public const int AlertDialog_AppCompat = 2131165322;
@@ -2676,12 +2700,6 @@ namespace $safeprojectname$
 			
 			// aapt resource value: 0x7f07007d
 			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131165309;
-			
-			// aapt resource value: 0x7f07014b
-			public const int $safeprojectname$ = 2131165515;
-			
-			// aapt resource value: 0x7f07014c
-			public const int $safeprojectname$_Base = 2131165516;
 			
 			// aapt resource value: 0x7f070019
 			public const int Platform_AppCompat = 2131165209;

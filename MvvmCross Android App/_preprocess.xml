@@ -2,6 +2,6 @@
 <Preprocess>
   <TemplateInfo Path="CSharp\Android"/>
   <Replacements Include="*.*" Exclude="*.vstemplate;*.csproj;*.fsproj;*.vbproj;*.jpg;*.png;*.ico;_preprocess.xml;_project.vstemplate.xml;template-icon.png">
-    <add key="MvvmCross_Android_App" value="$safeprojectname$"/>
+    <add key="MvvmCross.Android.App" value="$safeprojectname$"/>
   </Replacements>
 </Preprocess>

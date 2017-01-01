@@ -1,10 +1,8 @@
-﻿using Android;
-using Android.App;
-using Android.Widget;
+﻿using Android.App;
 using Android.OS;
-using MvvmCross.Droid.Support.V7.AppCompat;
 using Android.Views;
 using MvvmCross.Droid.Platform;
+using MvvmCross.Droid.Support.V7.AppCompat;
 //using MyPCL
 
 namespace $safeprojectname$
