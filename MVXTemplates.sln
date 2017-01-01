@@ -10,11 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSIX", "VSIX\VSIX.csproj", "{A01B3C56-E6B3-4BA1-B9A7-9312044A0112}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross Android App", "MvvmCross Android App\MvvmCross Android App.csproj", "{A4090E65-544C-46A7-9E79-61BE71D6E5B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.Android.App", "MvvmCross Android App\MvvmCross.Android.App.csproj", "{A4090E65-544C-46A7-9E79-61BE71D6E5B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross iOS App", "MvvmCross iOS App\MvvmCross iOS App.csproj", "{150F2FCE-C506-4554-A1A6-A1900673BC43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.iOS.App", "MvvmCross iOS App\MvvmCross.iOS.App.csproj", "{150F2FCE-C506-4554-A1A6-A1900673BC43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross PCL", "MvvmCross PCL\MvvmCross PCL.csproj", "{F2A402AB-E203-4DCC-91A3-B3A349425F5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.PCL", "MvvmCross PCL\MvvmCross.PCL.csproj", "{F2A402AB-E203-4DCC-91A3-B3A349425F5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

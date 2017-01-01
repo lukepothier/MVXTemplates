@@ -15,7 +15,7 @@
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="$projectname$.csproj" File="MvvmCross PCL.csproj" ReplaceParameters="true">
+    <Project TargetFileName="$projectname$.csproj" File="MvvmCross.PCL.csproj" ReplaceParameters="true">
     </Project>
     <CustomParameters>
       <CustomParameter Name="$TemplateName$" Value="MvvmCross PCL" />
