@@ -2,6 +2,6 @@
 <Preprocess>
   <TemplateInfo Path="CSharp\iOS"/>
   <Replacements Include="*.*" Exclude="*.vstemplate;*.csproj;*.fsproj;*.vbproj;*.jpg;*.png;*.ico;_preprocess.xml;_project.vstemplate.xml;template-icon.png">
-    <add key="MvvmCross_iOS_App" value="$safeprojectname$"/>
+    <add key="MvvmCross.iOS.App" value="$safeprojectname$"/>
   </Replacements>
 </Preprocess>

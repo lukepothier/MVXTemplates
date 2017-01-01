@@ -89,6 +89,7 @@
     <BundleResource Include="template-icon.png" />
     <Compile Include="Setup.cs" />
     <Compile Include="Views\MyViewController.cs" />
+    <BundleResource Include="sw-file-icon.png" />
     <Content Include="_Definitions\_project.vstemplate.xml" />
     <Content Include="_preprocess.xml" />
     <None Include="Info.plist">
