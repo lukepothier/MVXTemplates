@@ -1,0 +1,16 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>ColorConverter.cs</DefaultName>
+    <Name>MVX MvvmCross ColorConverter</Name>
+    <Description>MvvmCross ColorConverter</Description>    
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>147e5241-28d8-4cd8-afab-3543ea32486d</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">ColorConverter.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

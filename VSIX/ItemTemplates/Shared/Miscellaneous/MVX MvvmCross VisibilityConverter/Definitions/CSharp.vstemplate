@@ -1,0 +1,16 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>VisibilityConverter.cs</DefaultName>
+    <Name>MVX MvvmCross VisibilityConverter</Name>
+    <Description>MvvmCross VisibilityConverter</Description>    
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>f7e4ce56-c898-4fdd-af87-8f0ec5b91030</TemplateID>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">VisibilityConverter.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
