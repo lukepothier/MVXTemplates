@@ -140,5 +140,10 @@
   <ItemGroup>
     <Folder Include="Images\" />
   </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\MvvmCross.CodeAnalysis.4.4.0\analyzers\dotnet\cs\MvvmCross.Core.dll" />
+    <Analyzer Include="..\packages\MvvmCross.CodeAnalysis.4.4.0\analyzers\dotnet\cs\MvvmCross.Platform.dll" />
+    <Analyzer Include="..\packages\MvvmCross.CodeAnalysis.4.4.0\analyzers\dotnet\cs\MvvmCrossCodeAnalysis.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
