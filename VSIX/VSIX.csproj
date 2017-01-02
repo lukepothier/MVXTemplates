@@ -67,10 +67,19 @@
     <None Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout TableViewController\TableViewController.cs" />
     <None Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout ViewController\ViewController.cs" />
     <None Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross App Class\App.cs" />
+    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ColorConverter\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ValueConverter\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross VisibilityConverter\Definitions\CSharp.vstemplate" />
     <None Include="ItemTemplates\Shared\ViewModels\MVX MvvmCross ViewModel\ViewModel.cs" />
+    <Compile Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ColorConverter\ColorConverter.cs" />
+    <Compile Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ValueConverter\ValueConverter.cs" />
+    <Compile Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross VisibilityConverter\VisibilityConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ColorConverter\icon.png" />
+    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ValueConverter\icon.png" />
+    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross VisibilityConverter\icon.png" />
     <Content Include="template-report.xml" />
     <None Include="ItemTemplates\Android\Layouts\MVX Android Activity Layout\icon.png" />
     <None Include="ItemTemplates\Android\Layouts\MVX Android Activity Layout\mvx_activity.xml" />
