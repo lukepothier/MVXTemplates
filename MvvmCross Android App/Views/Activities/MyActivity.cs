@@ -9,9 +9,8 @@ namespace $safeprojectname$
 {
     [Activity(Theme = "@style/$safeprojectname$", 
         WindowSoftInputMode = SoftInput.AdjustPan | SoftInput.StateHidden, 
-        Label = nameof(MyActivity), 
-        MainLauncher = true)]
-    public class MyActivity : MvxAppCompatActivity<MyViewModel>
+        Label = nameof(MyActivity))]
+    public class MyActivity : MvxAppCompatActivity<MyContainerViewModel>
     {
         #region Activity LifeCycle
 
@@ -23,7 +22,7 @@ namespace $safeprojectname$
 
             base.OnCreate(bundle);
 
-            SetContentView(Resource.Layout.layout_first);
+            SetContentView(Resource.Layout.layout_activity);
         }
 
         #endregion
