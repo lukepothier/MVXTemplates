@@ -6,9 +6,9 @@ using UIKit;
 
 namespace $safeprojectname$
 {
-    public class MyViewController : MvxViewController<MyViewModel>
+    public class MyViewController : MvxViewController<FirstViewModel>
     {
-        MvxFluentBindingDescriptionSet<MyViewController, MyViewModel> _bindingSet;
+        MvxFluentBindingDescriptionSet<MyViewController, FirstViewModel> _bindingSet;
 
         public override void ViewDidLoad()
         {
@@ -43,7 +43,7 @@ namespace $safeprojectname$
 
         void Bind()
         {
-            _bindingSet = this.CreateBindingSet<MyViewController, MyViewModel>();
+            _bindingSet = this.CreateBindingSet<MyViewController, FirstViewModel>();
 
             // Bind your UI elements to ViewModel members using _bindingSet.Bind
 

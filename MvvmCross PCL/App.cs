@@ -13,7 +13,7 @@ namespace $safeprojectname$
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<MyViewModel>();
+            RegisterAppStart<FirstViewModel>();
         }
     }
 }

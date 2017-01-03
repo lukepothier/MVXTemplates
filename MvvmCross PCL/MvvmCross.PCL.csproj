@@ -36,8 +36,9 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="ViewModels\MyContainerViewModel.cs" />
-    <Compile Include="ViewModels\MyViewModel.cs" />
+    <Compile Include="ViewModels\FirstViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\SecondViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Core, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -62,8 +63,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="template-icon.png" />
-    <Content Include="_Definitions\_project.vstemplate.xml" />
-    <Content Include="_preprocess.xml" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\MvvmCross.CodeAnalysis.4.4.0\analyzers\dotnet\cs\MvvmCross.Core.dll" />
