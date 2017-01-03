@@ -2,6 +2,6 @@
 <Preprocess>
   <TemplateInfo Path="CSharp"/>
   <Replacements Include="*.*" Exclude="*.vstemplate;*.csproj;*.fsproj;*.vbproj;*.jpg;*.png;*.ico;_preprocess.xml;_project.vstemplate.xml;template-icon.png">
-    <add key="MvvmCross.PCL" value="$safeprojectname$"/>
+    <add key="MvvmCross.Core" value="$safeprojectname$"/>
   </Replacements>
 </Preprocess>

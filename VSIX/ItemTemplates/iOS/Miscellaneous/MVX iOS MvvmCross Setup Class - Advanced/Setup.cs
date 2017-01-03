@@ -22,7 +22,7 @@ namespace $rootnamespace$
         protected override IMvxApplication CreateApp() => new App();
 
         // InitializeFirstChance is where MvvmCross initializes platform-specific services to which you would like App.Initialize to have access
-        // Registering an iOS implementation of an interface in your PCL here allows for App.Initialize to reference that interface's members
+        // Registering an iOS implementation of an interface in your core project here allows for App.Initialize to reference that interface's members
         // If it's not necessary for a service to be available so early in the startup process, consider initializing it during InitializeLastChance instead
         protected override void InitializeFirstChance()
         {

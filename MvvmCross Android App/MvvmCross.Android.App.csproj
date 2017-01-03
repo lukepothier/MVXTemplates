@@ -219,6 +219,8 @@
     <AndroidResource Include="Resources\values\dimens.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\values-v21\styles.xml" />
+    <Content Include="_Definitions\_project.vstemplate.xml" />
+    <Content Include="_preprocess.xml" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\MvvmCross.CodeAnalysis.4.4.0\analyzers\dotnet\cs\MvvmCross.Core.dll" />

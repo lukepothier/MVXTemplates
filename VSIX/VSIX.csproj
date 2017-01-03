@@ -159,18 +159,18 @@
     <Folder Include="ProjectTemplates\MVX MvvmCross Android App\" />
     <Folder Include="ProjectTemplates\MVX MvvmCross App\" />
     <Folder Include="ProjectTemplates\MVX MvvmCross iOS App\" />
-    <Folder Include="ProjectTemplates\MVX MvvmCross PCL\" />
+    <Folder Include="ProjectTemplates\MVX MvvmCross Core\" />
     <Folder Include="ProjectTemplates\MVX Xamarin Unit Test Project\" />
   </ItemGroup>
   <ItemGroup>
     <TemplateReference Include="MvvmCross.Android.App.csproj">
       <PathToProject>../MvvmCross%20Android%20App/MvvmCross.Android.App.csproj</PathToProject>
     </TemplateReference>
+    <TemplateReference Include="MvvmCross.Core.csproj">
+      <PathToProject>../MvvmCross%20Core/MvvmCross.Core.csproj</PathToProject>
+    </TemplateReference>
     <TemplateReference Include="MvvmCross.iOS.App.csproj">
       <PathToProject>../MvvmCross%20iOS%20App/MvvmCross.iOS.App.csproj</PathToProject>
-    </TemplateReference>
-    <TemplateReference Include="MvvmCross.PCL.csproj">
-      <PathToProject>../MvvmCross%20PCL/MvvmCross.PCL.csproj</PathToProject>
     </TemplateReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

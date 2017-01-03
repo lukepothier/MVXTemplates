@@ -3,7 +3,7 @@ using Android.OS;
 using Android.Views;
 using MvvmCross.Droid.Platform;
 using MvvmCross.Droid.Support.V7.AppCompat;
-//using MyPCL
+//using MyCoreProject;
 
 namespace $safeprojectname$
 {

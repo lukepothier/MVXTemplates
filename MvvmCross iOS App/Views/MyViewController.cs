@@ -2,7 +2,7 @@
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.iOS.Views;
 using UIKit;
-//using MyPCL
+//using MyCoreProject;
 
 namespace $safeprojectname$
 {

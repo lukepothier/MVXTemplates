@@ -8,8 +8,8 @@
     <ProjectGuid>{F2A402AB-E203-4DCC-91A3-B3A349425F5A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MvvmCross_PCL</RootNamespace>
-    <AssemblyName>MvvmCross PCL</AssemblyName>
+    <RootNamespace>MvvmCross_Core</RootNamespace>
+    <AssemblyName>MvvmCross Core</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -62,6 +62,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="template-icon.png" />
+    <Content Include="_Definitions\_project.vstemplate.xml" />
+    <Content Include="_preprocess.xml" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\MvvmCross.CodeAnalysis.4.4.0\analyzers\dotnet\cs\MvvmCross.Core.dll" />
