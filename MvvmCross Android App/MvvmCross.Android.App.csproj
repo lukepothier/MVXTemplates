@@ -214,6 +214,7 @@
   <ItemGroup>
     <AndroidResource Include="Resources\layout\layout_fragment.xml" />
     <AndroidResource Include="Resources\drawable\splash.xml" />
+    <AndroidResource Include="Resources\drawable\icon_splash.png" />
     <Content Include="template-icon.png" />
     <AndroidResource Include="Resources\values\colors.xml" />
     <AndroidResource Include="Resources\values\dimens.xml" />

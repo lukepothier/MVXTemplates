@@ -1,6 +1,6 @@
 ﻿using MvvmCross.Core.ViewModels;
 
-namespace $safeprojectname$
+namespace $safeprojectname$.ViewModels
 {
     public class MyContainerViewModel : MvxViewModel
     {

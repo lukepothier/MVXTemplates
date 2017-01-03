@@ -27,9 +27,9 @@
     <ItemTemplate Path="ItemTemplates\Android\Layouts\MVX Android Slide-out Menu Layout\Definitions\CSharp.vstemplate" Name="MVX Slide-out Menu Layout" Description="XML template for Android slide-out menu layout" ProjectType="CSharp" ProjectSubType="" />
   </ItemTemplates>
   <ProjectTemplates>
-    <ProjectTemplate Path="..\MvvmCross Android App\_Definitions\_project.vstemplate.xml" Name="MvvmCross Android App" Description="MvvmCross Android App" ProjectType="CSharp" ProjectSubType="Android" />
-    <ProjectTemplate Path="..\MvvmCross iOS App\_Definitions\_project.vstemplate.xml" Name="MvvmCross iOS App" Description="MvvmCross iOS App" ProjectType="CSharp" ProjectSubType="iOS" />
-    <ProjectTemplate Path="..\MvvmCross Core\_Definitions\_project.vstemplate.xml" Name="MvvmCross Core" Description="MvvmCross Core" ProjectType="CSharp" ProjectSubType="" />
+    <ProjectTemplate Path="..\MvvmCross PCL\_Definitions\_project.vstemplate.xml" Name="MvvmCross Core" Description="A project template for a the shared class library for use by an MvvmCross Android or iOS application." ProjectType="CSharp" ProjectSubType="" />
+    <ProjectTemplate Path="..\MvvmCross Android App\_Definitions\_project.vstemplate.xml" Name="MvvmCross Android App" Description="A project template for a MvvmCross Android application. This template is dependent on the 'MvvmCross Core' project template being in the same solution." ProjectType="CSharp" ProjectSubType="Android" />
+    <ProjectTemplate Path="..\MvvmCross iOS App\_Definitions\_project.vstemplate.xml" Name="MvvmCross iOS App" Description="A project template for a MvvmCross iOS application. This template is dependent on the 'MvvmCross Core' project template being in the same solution." ProjectType="CSharp" ProjectSubType="iOS" />
   </ProjectTemplates>
   <Snippets />
 </TemplateReport>

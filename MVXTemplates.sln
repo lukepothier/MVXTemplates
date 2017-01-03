@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.Android.App", "Mv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.iOS.App", "MvvmCross iOS App\MvvmCross.iOS.App.csproj", "{150F2FCE-C506-4554-A1A6-A1900673BC43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.Core", "MvvmCross Core\MvvmCross.Core.csproj", "{F2A402AB-E203-4DCC-91A3-B3A349425F5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.PCL", "MvvmCross PCL\MvvmCross.PCL.csproj", "{F2A402AB-E203-4DCC-91A3-B3A349425F5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

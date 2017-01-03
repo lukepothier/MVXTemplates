@@ -1,5 +1,6 @@
 ﻿using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform.IoC;
+using $safeprojectname$.ViewModels;
 
 namespace $safeprojectname$
 {
