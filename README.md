@@ -58,6 +58,7 @@ A collection of Visual Studio item and project templates for use in MvvmCross Xa
 * MvvmCross ValueConverter
 * MvvmCross ColorConverter
 * MvvmCross VisibilityConverter
+* MvvmCross MvxConvertingTargetBinding
 
 
 ## Project templates

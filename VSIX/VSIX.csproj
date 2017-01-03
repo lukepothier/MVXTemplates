@@ -68,10 +68,13 @@
     <None Include="ItemTemplates\iOS\Views\MVX iOS FluentLayout ViewController\ViewController.cs" />
     <None Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross App Class\App.cs" />
     <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ColorConverter\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross MvxConvertingTargetBinding\icon.png" />
     <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ValueConverter\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross VisibilityConverter\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross MvxConvertingTargetBinding\Definitions\CSharp.vstemplate" />
     <None Include="ItemTemplates\Shared\ViewModels\MVX MvvmCross ViewModel\ViewModel.cs" />
     <Compile Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ColorConverter\ColorConverter.cs" />
+    <Compile Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross MvxConvertingTargetBinding\MyCustomBinding.cs" />
     <Compile Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ValueConverter\ValueConverter.cs" />
     <Compile Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross VisibilityConverter\VisibilityConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
