@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>MvvmCross Core</Name>
-    <Description>MvvmCross Core</Description>
+    <Description>A project template for a the shared class library for use by an MvvmCross Android or iOS application.</Description>
     <DefaultName>Core</DefaultName>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType></ProjectSubType>
