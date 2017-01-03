@@ -176,11 +176,13 @@
     <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Views\Activities\BaseActivity.cs" />
     <Compile Include="Views\Activities\MyActivity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="Views\Activities\SplashActivity.cs" />
-    <Compile Include="Views\Fragments\MyFragment.cs" />
+    <Compile Include="Views\Fragments\FirstFragment.cs" />
+    <Compile Include="Views\Fragments\SecondFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\layout_activity.xml">
@@ -207,7 +209,7 @@
     <Folder Include="Resources\anim\" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\layout_fragment.xml" />
+    <AndroidResource Include="Resources\layout\layout_fragment_first.xml" />
     <AndroidResource Include="Resources\drawable\splash.xml" />
     <AndroidResource Include="Resources\drawable\icon_splash.png" />
     <AndroidResource Include="Resources\drawable-hdpi\icon_splash.png" />
@@ -220,6 +222,7 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
+    <AndroidResource Include="Resources\layout\layout_fragment_second.xml" />
     <Content Include="template-icon.png" />
     <AndroidResource Include="Resources\values\colors.xml" />
     <AndroidResource Include="Resources\values\dimens.xml" />

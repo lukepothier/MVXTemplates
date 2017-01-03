@@ -5,12 +5,12 @@ using MvvmCross.Droid.Platform;
 using MvvmCross.Droid.Support.V7.AppCompat;
 //using MyCoreProject.ViewModels;
 
-namespace $safeprojectname$
+namespace $safeprojectname$.Views
 {
     [Activity(Theme = "@style/$safeprojectname$", 
         WindowSoftInputMode = SoftInput.AdjustPan | SoftInput.StateHidden, 
         Label = nameof(MyActivity))]
-    public class MyActivity : MvxAppCompatActivity<MyContainerViewModel>
+    public class MyActivity : BaseActivity<MyContainerViewModel>
     {
         #region Activity LifeCycle
 

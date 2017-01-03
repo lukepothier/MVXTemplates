@@ -8,7 +8,7 @@ using MvvmCross.Droid.Views;
 // Declarations for Android permissions used by your application go here, for example
 //[assembly: Permission(Name = Android.Manifest.Permission.Internet)]
 
-namespace $safeprojectname$
+namespace $safeprojectname$.Views
 {
     [Activity(
         MainLauncher = true,
