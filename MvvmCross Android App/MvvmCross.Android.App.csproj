@@ -205,23 +205,26 @@
     <Folder Include="Controls\" />
     <Folder Include="Converters\" />
     <Folder Include="Resources\anim\" />
-    <Folder Include="Resources\drawable-hdpi\" />
-    <Folder Include="Resources\drawable-mdpi\" />
-    <Folder Include="Resources\drawable-xhdpi\" />
-    <Folder Include="Resources\drawable-xxhdpi\" />
-    <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\layout_fragment.xml" />
     <AndroidResource Include="Resources\drawable\splash.xml" />
     <AndroidResource Include="Resources\drawable\icon_splash.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon_splash.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\icon_spash.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon_splash.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon_splash.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\icon_splash.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <Content Include="template-icon.png" />
     <AndroidResource Include="Resources\values\colors.xml" />
     <AndroidResource Include="Resources\values\dimens.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\values-v21\styles.xml" />
-    <Content Include="_Definitions\_project.vstemplate.xml" />
-    <Content Include="_preprocess.xml" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\MvvmCross.CodeAnalysis.4.4.0\analyzers\dotnet\cs\MvvmCross.Core.dll" />
