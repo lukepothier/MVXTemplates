@@ -3,21 +3,21 @@
 namespace $safeprojectname$.ViewModels
 {
     public class FirstViewModel : MvxViewModel
-    {
+{
 
-        #region Commands
+    #region Commands
 
-        IMvxCommand _goForwardCommand;
-        public IMvxCommand GoForwardCommand =>
-            _goForwardCommand ?? (_goForwardCommand = new MvxCommand(() => { GoForward(); }));
+    IMvxCommand _goForwardCommand;
+    public IMvxCommand GoForwardCommand =>
+        _goForwardCommand ?? (_goForwardCommand = new MvxCommand(GoForward));
 
-        #endregion
+    #endregion
 
-        #region Helpers
+    #region Helpers
 
-        void GoForward() => ShowViewModel<SecondViewModel>();
+    void GoForward() => ShowViewModel<SecondViewModel>();
 
-        #endregion
+    #endregion
 
-    }
+}
 }
