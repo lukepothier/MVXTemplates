@@ -1,6 +1,6 @@
 using Android.App;
 using Android.Content.PM;
-using MvvmCross.Droid.Views;
+using MvvmCross.Droid.Support.V7.AppCompat;
 
 // Declarations for Android hardware and software features used by your application go here, for example
 //[assembly: UsesFeature("android.hardware.camera", Required = false)]
@@ -15,7 +15,7 @@ namespace $safeprojectname$.Views
         Theme = "@style/SplashTheme",
         Label = "Splash",
         NoHistory = true)]
-    public class SplashScreenActivity : MvxSplashScreenActivity
-    {
+    public class SplashScreenActivity : MvxSplashScreenAppCompatActivity
+{
     }
 }

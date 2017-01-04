@@ -107,6 +107,10 @@
       <HintPath>..\packages\MvvmCross.Droid.Support.V7.AppCompat.4.4.0\lib\MonoAndroid70\MvvmCross.Droid.Support.V7.AppCompat.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MvvmCross.Droid.Support.V7.RecyclerView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Droid.Support.V7.RecyclerView.4.4.0\lib\MonoAndroid70\MvvmCross.Droid.Support.V7.RecyclerView.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MvvmCross.Localization, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MvvmCross.Binding.4.4.0\lib\MonoAndroid\MvvmCross.Localization.dll</HintPath>
       <Private>True</Private>
