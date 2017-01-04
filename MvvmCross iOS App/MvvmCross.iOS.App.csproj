@@ -90,7 +90,7 @@
     <Compile Include="AppDelegate.cs" />
     <BundleResource Include="template-icon.png" />
     <Compile Include="Setup.cs" />
-    <Compile Include="Views\MyViewController.cs" />
+    <Compile Include="Views\FirstViewController.cs" />
     <Content Include="_Definitions\_project.vstemplate.xml" />
     <Content Include="_preprocess.xml">
       <SubType>Designer</SubType>
