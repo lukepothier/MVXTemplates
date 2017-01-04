@@ -7,10 +7,11 @@ using MvvmCross.Droid.Support.V7.AppCompat;
 
 namespace $safeprojectname$.Views
 {
-    [Activity(Theme = "@style/$safeprojectname$", 
+    [Activity(
+        Theme = "@style/$safeprojectname$", 
         WindowSoftInputMode = SoftInput.AdjustPan | SoftInput.StateHidden, 
-        Label = nameof(MyActivity))]
-    public class MyActivity : BaseActivity<MyContainerViewModel>
+        Label = nameof(MainActivity))]
+    public class MainActivity : BaseActivity<MainContainerViewModel>
     {
         #region Activity LifeCycle
 
