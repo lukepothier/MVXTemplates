@@ -8,6 +8,8 @@ namespace $safeprojectname$.Views
     public abstract class BaseActivity<TViewModel> : MvxCachingFragmentCompatActivity<TViewModel>
         where TViewModel : class, IMvxViewModel
     {
+        protected abstract int ActivityLayoutId { get; }
+
         Toolbar _toolbar;
         protected Toolbar Toolbar =>
             FindViewById<Toolbar>(Resource.Id.toolbar);
@@ -15,6 +17,8 @@ namespace $safeprojectname$.Views
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
+
+            SetContentView(ActivityLayoutId);
 
             SetSupportActionBar(_toolbar);
         }
