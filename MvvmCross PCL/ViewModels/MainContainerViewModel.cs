@@ -2,7 +2,7 @@
 
 namespace $safeprojectname$.ViewModels
 {
-    public class MyContainerViewModel : MvxViewModel
-    {
-    }
+    public class MainContainerViewModel : MvxViewModel
+{
+}
 }
