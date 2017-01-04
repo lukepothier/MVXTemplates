@@ -14,7 +14,6 @@ namespace $safeprojectname$.Views
         MainLauncher = true,
         Theme = "@style/SplashTheme",
         Icon = "@mipmap/icon",
-        Label = "Splash",
         NoHistory = true,
         ScreenOrientation = ScreenOrientation.Portrait)]
     public class SplashScreenActivity : MvxSplashScreenAppCompatActivity

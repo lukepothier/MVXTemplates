@@ -9,8 +9,7 @@ namespace $safeprojectname$.Views
 {
     [Activity(
         Theme = "@style/$safeprojectname$", 
-        WindowSoftInputMode = SoftInput.AdjustPan | SoftInput.StateHidden, 
-        Label = nameof(MainActivity))]
+        WindowSoftInputMode = SoftInput.AdjustPan | SoftInput.StateHidden)]
     public class MainActivity : BaseActivity<MainContainerViewModel>
     {
         #region Activity LifeCycle

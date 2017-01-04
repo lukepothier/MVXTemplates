@@ -15,10 +15,8 @@ namespace $safeprojectname$.Views
         {
             base.OnCreateView(inflater, container, savedInstanceState);
 
-            // If your bindings for this fragment are done in XML, you need to call this.BindingInflate. If not, call inflater.Inflate instead
-            // The two are mutually exclusive -- use only the one you need
-            var view = this.BindingInflate(FragmentId, null);
-            //var view = inflater.Inflate(FragmentId, null);
+            // If your bindings are done in XML rather than codebehind, you need to call this.BindingInflate. If not, call inflater.Inflate instead
+            var view = inflater.Inflate(FragmentId, null);
 
             return view;
         }
