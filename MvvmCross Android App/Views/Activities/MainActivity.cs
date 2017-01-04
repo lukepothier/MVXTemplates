@@ -11,19 +11,6 @@ namespace $safeprojectname$.Views
         WindowSoftInputMode = SoftInput.AdjustPan | SoftInput.StateHidden)]
     public class MainActivity : BaseActivity<MainContainerViewModel>
     {
-        #region Activity LifeCycle
-
-        protected override void OnCreate(Bundle bundle)
-        {
-            // The following two lines can be removed if this activity is navigated to immediately after the splash screen
-            var setupSingleton = MvxAndroidSetupSingleton.EnsureSingletonAvailable(ApplicationContext);
-            setupSingleton.EnsureInitialized();
-
-            base.OnCreate(bundle);
-
-            SetContentView(Resource.Layout.layout_activity);
-        }
-
-        #endregion
+        protected override int ActivityLayoutId => Resource.Layout.layout_activity;
     }
 }

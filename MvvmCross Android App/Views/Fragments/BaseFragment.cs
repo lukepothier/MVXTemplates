@@ -9,14 +9,14 @@ namespace $safeprojectname$.Views
     public abstract class BaseFragment<TViewModel> : MvxFragment<TViewModel>
         where TViewModel : class, IMvxViewModel
     {
-        protected abstract int FragmentId { get; }
+        protected abstract int FragmentLayoutId { get; }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             base.OnCreateView(inflater, container, savedInstanceState);
 
             // If your bindings are done in XML rather than codebehind, you need to call this.BindingInflate. If not, call inflater.Inflate instead
-            var view = inflater.Inflate(FragmentId, null);
+            var view = inflater.Inflate(FragmentLayoutId, null);
 
             return view;
         }

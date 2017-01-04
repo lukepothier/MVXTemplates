@@ -13,7 +13,7 @@ namespace $safeprojectname$.Views
     [Register(nameof(FirstFragment))]
     public class FirstFragment : BaseFragment<FirstViewModel>
     {
-        protected override int FragmentId => Resource.Layout.layout_fragment_first;
+        protected override int FragmentLayoutId => Resource.Layout.layout_fragment_first;
         Button _goForwardButton;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
