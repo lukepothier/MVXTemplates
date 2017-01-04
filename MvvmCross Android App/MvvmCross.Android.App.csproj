@@ -197,9 +197,6 @@
     <AndroidResource Include="Resources\values\strings.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
     <None Include="Properties\AndroidManifest.xml" />
     <AndroidResource Include="Resources\layout\toolbar.xml">
@@ -215,17 +212,16 @@
   <ItemGroup>
     <AndroidResource Include="Resources\layout\layout_fragment_first.xml" />
     <AndroidResource Include="Resources\drawable\splash.xml" />
-    <AndroidResource Include="Resources\drawable\icon_splash.png" />
     <AndroidResource Include="Resources\drawable-hdpi\icon_splash.png" />
     <AndroidResource Include="Resources\drawable-mdpi\icon_spash.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon_splash.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon_splash.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\icon_splash.png" />
-    <AndroidResource Include="Resources\drawable-mdpi\icon.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
-    <AndroidResource Include="Resources\drawable-xxxhdpi\icon.png" />
-    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icon.png" />
     <AndroidResource Include="Resources\layout\layout_fragment_second.xml" />
     <Content Include="template-icon.png" />
     <AndroidResource Include="Resources\values\colors.xml" />
