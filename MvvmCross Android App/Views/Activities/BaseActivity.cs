@@ -5,7 +5,7 @@ using MvvmCross.Droid.Support.V7.AppCompat;
 
 namespace $safeprojectname$.Views
 {
-    public abstract class BaseActivity<TViewModel> : MvxAppCompatActivity<TViewModel>
+    public abstract class BaseActivity<TViewModel> : MvxCachingFragmentCompatActivity<TViewModel>
         where TViewModel : class, IMvxViewModel
     {
         Toolbar _toolbar;
