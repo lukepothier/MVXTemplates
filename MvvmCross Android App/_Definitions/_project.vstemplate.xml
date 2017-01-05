@@ -23,4 +23,37 @@
       <CustomParameter Name="$TemplateType$" Value="Project" />
     </CustomParameters>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <packages repository="extension" repositoryId="VSIX.Luke Pothier.3b4a0b56-7f92-4f5e-8de3-fe5bb43c7678">
+      <package id="MvvmCross.CodeAnalysis" version="4.4.0" />
+      <package id="MvvmCross" version="4.4.0" />
+      <package id="MvvmCross.Binding" version="4.4.0" />
+      <package id="MvvmCross.Core" version="4.4.0" />
+      <package id="MvvmCross.Droid.Shared" version="4.4.0" />
+      <package id="MvvmCross.Droid.Support.Core.UI" version="4.4.0" />
+      <package id="MvvmCross.Droid.Support.Core.Utils" version="4.4.1" />
+      <package id="MvvmCross.Droid.Support.Design" version="4.4.0" />
+      <package id="MvvmCross.Droid.Support.Fragment" version="4.4.0" />
+      <package id="MvvmCross.Droid.Support.V4" version="4.4.1" />
+      <package id="MvvmCross.Droid.Support.V7.AppCompat" version="4.4.0" />
+      <package id="MvvmCross.Droid.Support.V7.RecyclerView" version="4.4.0" />
+      <package id="MvvmCross.Platform" version="4.4.0" />
+      <package id="MvvmCross.Plugin.Json" version="4.4.0" />
+      <package id="Newtonsoft.Json" version="9.0.1" />
+      <package id="Xamarin.Android.Support.Animated.Vector.Drawable" version="24.2.1" />
+      <package id="Xamarin.Android.Support.Compat" version="24.2.1" />
+      <package id="Xamarin.Android.Support.Core.UI" version="24.2.1" />
+      <package id="Xamarin.Android.Support.Core.Utils" version="24.2.1" />
+      <package id="Xamarin.Android.Support.Design" version="24.2.1" />
+      <package id="Xamarin.Android.Support.Fragment" version="24.2.1" />
+      <package id="Xamarin.Android.Support.Media.Compat" version="24.2.1" />
+      <package id="Xamarin.Android.Support.v7.AppCompat" version="24.2.1" />
+      <package id="Xamarin.Android.Support.v7.RecyclerView" version="24.2.1" />
+      <package id="Xamarin.Android.Support.Vector.Drawable" version="24.2.1" />
+    </packages>
+  </WizardData>
 </VSTemplate>

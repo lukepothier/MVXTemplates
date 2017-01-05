@@ -36,8 +36,5 @@
       <package id="MvvmCross.Plugin.Json" version="4.4.0" />
       <package id="Newtonsoft.Json" version="9.0.1" />
     </packages>
-    <!--<Assets>
-      <Asset Type="mvvmCross.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmCross.4.4.0.nupkg" d:VsixSubPath="Packages" />
-    </Assets>-->
   </WizardData>
 </VSTemplate>

@@ -18,10 +18,30 @@
   <Assets>
     <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates" />
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\ProjectTemplates" />
-    <Asset Type="mvvmcross.core.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.core.4.4.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="mvvmcross.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.4.4.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="mvvmcross.binding.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.binding.4.4.0.nupkg" d:VsixSubPath="Packages" />
     <Asset Type="mvvmcross.codeanalysis.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.codeanalysis.4.4.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="mvvmcross.core.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.core.4.4.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="mvvmcross.droid.shared.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.droid.shared.4.4.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="mvvmcross.droid.support.core.ui.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.droid.support.core.ui.4.4.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="mvvmcross.droid.support.core.utils.4.4.1.nupkg" d:Source="File" Path="Packages\mvvmcross.droid.support.core.utils.4.4.1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="mvvmcross.droid.support.design.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.droid.support.design.4.4.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="mvvmcross.droid.support.fragment.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.droid.support.fragment.4.4.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="mvvmcross.droid.support.v4.4.4.1.nupkg" d:Source="File" Path="Packages\mvvmcross.droid.support.v4.4.4.1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="mvvmcross.droid.support.v7.appcompat.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.droid.support.v7.appcompat.4.4.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="mvvmcross.droid.support.v7.recyclerview.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.droid.support.v7.recyclerview.4.4.0.nupkg" d:VsixSubPath="Packages" />
     <Asset Type="mvvmcross.platform.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.platform.4.4.0.nupkg" d:VsixSubPath="Packages" />
     <Asset Type="mvvmcross.plugin.json.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.plugin.json.4.4.0.nupkg" d:VsixSubPath="Packages" />
-    <Asset Type="newtonsoft.json.9.0.2-beta1.nupkg" d:Source="File" Path="Packages\newtonsoft.json.9.0.2-beta1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="newtonsoft.json.9.0.1.nupkg" d:Source="File" Path="Packages\newtonsoft.json.9.0.1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="xamarin.android.support.animated.vector.drawable.24.2.1.nupkg" d:Source="File" Path="Packages\xamarin.android.support.animated.vector.drawable.24.2.1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="xamarin.android.support.compat.24.2.1.nupkg" d:Source="File" Path="Packages\xamarin.android.support.compat.24.2.1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="xamarin.android.support.core.ui.24.2.1.nupkg" d:Source="File" Path="Packages\xamarin.android.support.core.ui.24.2.1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="xamarin.android.support.core.utils.24.2.1.nupkg" d:Source="File" Path="Packages\xamarin.android.support.core.utils.24.2.1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="xamarin.android.support.design.24.2.1.nupkg" d:Source="File" Path="Packages\xamarin.android.support.design.24.2.1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="xamarin.android.support.fragment.24.2.1.nupkg" d:Source="File" Path="Packages\xamarin.android.support.fragment.24.2.1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="xamarin.android.support.media.compat.24.2.1.nupkg" d:Source="File" Path="Packages\xamarin.android.support.media.compat.24.2.1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="xamarin.android.support.v7.appcompat.24.2.1.nupkg" d:Source="File" Path="Packages\xamarin.android.support.v7.appcompat.24.2.1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="xamarin.android.support.v7.recyclerview.24.2.1.nupkg" d:Source="File" Path="Packages\xamarin.android.support.v7.recyclerview.24.2.1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="xamarin.android.support.vector.drawable.24.2.1.nupkg" d:Source="File" Path="Packages\xamarin.android.support.vector.drawable.24.2.1.nupkg" d:VsixSubPath="Packages" />
   </Assets>
 </PackageManifest>
