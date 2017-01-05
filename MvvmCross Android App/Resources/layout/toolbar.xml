@@ -16,7 +16,7 @@
         android:id="@+id/textview_toolbar_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Toolbar Title"
+        android:text="@string/toolbar_text"
         android:textColor="@android:color/white"
         android:layout_gravity="left"
         style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
