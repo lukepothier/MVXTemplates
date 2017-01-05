@@ -18,5 +18,10 @@
   <Assets>
     <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates" />
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\ProjectTemplates" />
+    <Asset Type="mvvmcross.core.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.core.4.4.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="mvvmcross.codeanalysis.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.codeanalysis.4.4.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="mvvmcross.platform.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.platform.4.4.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="mvvmcross.plugin.json.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.plugin.json.4.4.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="newtonsoft.json.9.0.2-beta1.nupkg" d:Source="File" Path="Packages\newtonsoft.json.9.0.2-beta1.nupkg" d:VsixSubPath="Packages" />
   </Assets>
 </PackageManifest>

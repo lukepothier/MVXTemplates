@@ -135,6 +135,26 @@
     <None Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross App Class\Definitions\CSharp.vstemplate" />
     <None Include="ItemTemplates\Shared\ViewModels\MVX MvvmCross ViewModel\Definitions\CSharp.vstemplate" />
     <None Include="packages.config" />
+    <Content Include="Packages\mvvmcross.codeanalysis.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.platform.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.plugin.json.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\newtonsoft.json.9.0.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.core.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="Properties\template-builder.props">
       <SubType>Designer</SubType>
     </None>

@@ -1,4 +1,4 @@
-<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <TemplateData>
     <Name>MvvmCross Core</Name>
     <Description>A project template for a the shared class library for use by an MvvmCross Android or iOS application.</Description>
@@ -13,6 +13,7 @@
     <Icon>template-icon.png</Icon>
     <TemplateID>$guid1$</TemplateID>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="$projectname$.csproj" File="MvvmCross.PCL.csproj" ReplaceParameters="true">
@@ -23,4 +24,20 @@
       <CustomParameter Name="$TemplateType$" Value="Project" />
     </CustomParameters>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <packages repository="extension" repositoryId="VSIX.Luke Pothier.3b4a0b56-7f92-4f5e-8de3-fe5bb43c7678">
+      <package id="MvvmCross.CodeAnalysis" version="4.4.0" />
+      <package id="MvvmCross.Core" version="4.4.0" />
+      <package id="MvvmCross.Platform" version="4.4.0" />
+      <package id="MvvmCross.Plugin.Json" version="4.4.0" />
+      <package id="Newtonsoft.Json" version="9.0.1" />
+    </packages>
+    <!--<Assets>
+      <Asset Type="mvvmCross.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmCross.4.4.0.nupkg" d:VsixSubPath="Packages" />
+    </Assets>-->
+  </WizardData>
 </VSTemplate>
