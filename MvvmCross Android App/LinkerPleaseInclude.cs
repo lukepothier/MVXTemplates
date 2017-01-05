@@ -20,7 +20,7 @@ namespace $safeprojectname$
 
         public void Include(TextView text)
         {
-            text.TextChanged += (sender, args) => text.Text = $"{text.Text}";
+            text.AfterTextChanged += (sender, args) => text.Text = $"{text.Text}";
             text.Hint = $"{text.Hint}";
         }
 
