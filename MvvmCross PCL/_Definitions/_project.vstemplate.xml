@@ -1,4 +1,4 @@
-<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>MvvmCross Core</Name>
     <Description>A project template for a the shared class library for use by an MvvmCross Android or iOS application.</Description>
