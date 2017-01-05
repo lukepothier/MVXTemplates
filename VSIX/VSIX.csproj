@@ -83,31 +83,106 @@
     <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ColorConverter\icon.png" />
     <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ValueConverter\icon.png" />
     <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross VisibilityConverter\icon.png" />
-    <Content Include="Packages\mvvmcross.4.4.0.nupkg" />
-    <Content Include="Packages\mvvmcross.binding.4.4.0.nupkg" />
-    <Content Include="Packages\mvvmcross.codeanalysis.4.4.0.nupkg" />
-    <Content Include="Packages\mvvmcross.core.4.4.0.nupkg" />
-    <Content Include="Packages\mvvmcross.droid.shared.4.4.0.nupkg" />
-    <Content Include="Packages\mvvmcross.droid.support.core.ui.4.4.0.nupkg" />
-    <Content Include="Packages\mvvmcross.droid.support.core.utils.4.4.1.nupkg" />
-    <Content Include="Packages\mvvmcross.droid.support.design.4.4.0.nupkg" />
-    <Content Include="Packages\mvvmcross.droid.support.fragment.4.4.0.nupkg" />
-    <Content Include="Packages\mvvmcross.droid.support.v4.4.4.1.nupkg" />
-    <Content Include="Packages\mvvmcross.droid.support.v7.appcompat.4.4.0.nupkg" />
-    <Content Include="Packages\mvvmcross.droid.support.v7.recyclerview.4.4.0.nupkg" />
-    <Content Include="Packages\mvvmcross.platform.4.4.0.nupkg" />
-    <Content Include="Packages\mvvmcross.plugin.json.4.4.0.nupkg" />
-    <Content Include="Packages\newtonsoft.json.9.0.1.nupkg" />
-    <Content Include="Packages\xamarin.android.support.animated.vector.drawable.24.2.1.nupkg" />
-    <Content Include="Packages\xamarin.android.support.compat.24.2.1.nupkg" />
-    <Content Include="Packages\xamarin.android.support.core.ui.24.2.1.nupkg" />
-    <Content Include="Packages\xamarin.android.support.core.utils.24.2.1.nupkg" />
-    <Content Include="Packages\xamarin.android.support.design.24.2.1.nupkg" />
-    <Content Include="Packages\xamarin.android.support.fragment.24.2.1.nupkg" />
-    <Content Include="Packages\xamarin.android.support.media.compat.24.2.1.nupkg" />
-    <Content Include="Packages\xamarin.android.support.v7.appcompat.24.2.1.nupkg" />
-    <Content Include="Packages\xamarin.android.support.v7.recyclerview.24.2.1.nupkg" />
-    <Content Include="Packages\xamarin.android.support.vector.drawable.24.2.1.nupkg" />
+    <Content Include="Packages\mvvmcross.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.binding.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.codeanalysis.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.core.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.droid.shared.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.droid.support.core.ui.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.droid.support.core.utils.4.4.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.droid.support.design.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.droid.support.fragment.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.droid.support.v4.4.4.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.droid.support.v7.appcompat.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.droid.support.v7.recyclerview.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.platform.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mvvmcross.plugin.json.4.4.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\newtonsoft.json.9.0.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\xamarin.android.support.animated.vector.drawable.24.2.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\xamarin.android.support.compat.24.2.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\xamarin.android.support.core.ui.24.2.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\xamarin.android.support.core.utils.24.2.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\xamarin.android.support.design.24.2.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\xamarin.android.support.fragment.24.2.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\xamarin.android.support.media.compat.24.2.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\xamarin.android.support.v7.appcompat.24.2.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\xamarin.android.support.v7.recyclerview.24.2.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\xamarin.android.support.vector.drawable.24.2.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="template-report.xml" />
     <None Include="ItemTemplates\Android\Layouts\MVX Android Activity Layout\icon.png" />
     <None Include="ItemTemplates\Android\Layouts\MVX Android Activity Layout\mvx_activity.xml" />
