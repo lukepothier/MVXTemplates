@@ -1,10 +1,10 @@
-﻿using Cirrious.FluentLayouts.Touch;
+using Cirrious.FluentLayouts.Touch;
 using MvvmCross.Binding.BindingContext;
 //using MyCoreProject.ViewModels;
 
 namespace $safeprojectname$.Views
 {
-    public class FirstViewController : BaseViewController<FirstViewModel>
+    public class SecondViewController : BaseViewController<SecondViewModel>
     {
         public override void ViewDidLoad()
         {
@@ -17,7 +17,7 @@ namespace $safeprojectname$.Views
                 
             });
 
-            var bindingSet = this.CreateBindingSet<FirstViewController, FirstViewModel>();
+            var bindingSet = this.CreateBindingSet<SecondViewController, SecondViewModel>();
         
             bindingSet.Apply();
         }
