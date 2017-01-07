@@ -30,8 +30,8 @@
   </WizardExtension>
   <WizardData>
     <packages repository="extension" repositoryId="VSIX.Luke Pothier.3b4a0b56-7f92-4f5e-8de3-fe5bb43c7678">
-      <package id="MvvmCross.CodeAnalysis" version="4.4.0" />
       <package id="MvvmCross.Core" version="4.4.0" />
+      <package id="MvvmCross.CodeAnalysis" version="4.4.0" />
       <package id="MvvmCross.Platform" version="4.4.0" />
       <package id="MvvmCross.Plugin.Json" version="4.4.0" />
       <package id="Newtonsoft.Json" version="9.0.1" />

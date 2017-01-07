@@ -18,6 +18,7 @@
   <Assets>
     <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates" />
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\ProjectTemplates" />
+    <Asset Type="cirrious.fluentlayout.2.5.0.nupkg" d:Source="File" Path="Packages\cirrious.fluentlayout.2.5.0.nupkg" d:VsixSubPath="Packages" />
     <Asset Type="mvvmcross.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.4.4.0.nupkg" d:VsixSubPath="Packages" />
     <Asset Type="mvvmcross.binding.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.binding.4.4.0.nupkg" d:VsixSubPath="Packages" />
     <Asset Type="mvvmcross.codeanalysis.4.4.0.nupkg" d:Source="File" Path="Packages\mvvmcross.codeanalysis.4.4.0.nupkg" d:VsixSubPath="Packages" />
