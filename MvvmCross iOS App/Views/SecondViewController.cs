@@ -9,15 +9,22 @@ namespace $safeprojectname$.Views
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+
+            var goBackButton = new UIButton();
+
+            goBackButton.SetTitle("Go Back");
         
-            View.AddSubviews();
+            View.AddSubviews(goBackButton);
 
             View.AddConstraints(new FluentLayout[]
             {
-                
+                goBackButton.AtTopOf(View),
+                goBackButton.WithSameCenterX(View)
             });
 
             var bindingSet = this.CreateBindingSet<SecondViewController, SecondViewModel>();
+
+            bindingSet.Bind(goBackButton).To(vm => vm.GoBackCommand);
         
             bindingSet.Apply();
         }
