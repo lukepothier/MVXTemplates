@@ -1,7 +1,6 @@
 using Cirrious.FluentLayouts.Touch;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.iOS.Views;
-using UIKit;
 
 namespace $safeprojectname$.Views
 {
@@ -14,11 +13,6 @@ namespace $safeprojectname$.Views
 
             // This can be removed if you're not using FluentLayout
             View.SubviewsDoNotTranslateAutoresizingMaskIntoConstraints();
-        }
-
-        public override UIStatusBarStyle PreferredStatusBarStyle()
-        {
-            return UIStatusBarStyle.LightContent;
         }
     }
 }

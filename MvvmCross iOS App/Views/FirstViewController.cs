@@ -11,9 +11,11 @@ namespace $safeprojectname$.Views
         {
             base.ViewDidLoad();
 
+            Title = "First View";
+
             var goForwardButton = new UIButton();
 
-            goForwardButton.SetTitle("Go Forward");
+            goForwardButton.SetTitle("Go Forward", UIControlState.Normal);
         
             View.AddSubviews(goForwardButton);
 

@@ -1,5 +1,6 @@
 using Cirrious.FluentLayouts.Touch;
 using MvvmCross.Binding.BindingContext;
+using UIKit;
 //using MyCoreProject.ViewModels;
 
 namespace $safeprojectname$.Views
@@ -10,9 +11,11 @@ namespace $safeprojectname$.Views
         {
             base.ViewDidLoad();
 
+            Title = "Second View";
+
             var goBackButton = new UIButton();
 
-            goBackButton.SetTitle("Go Back");
+            goBackButton.SetTitle("Go Back", UIControlState.Normal);
         
             View.AddSubviews(goBackButton);
 

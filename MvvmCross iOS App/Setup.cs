@@ -1,5 +1,5 @@
-using MvvmCross.Core.ViewModels;
 using MvvmCross.iOS.Platform;
+using MvvmCross.Core.ViewModels;
 using UIKit;
 //using MyCoreProject;
 
@@ -9,7 +9,7 @@ namespace $safeprojectname$
     {
         // This is a basic MVX Setup class. It can be replaced with an advanced Setup class available in the MVX Template pack
         public Setup(MvxApplicationDelegate applicationDelegate, UIWindow window)
-                : base(applicationDelegate, window)
+            : base(applicationDelegate, window)
         {
         }
 
