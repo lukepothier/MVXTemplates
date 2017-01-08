@@ -32,6 +32,15 @@ namespace $safeprojectname$.Views
             Add(_goForwardButton);
         }
 
+        void LayoutViewElements()
+        {
+            View.AddConstraints(new FluentLayout[]
+            {
+                _goForwardButton.AtTopOf(View, 12f),
+                _goForwardButton.WithSameCenterX(View)
+            });
+        }
+
         void Bind()
         {
             _bindingSet = this.CreateBindingSet<FirstViewController, FirstViewModel>();
@@ -39,20 +48,6 @@ namespace $safeprojectname$.Views
             _bindingSet.Bind(_goForwardButton).To(vm => vm.GoForwardCommand);
 
             _bindingSet.Apply();
-        }
-
-        void LayoutViewElements()
-        {
-            //var constraints = View.VerticalStackPanelConstraints(
-            //                                new Margins(20, 10, 20, 10, 5, 5),
-            //                                View.Subviews);
-            //View.AddConstraints(constraints);
-
-            View.AddConstraints(new FluentLayout[]
-            {
-                _goForwardButton.AtTopOf(View, 12f),
-                _goForwardButton.WithSameCenterX(View)
-            });
         }
     }
 }

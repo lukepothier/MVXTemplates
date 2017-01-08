@@ -32,6 +32,15 @@ namespace $safeprojectname$.Views
             Add(_goBackButton);
         }
 
+        void LayoutViewElements()
+        {
+            View.AddConstraints(new FluentLayout[]
+            {
+                _goBackButton.AtTopOf(View, 12f),
+                _goBackButton.WithSameCenterX(View)
+            });
+        }
+
         void Bind()
         {
             _bindingSet = this.CreateBindingSet<SecondViewController, SecondViewModel>();
@@ -39,20 +48,6 @@ namespace $safeprojectname$.Views
             _bindingSet.Bind(_goBackButton).To(vm => vm.GoBackCommand);
 
             _bindingSet.Apply();
-        }
-
-        void LayoutViewElements()
-        {
-            //var constraints = View.VerticalStackPanelConstraints(
-            //                                new Margins(20, 10, 20, 10, 5, 5),
-            //                                View.Subviews);
-            //View.AddConstraints(constraints);
-
-            View.AddConstraints(new FluentLayout[]
-            {
-                _goBackButton.AtTopOf(View, 12f),
-                _goBackButton.WithSameCenterX(View)
-            });
         }
     }
 }
