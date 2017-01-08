@@ -1,6 +1,7 @@
 using Cirrious.FluentLayouts.Touch;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.iOS.Views;
+using UIKit;
 
 namespace $safeprojectname$.Views
 {
@@ -11,7 +12,26 @@ namespace $safeprojectname$.Views
         {
             base.ViewDidLoad();
 
+            base.Title = Title;
+
+            View.BackgroundColor = UIColor.White;
+
+            // To customise your navigation bar correctly, refer to the documentation at https://developer.xamarin.com/recipes/ios/content_controls/navigation_controller
+            NavigationController.NavigationBar.BarStyle = UIBarStyle.Black;
+            NavigationController.NavigationBar.Translucent = false;
+            NavigationController.NavigationBar.Hidden = false;
+            NavigationController.NavigationBar.BarTintColor = UIColor.FromRGB(38, 50, 56);
+            NavigationController.NavigationBar.TintColor = UIColor.White;
+
+            NavigationController.SetNeedsStatusBarAppearanceUpdate();
+        }
+
+        public override void ViewWillAppear(bool animated)
+        {
+            base.ViewWillAppear(animated);
+
             // This can be removed if you're not using FluentLayout
+            View.TranslatesAutoresizingMaskIntoConstraints = false;
             View.SubviewsDoNotTranslateAutoresizingMaskIntoConstraints();
         }
     }

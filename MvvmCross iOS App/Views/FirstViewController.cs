@@ -1,35 +1,58 @@
 ﻿using Cirrious.FluentLayouts.Touch;
+using Foundation;
 using MvvmCross.Binding.BindingContext;
 using UIKit;
 //using MyCoreProject.ViewModels;
 
 namespace $safeprojectname$.Views
 {
+    [Register(nameof(FirstViewController))]
     public class FirstViewController : BaseViewController<FirstViewModel>
     {
+        UIButton _goForwardButton;
+        MvxFluentBindingDescriptionSet<FirstViewController, FirstViewModel> _bindingSet;
+
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
 
             Title = "First View";
 
-            var goForwardButton = new UIButton();
+            CreateViewElements();
 
-            goForwardButton.SetTitle("Go Forward", UIControlState.Normal);
-        
-            View.AddSubviews(goForwardButton);
+            LayoutViewElements();
+
+            Bind();
+        }
+
+        void CreateViewElements()
+        {
+            _goForwardButton = new UIButton(UIButtonType.RoundedRect);
+            _goForwardButton.SetTitle("Go Forward", UIControlState.Normal);
+            Add(_goForwardButton);
+        }
+
+        void Bind()
+        {
+            _bindingSet = this.CreateBindingSet<FirstViewController, FirstViewModel>();
+
+            _bindingSet.Bind(_goForwardButton).To(vm => vm.GoForwardCommand);
+
+            _bindingSet.Apply();
+        }
+
+        void LayoutViewElements()
+        {
+            //var constraints = View.VerticalStackPanelConstraints(
+            //                                new Margins(20, 10, 20, 10, 5, 5),
+            //                                View.Subviews);
+            //View.AddConstraints(constraints);
 
             View.AddConstraints(new FluentLayout[]
             {
-                goForwardButton.AtTopOf(View),
-                goForwardButton.WithSameCenterX(View)
+                _goForwardButton.AtTopOf(View, 12f),
+                _goForwardButton.WithSameCenterX(View)
             });
-
-            var bindingSet = this.CreateBindingSet<FirstViewController, FirstViewModel>();
-
-            bindingSet.Bind(goForwardButton).To(vm => vm.GoForwardCommand);
-        
-            bindingSet.Apply();
         }
     }
 }

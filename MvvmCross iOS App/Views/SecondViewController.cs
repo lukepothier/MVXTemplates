@@ -1,35 +1,58 @@
 using Cirrious.FluentLayouts.Touch;
+using Foundation;
 using MvvmCross.Binding.BindingContext;
 using UIKit;
 //using MyCoreProject.ViewModels;
 
 namespace $safeprojectname$.Views
 {
+    [Register(nameof(SecondViewController))]
     public class SecondViewController : BaseViewController<SecondViewModel>
     {
+        UIButton _goBackButton;
+        MvxFluentBindingDescriptionSet<SecondViewController, SecondViewModel> _bindingSet;
+
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
 
             Title = "Second View";
 
-            var goBackButton = new UIButton();
+            CreateViewElements();
 
-            goBackButton.SetTitle("Go Back", UIControlState.Normal);
-        
-            View.AddSubviews(goBackButton);
+            LayoutViewElements();
+
+            Bind();
+        }
+
+        void CreateViewElements()
+        {
+            _goBackButton = new UIButton(UIButtonType.RoundedRect);
+            _goBackButton.SetTitle("Go Back", UIControlState.Normal);
+            Add(_goBackButton);
+        }
+
+        void Bind()
+        {
+            _bindingSet = this.CreateBindingSet<SecondViewController, SecondViewModel>();
+
+            _bindingSet.Bind(_goBackButton).To(vm => vm.GoBackCommand);
+
+            _bindingSet.Apply();
+        }
+
+        void LayoutViewElements()
+        {
+            //var constraints = View.VerticalStackPanelConstraints(
+            //                                new Margins(20, 10, 20, 10, 5, 5),
+            //                                View.Subviews);
+            //View.AddConstraints(constraints);
 
             View.AddConstraints(new FluentLayout[]
             {
-                goBackButton.AtTopOf(View),
-                goBackButton.WithSameCenterX(View)
+                _goBackButton.AtTopOf(View, 12f),
+                _goBackButton.WithSameCenterX(View)
             });
-
-            var bindingSet = this.CreateBindingSet<SecondViewController, SecondViewModel>();
-
-            bindingSet.Bind(goBackButton).To(vm => vm.GoBackCommand);
-        
-            bindingSet.Apply();
         }
     }
 }
