@@ -7,7 +7,6 @@ using UIKit;
 
 namespace $safeprojectname$
 {
-    [Register(nameof(AppDelegate))]
     public class AppDelegate : MvxApplicationDelegate
 {
         UIWindow _window;

@@ -6,7 +6,6 @@ using UIKit;
 
 namespace $safeprojectname$.Views
 {
-    [Register(nameof(FirstViewController))]
     public class FirstViewController : BaseViewController<FirstViewModel>
     {
         UIButton _goForwardButton;

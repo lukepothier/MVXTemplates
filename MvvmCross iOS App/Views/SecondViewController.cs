@@ -6,7 +6,6 @@ using UIKit;
 
 namespace $safeprojectname$.Views
 {
-    [Register(nameof(SecondViewController))]
     public class SecondViewController : BaseViewController<SecondViewModel>
     {
         UIButton _goBackButton;
