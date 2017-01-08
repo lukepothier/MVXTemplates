@@ -1,5 +1,4 @@
 using Cirrious.FluentLayouts.Touch;
-using Foundation;
 using MvvmCross.Binding.BindingContext;
 using UIKit;
 //using MyCoreProject.ViewModels;

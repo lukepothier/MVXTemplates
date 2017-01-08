@@ -7,8 +7,9 @@ using UIKit;
 
 namespace $safeprojectname$
 {
+    [Register(nameof(AppDelegate))]
     public class AppDelegate : MvxApplicationDelegate
-{
+    {
         UIWindow _window;
 
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
