@@ -68,9 +68,6 @@ A collection of Visual Studio item and project templates for use in MvvmCross Xa
 * MvvmCross Android project
 * MvvmCross iOS project
 * MvvmCross Core project
-* Android UI Test project
-* iOS UI Test project
-* NUnit Test project
 
 
 ## Snippets
@@ -83,4 +80,4 @@ A collection of Visual Studio item and project templates for use in MvvmCross Xa
 ## Sample App
 
 
-The repo contains sample app which implements the MvvmCross App project template, and provides an example implementation of many of the item templates available in this repo
+The repo contains a sample app which implements the MvvmCross App project template, and provides an example implementation of many of the item templates available in the template pack
