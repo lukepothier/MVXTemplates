@@ -88,7 +88,6 @@
     <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <BundleResource Include="template-icon.png" />
     <Compile Include="Setup.cs" />
     <Compile Include="Views\BaseViewController.cs" />
     <Compile Include="Views\FirstViewController.cs" />

@@ -41,7 +41,6 @@
     <Compile Include="ViewModels\SecondViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="template-icon.png" />
     <Content Include="_Definitions\_project.vstemplate.xml" />
     <Content Include="_preprocess.xml" />
   </ItemGroup>
