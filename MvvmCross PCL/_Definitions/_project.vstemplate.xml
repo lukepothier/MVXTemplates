@@ -16,13 +16,7 @@
     <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="$projectname$.csproj" File="MvvmCross.PCL.csproj" ReplaceParameters="true">
-    </Project>
-    <CustomParameters>
-      <CustomParameter Name="$TemplateName$" Value="MvvmCross PCL" />
-      <CustomParameter Name="$TemplateID$" Value="$guid2$" />
-      <CustomParameter Name="$TemplateType$" Value="Project" />
-    </CustomParameters>
+    <Project TargetFileName="$projectname$.csproj" File="MvvmCross.PCL.csproj" ReplaceParameters="true" />
   </TemplateContent>
   <WizardExtension>
     <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
