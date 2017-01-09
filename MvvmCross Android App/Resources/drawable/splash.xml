@@ -1,13 +1,13 @@
 ﻿<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
 
   <item
-      android:drawable="@color/colorPrimary"/>
+      android:drawable="@android:color/white" />
 
   <item 
     android:bottom="20dp">
     <bitmap
         android:gravity="center"
-        android:src="@drawable/icon_splash"/>
+        android:src="@drawable/icon"/>
   </item>
 
 </layer-list>
