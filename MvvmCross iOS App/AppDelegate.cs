@@ -16,10 +16,6 @@ namespace $safeprojectname$
         {
             _window = new UIWindow(UIScreen.MainScreen.Bounds);
 
-            // HACK :: Prevents DNS caching to avoid NameResolutionFailures from persisting when connectivity is restored if app is started while not online
-            // Workaround for a Mono bug: https://bugzilla.xamarin.com/show_bug.cgi?id=45761
-            ServicePointManager.DnsRefreshTimeout = 0;
-
             var setup = new Setup(this, _window);
             setup.Initialize();
 
