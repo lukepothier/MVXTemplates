@@ -266,13 +266,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ProjectTemplates\MVX Android UI Test Project\" />
-    <Folder Include="ProjectTemplates\MVX iOS UI Test Project\" />
-    <Folder Include="ProjectTemplates\MVX MvvmCross Android App\" />
-    <Folder Include="ProjectTemplates\MVX MvvmCross App\" />
-    <Folder Include="ProjectTemplates\MVX MvvmCross Core\" />
-    <Folder Include="ProjectTemplates\MVX MvvmCross iOS App\" />
-    <Folder Include="ProjectTemplates\MVX Xamarin Unit Test Project\" />
+    <Folder Include="ProjectTemplates\" />
   </ItemGroup>
   <ItemGroup>
     <TemplateReference Include="MvvmCross.Android.App.csproj">
