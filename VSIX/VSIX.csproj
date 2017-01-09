@@ -14,7 +14,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>VSIX</RootNamespace>
-    <AssemblyName>VSIX</AssemblyName>
+    <AssemblyName>MVXTemplates</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
@@ -83,6 +83,14 @@
     <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ColorConverter\icon.png" />
     <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ValueConverter\icon.png" />
     <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross VisibilityConverter\icon.png" />
+    <Content Include="mvxtemplates_large.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="mvxtemplates_small.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Packages\mvvmcross.4.4.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
