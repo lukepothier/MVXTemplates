@@ -9,7 +9,7 @@
     <GettingStartedGuide>https://github.com/lukepothier/MVXTemplates</GettingStartedGuide>
     <Icon>mvxtemplates_small.png</Icon>
     <PreviewImage>mvxtemplates_large.png</PreviewImage>
-    <Tags>MvvmCross, template, MVX, Xamarin</Tags>
+    <Tags>MvvmCross;template;MVX;Xamarin</Tags>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,15.0)" />

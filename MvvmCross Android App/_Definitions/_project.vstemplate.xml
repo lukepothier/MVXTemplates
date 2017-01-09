@@ -2,7 +2,7 @@
   <TemplateData>
     <Name>MvvmCross Android App</Name>
     <Description>A project template for a MvvmCross Android application. This template is dependent on the 'MvvmCross Core' project template being in the same solution.</Description>
-    <DefaultName>Droid</DefaultName>
+    <DefaultName>Android</DefaultName>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Android</ProjectSubType>
     <SortOrder>1000</SortOrder>
