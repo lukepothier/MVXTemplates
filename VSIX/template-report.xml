@@ -28,7 +28,10 @@
   </ItemTemplates>
   <ProjectTemplates>
     <ProjectTemplate Path="..\MvvmCross PCL\_Definitions\_project.vstemplate.xml" Name="MvvmCross Core" Description="A project template for a the shared class library for use by an MvvmCross Android or iOS application." ProjectType="CSharp" ProjectSubType="" />
+    <ProjectTemplate Path="ProjectTemplates\MvvmCross App\Core\CSharp.vstemplate" Name="MvvmCross Core PCL" Description="MvvmCross Core PCL" ProjectType="CSharp" ProjectSubType="" />
+    <ProjectTemplate Path="ProjectTemplates\MvvmCross App\Android\CSharp.vstemplate" Name="MvvmCross Android app" Description="MvvmCross Android app" ProjectType="CSharp" ProjectSubType="Android" />
     <ProjectTemplate Path="..\MvvmCross Android App\_Definitions\_project.vstemplate.xml" Name="MvvmCross Android App" Description="A project template for a MvvmCross Android application. This template is dependent on the 'MvvmCross Core' project template being in the same solution." ProjectType="CSharp" ProjectSubType="Android" />
+    <ProjectTemplate Path="ProjectTemplates\MvvmCross App\iOS\CSharp.vstemplate" Name="MvvmCross iOS app" Description="MvvmCross iOS app" ProjectType="CSharp" ProjectSubType="iOS" />
     <ProjectTemplate Path="..\MvvmCross iOS App\_Definitions\_project.vstemplate.xml" Name="MvvmCross iOS App" Description="A project template for a MvvmCross iOS application. This template is dependent on the 'MvvmCross Core' project template being in the same solution." ProjectType="CSharp" ProjectSubType="iOS" />
   </ProjectTemplates>
   <Snippets />

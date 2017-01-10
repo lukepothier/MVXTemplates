@@ -192,10 +192,10 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ProjectTemplates\MvvmCross App\Android\MVXApp.Android.csproj" />
-    <Content Include="ProjectTemplates\MvvmCross App\Android\Android.vstemplate" />
-    <Content Include="ProjectTemplates\MvvmCross App\Core\Core.vstemplate" />
+    <Content Include="ProjectTemplates\MvvmCross App\Android\CSharp.vstemplate" />
+    <Content Include="ProjectTemplates\MvvmCross App\Core\CSharp.vstemplate" />
     <Content Include="ProjectTemplates\MvvmCross App\Core\MVXApp.Core.csproj" />
-    <Content Include="ProjectTemplates\MvvmCross App\iOS\iOS.vstemplate" />
+    <Content Include="ProjectTemplates\MvvmCross App\iOS\CSharp.vstemplate" />
     <Content Include="ProjectTemplates\MvvmCross App\iOS\MVXApp.iOS.csproj" />
     <Content Include="ProjectTemplates\MvvmCross App\_Definitions\CSharp.vstemplate.xml" />
     <Content Include="template-report.xml" />

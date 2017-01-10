@@ -17,9 +17,9 @@
   </TemplateData>
   <TemplateContent>
     <ProjectCollection>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.Android">Android\Android.vstemplate</ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.iOS">iOS\iOS.vstemplate</ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.Core">Core\Core.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Android">Android\CSharp.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.iOS">iOS\CSharp.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Core">Core\CSharp.vstemplate</ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
 </VSTemplate>
