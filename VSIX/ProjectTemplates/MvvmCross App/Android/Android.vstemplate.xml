@@ -17,9 +17,9 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="$safeprojectname$.csproj" File="Android.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="Contact.cs">Contact.cs</ProjectItem>
       <Folder Name="Assets" TargetFolderName="Assets" />
       <Folder Name="Bootstrap" TargetFolderName="Bootstrap">
+        <ProjectItem ReplaceParameters="true" TargetFileName="JsonPluginBootstrap.cs">JsonPluginBootstrap.cs</ProjectItem>
       </Folder>
       <Folder Name="Controls" TargetFolderName="Controls" />
       <Folder Name="Converters" TargetFolderName="Converters" />
