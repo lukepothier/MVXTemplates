@@ -191,10 +191,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\MvvmCross App\Android\App.Android.csproj" />
-    <Content Include="ProjectTemplates\MvvmCross App\Android\Android.vstemplate.xml" />
-    <Content Include="ProjectTemplates\MvvmCross App\iOS\iOS.vstemplate.xml" />
-    <Content Include="ProjectTemplates\MvvmCross App\iOS\App.iOS.csproj" />
+    <Content Include="ProjectTemplates\MvvmCross App\Android\MVXApp.Android.csproj" />
+    <Content Include="ProjectTemplates\MvvmCross App\Android\Android.vstemplate" />
+    <Content Include="ProjectTemplates\MvvmCross App\Core\Core.vstemplate" />
+    <Content Include="ProjectTemplates\MvvmCross App\Core\MVXApp.Core.csproj" />
+    <Content Include="ProjectTemplates\MvvmCross App\iOS\iOS.vstemplate" />
+    <Content Include="ProjectTemplates\MvvmCross App\iOS\MVXApp.iOS.csproj" />
     <Content Include="ProjectTemplates\MvvmCross App\_Definitions\CSharp.vstemplate.xml" />
     <Content Include="template-report.xml" />
     <None Include="ItemTemplates\Android\Layouts\MVX Android Activity Layout\icon.png" />
@@ -270,9 +272,7 @@
       <Private>True</Private>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ProjectTemplates\MvvmCross App\Core\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <TemplateReference Include="MvvmCross.Android.App.csproj">
       <PathToProject>../MvvmCross%20Android%20App/MvvmCross.Android.App.csproj</PathToProject>

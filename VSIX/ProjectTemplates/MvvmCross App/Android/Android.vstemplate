@@ -12,11 +12,11 @@
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.png</Icon>
     <PreviewImage>__PreviewImage.png</PreviewImage>
-    <TemplateID>8da266d8-9b6e-436c-bd1a-f8742ff73d3a</TemplateID>
+    <TemplateID>$guid1$</TemplateID>
     <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="$safeprojectname$.csproj" File="Android.csproj" ReplaceParameters="true">
+    <Project TargetFileName="$safeprojectname$.Android.csproj" File="Android.csproj" ReplaceParameters="true">
       <Folder Name="Assets" TargetFolderName="Assets" />
       <Folder Name="Bootstrap" TargetFolderName="Bootstrap">
         <ProjectItem ReplaceParameters="true" TargetFileName="JsonPluginBootstrap.cs">JsonPluginBootstrap.cs</ProjectItem>
