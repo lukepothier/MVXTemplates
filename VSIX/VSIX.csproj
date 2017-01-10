@@ -191,6 +191,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="ProjectTemplates\MvvmCross App\icon.png" />
     <Content Include="ProjectTemplates\MvvmCross App\Android\MVXApp.Android.csproj" />
     <Content Include="ProjectTemplates\MvvmCross App\Android\MyTemplate.vstemplate" />
     <Content Include="ProjectTemplates\MvvmCross App\Core\MyTemplate.vstemplate" />
@@ -198,6 +199,7 @@
     <Content Include="ProjectTemplates\MvvmCross App\iOS\MyTemplate.vstemplate" />
     <Content Include="ProjectTemplates\MvvmCross App\iOS\MVXApp.iOS.csproj" />
     <Content Include="ProjectTemplates\MvvmCross App\_Definitions\CSharp.vstemplate.xml" />
+    <Content Include="ProjectTemplates\MvvmCross App\_preprocess.xml" />
     <Content Include="template-report.xml" />
     <None Include="ItemTemplates\Android\Layouts\MVX Android Activity Layout\icon.png" />
     <None Include="ItemTemplates\Android\Layouts\MVX Android Activity Layout\mvx_activity.xml" />

@@ -2,9 +2,9 @@
   <TemplateData>
     <Name>MvvmCross App</Name>
     <Description>A multi-project template for a MvvmCross application for iOS and Android.</Description>
-    <!--<DefaultName>App</DefaultName>-->
+    <DefaultName>App</DefaultName>
     <ProjectType>CSharp</ProjectType>
-    <ProjectSubType>Cross-Platform</ProjectSubType>
+    <!--<ProjectSubType>Cross-Platform</ProjectSubType>-->
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
     <ProvideDefaultName>true</ProvideDefaultName>
@@ -17,9 +17,9 @@
   </TemplateData>
   <TemplateContent>
     <ProjectCollection>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.Android">Android\CSharp.vstemplate</ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.iOS">iOS\CSharp.vstemplate</ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.Core">Core\CSharp.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Android">Android\MyTemplate.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.iOS">iOS\MyTemplate.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Core">Core\MyTemplate.vstemplate</ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
 </VSTemplate>

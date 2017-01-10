@@ -6,14 +6,12 @@
     <ProjectSubType />
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>$safeprojectname$</DefaultName>
+    <DefaultName>$saferootprojectname$.Core</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-    <Icon>__TemplateIcon.png</Icon>
-    <PreviewImage>__PreviewImage.png</PreviewImage>
-    <TemplateID>$guid1$</TemplateID>
     <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="$safeprojectname$.Core.csproj" File="Core.csproj" ReplaceParameters="true">

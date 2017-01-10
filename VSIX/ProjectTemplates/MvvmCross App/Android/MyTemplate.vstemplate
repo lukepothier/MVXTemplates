@@ -3,17 +3,15 @@
     <Name>MvvmCross Android app</Name>
     <Description>MvvmCross Android app</Description>
     <ProjectType>CSharp</ProjectType>
-    <ProjectSubType>Android</ProjectSubType>
+    <ProjectSubType />
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>$safeprojectname$</DefaultName>
+    <DefaultName>$saferootprojectname$.Android</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-    <Icon>__TemplateIcon.png</Icon>
-    <PreviewImage>__PreviewImage.png</PreviewImage>
-    <TemplateID>$guid1$</TemplateID>
     <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="$safeprojectname$.Android.csproj" File="Android.csproj" ReplaceParameters="true">
