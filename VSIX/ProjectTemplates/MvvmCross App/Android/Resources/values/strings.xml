@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_forward">GO FORWARD</string>
+    <string name="button_back">GO BACK</string>
+    <string name="toolbar_text">Toolbar Title</string>
+</resources>
