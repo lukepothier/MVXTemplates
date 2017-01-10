@@ -112,10 +112,6 @@
     <BundleResource Include="Resources\Default-Portrait@2x.png" />
     <BundleResource Include="Resources\Default-Landscape@2x.png" />
     <BundleResource Include="Resources\Default-Landscape.png" />
-    <Content Include="_Definitions\_project.vstemplate.xml" />
-    <Content Include="_preprocess.xml">
-      <SubType>Designer</SubType>
-    </Content>
     <None Include="Info.plist">
       <SubType>Designer</SubType>
     </None>
@@ -149,6 +145,8 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Controls\" />
+    <Folder Include="Converters\" />
     <Folder Include="Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
