@@ -4,7 +4,7 @@
     <Description>A multi-project template for a MvvmCross application for iOS and Android.</Description>
     <DefaultName>App</DefaultName>
     <ProjectType>CSharp</ProjectType>
-    <!--<ProjectSubType>Cross-Platform</ProjectSubType>-->
+    <ProjectSubType>Cross-Platform</ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
     <ProvideDefaultName>true</ProvideDefaultName>

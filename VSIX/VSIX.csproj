@@ -191,15 +191,17 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <None Include="ProjectTemplates\MvvmCross App\icon.png" />
-    <Content Include="ProjectTemplates\MvvmCross App\Android\MVXApp.Android.csproj" />
-    <Content Include="ProjectTemplates\MvvmCross App\Android\MyTemplate.vstemplate" />
-    <Content Include="ProjectTemplates\MvvmCross App\Core\MyTemplate.vstemplate" />
-    <Content Include="ProjectTemplates\MvvmCross App\Core\MVXApp.Core.csproj" />
-    <Content Include="ProjectTemplates\MvvmCross App\iOS\MyTemplate.vstemplate" />
-    <Content Include="ProjectTemplates\MvvmCross App\iOS\MVXApp.iOS.csproj" />
-    <Content Include="ProjectTemplates\MvvmCross App\_Definitions\CSharp.vstemplate.xml" />
-    <Content Include="ProjectTemplates\MvvmCross App\_preprocess.xml" />
+    <Content Include="ProjectTemplates\MvvmCrossApp\icon.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ProjectTemplates\MvvmCrossApp\Android\MVXApp.Android.csproj" />
+    <Content Include="ProjectTemplates\MvvmCrossApp\Android\MyTemplate.vstemplate" />
+    <Content Include="ProjectTemplates\MvvmCrossApp\Core\MyTemplate.vstemplate" />
+    <Content Include="ProjectTemplates\MvvmCrossApp\Core\MVXApp.Core.csproj" />
+    <Content Include="ProjectTemplates\MvvmCrossApp\iOS\MyTemplate.vstemplate" />
+    <Content Include="ProjectTemplates\MvvmCrossApp\iOS\MVXApp.iOS.csproj" />
+    <Content Include="ProjectTemplates\MvvmCrossApp\_Definitions\CSharp.vstemplate.xml" />
+    <Content Include="ProjectTemplates\MvvmCrossApp\_preprocess.xml" />
     <Content Include="template-report.xml" />
     <None Include="ItemTemplates\Android\Layouts\MVX Android Activity Layout\icon.png" />
     <None Include="ItemTemplates\Android\Layouts\MVX Android Activity Layout\mvx_activity.xml" />
