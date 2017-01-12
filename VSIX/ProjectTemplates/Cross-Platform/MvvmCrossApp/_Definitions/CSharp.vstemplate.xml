@@ -4,16 +4,16 @@
     <Description>A multi-project template for a MvvmCross application for iOS and Android.</Description>
     <DefaultName>App</DefaultName>
     <ProjectType>CSharp</ProjectType>
-    <ProjectSubType>Cross-Platform</ProjectSubType>
+    <!--<ProjectSubType>Cross-Platform</ProjectSubType>-->
     <SortOrder>1000</SortOrder>
-    <CreateNewFolder>true</CreateNewFolder>
+    <!--<CreateNewFolder>true</CreateNewFolder>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>icon.png</Icon>
     <TemplateID>$guid1$</TemplateID>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>-->
   </TemplateData>
   <TemplateContent>
     <ProjectCollection>
@@ -22,4 +22,8 @@
       <ProjectTemplateLink ProjectName="$safeprojectname$.Core">Core\MyTemplate.vstemplate</ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>TemplateBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+    <FullClassName>TemplateBuilder.RootWizard</FullClassName>
+  </WizardExtension>
 </VSTemplate>
