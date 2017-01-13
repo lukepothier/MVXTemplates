@@ -52,11 +52,12 @@ namespace $rootnamespace$
                 typeof(MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView).Assembly
             };
 
-        // A custom presenter is a necessity if an app employs complex navigation techniques like split-screens, tabs, and the like
+        // Using Android fragments requires the use of MvxFragmentsPresenter, which will happen by default within MvxAppCompatSetup
+        // If the use of fragments are not required you can remove this override, which will default to the use of MvxAndroidViewPresenter
         // Learn more about custom view presenters at https://slodge.blogspot.com/2013/06/presenter-roundup.html
         protected override IMvxAndroidViewPresenter CreateViewPresenter()
         {
-            var mvxPresenter = new MyCustomPresenter(AndroidViewAssemblies);
+            var mvxPresenter = new MvxFragmentsPresenter(AndroidViewAssemblies);
             Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxPresenter);
             return mvxPresenter;
         }
