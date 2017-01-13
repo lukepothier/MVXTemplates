@@ -20,4 +20,20 @@
     <Assembly>TemplateBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
     <FullClassName>TemplateBuilder.ChildWizard</FullClassName>
   </WizardExtension>
+  <WizardExtension>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <packages repository="extension" repositoryId="VSIX.Luke Pothier.3b4a0b56-7f92-4f5e-8de3-fe5bb43c7678">
+      <package id="Cirrious.FluentLayout" version="2.5.0" />
+      <package id="MvvmCross" version="4.4.0" />
+      <package id="MvvmCross.Binding" version="4.4.0" />
+      <package id="MvvmCross.CodeAnalysis" version="4.4.0" />
+      <package id="MvvmCross.Core" version="4.4.0" />
+      <package id="MvvmCross.Platform" version="4.4.0" />
+      <package id="MvvmCross.Plugin.Json" version="4.4.0" />
+      <package id="Newtonsoft.Json" version="9.0.1" />
+    </packages>
+  </WizardData>
 </VSTemplate>
