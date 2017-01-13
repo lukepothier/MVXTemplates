@@ -1,7 +1,7 @@
 using Cirrious.FluentLayouts.Touch;
 using MvvmCross.Binding.BindingContext;
 using UIKit;
-//using MyCoreProject.ViewModels;
+using $saferootprojectname$.Core.ViewModels;
 
 namespace $safeprojectname$.Views
 {

@@ -1,7 +1,7 @@
 using MvvmCross.iOS.Platform;
 using MvvmCross.Core.ViewModels;
 using UIKit;
-//using MyCoreProject;
+using $saferootprojectname$.Core;
 
 namespace $safeprojectname$
 {

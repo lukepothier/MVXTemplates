@@ -5,7 +5,7 @@ using Android.Widget;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.Droid.Shared.Attributes;
 using MvvmCross.Droid.Support.V4;
-//using MyCoreProject.ViewModels;
+using $saferootprojectname$.Core.ViewModels;
 
 namespace $safeprojectname$.Views
 {

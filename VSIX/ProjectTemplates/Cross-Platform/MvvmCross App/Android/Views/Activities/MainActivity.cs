@@ -2,7 +2,7 @@
 using Android.OS;
 using Android.Views;
 using MvvmCross.Droid.Platform;
-//using MyCoreProject.ViewModels;
+using $saferootprojectname$.Core.ViewModels;
 
 namespace $safeprojectname$.Views
 {
