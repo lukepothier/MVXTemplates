@@ -149,5 +149,11 @@
     <Folder Include="Converters\" />
     <Folder Include="Images\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\$saferootprojectname$.Core\$saferootprojectname$.Core.csproj">
+      <Project>{f2a402ab-e203-4dcc-91a3-b3a349425f5a}</Project>
+      <Name>$saferootprojectname$.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

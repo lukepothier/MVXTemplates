@@ -16,4 +16,8 @@
   <TemplateContent>
     <Project TargetFileName="$safeprojectname$.iOS.csproj" File="iOS.csproj" ReplaceParameters="true" />
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>TemplateBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+    <FullClassName>TemplateBuilder.ChildWizard</FullClassName>
+  </WizardExtension>
 </VSTemplate>
