@@ -70,13 +70,6 @@ A collection of Visual Studio item and project templates for use in MvvmCross Xa
 * MvvmCross Core project
 
 
-## Snippets
-
-
-* mvxprop
-* mvxcom
-* mvxacom
-
 ## Sample App
 
 
