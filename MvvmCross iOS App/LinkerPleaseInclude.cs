@@ -1,6 +1,8 @@
 using System.Collections.Specialized;
+using System.ComponentModel;
 using System.Windows.Input;
 using Foundation;
+using MvvmCross.Platform.IoC;
 using UIKit;
 
 namespace $safeprojectname$
@@ -69,6 +71,19 @@ namespace $safeprojectname$
         public void Include(ICommand command)
         {
             command.CanExecuteChanged += (s, e) => { if (command.CanExecute(null)) command.Execute(null); };
+        }
+
+        public void Include(MvxPropertyInjector injector)
+        {
+            injector = new MvxPropertyInjector();
+        }
+
+        public void Include(INotifyPropertyChanged changed)
+        {
+            changed.PropertyChanged += (sender, e) =>
+            {
+                var test = e.PropertyName;
+            };
         }
     }
 }

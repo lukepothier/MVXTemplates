@@ -1,6 +1,8 @@
 using System.Collections.Specialized;
+using System.ComponentModel;
 using System.Windows.Input;
 using Android.Widget;
+using MvvmCross.Platform.IoC;
 
 namespace $safeprojectname$
 {
@@ -21,6 +23,7 @@ namespace $safeprojectname$
         public void Include(TextView text)
         {
             text.AfterTextChanged += (sender, args) => text.Text = $"{text.Text}";
+            text.TextChanged += (sender, args) => text.Text = $"{text.Text}";
             text.Hint = $"{text.Hint}";
         }
 
@@ -42,6 +45,18 @@ namespace $safeprojectname$
         public void Include(ICommand command)
         {
             command.CanExecuteChanged += (s, e) => { if (command.CanExecute(null)) command.Execute(null); };
+        }
+
+        public void Include(MvxPropertyInjector injector)
+        {
+            injector = new MvxPropertyInjector();
+        }
+
+        public void Include(INotifyPropertyChanged changed)
+        {
+            changed.PropertyChanged += (sender, e) => {
+                var test = e.PropertyName;
+            };
         }
     }
 }

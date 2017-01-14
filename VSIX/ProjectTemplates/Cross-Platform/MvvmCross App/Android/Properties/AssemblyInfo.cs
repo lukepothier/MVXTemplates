@@ -10,7 +10,7 @@ using Android.App;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("$registeredorganization$")]
-[assembly: AssemblyProduct("$projectname$")]
+[assembly: AssemblyProduct("$saferootprojectname$")]
 [assembly: AssemblyCopyright("Copyright © $registeredorganization$ $year$")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
