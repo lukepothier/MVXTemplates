@@ -61,20 +61,5 @@ namespace $rootnamespace$
             Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxPresenter);
             return mvxPresenter;
         }
-
-        // TODO :: Benchmark and decide whether this is worth including
-        // If the InitializeViewLookup override does not exist, MvvmCross will use reflection to map Android views to ViewModels
-        // Reflection is very expensive, and the cost can be avoided by providing a dictionary of your mappings here
-        // At scale, apps will start up measurably faster if this override exists
-        protected override void InitializeViewLookup()
-        {
-            var viewModelViewLookup = new Dictionary<Type, Type>
-            {
-                [typeof(MyViewModel)] = typeof(MyView)
-            };
-
-            var container = Mvx.Resolve<IMvxViewsContainer>();
-            container.AddAll(viewModelViewLookup);
-        }
     }
 }
