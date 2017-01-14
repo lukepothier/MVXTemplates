@@ -2,6 +2,7 @@ using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Windows.Input;
 using Foundation;
+using MvvmCross.Binding.BindingContext;
 using MvvmCross.Platform.IoC;
 using UIKit;
 
@@ -9,6 +10,7 @@ namespace $safeprojectname$
 {
 	// LinkerPleaseInclude is never actually executed, but when Xamarin linking is enabled it ensures types and properties are preserved in the deployed app
     // Included are some examples of types and properties you may need preserved in a linked version of your app
+    [Preserve(AllMembers = true)]
     public class LinkerPleaseInclude
     {
         public void Include(UIButton uiButton)
@@ -84,6 +86,10 @@ namespace $safeprojectname$
             {
                 var test = e.PropertyName;
             };
+        }
+        public void Include(MvxTaskBasedBindingContext context)
+        {
+            context = new MvxTaskBasedBindingContext();
         }
     }
 }

@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>$safeprojectname$</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>safeprojectname</AssemblyName>
+    <AssemblyName>$safeprojectname$</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -186,6 +186,7 @@
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchFloat32>False</MtouchFloat32>
+    <MtouchExtraArgs>-linkskip=$saferootprojectname$.Core</MtouchExtraArgs>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'AppStore|iPhoneSimulator'">
     <MtouchSdkVersion>10.2</MtouchSdkVersion>
@@ -203,6 +204,7 @@
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchFloat32>False</MtouchFloat32>
+    <MtouchExtraArgs>-linkskip=$saferootprojectname$.Core</MtouchExtraArgs>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />

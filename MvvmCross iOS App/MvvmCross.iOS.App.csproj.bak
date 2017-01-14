@@ -88,16 +88,32 @@
     <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <BundleResource Include="template-icon.png" />
     <Compile Include="Setup.cs" />
     <Compile Include="Views\BaseViewController.cs" />
     <Compile Include="Views\FirstViewController.cs" />
-    <Compile Include="Views\Navigation\NavigationController.cs" />
     <Compile Include="Views\SecondViewController.cs" />
+    <BundleResource Include="Resources\Icon@2x.png" />
+    <BundleResource Include="Resources\Icon-60@2x.png" />
+    <BundleResource Include="Resources\Icon-72.png" />
+    <BundleResource Include="Resources\Icon-72@2x.png" />
+    <BundleResource Include="Resources\Icon-76.png" />
+    <BundleResource Include="Resources\Icon-76@2x.png" />
+    <BundleResource Include="Resources\Icon-Small@2x.png" />
+    <BundleResource Include="Resources\Icon-Small-50.png" />
+    <BundleResource Include="Resources\Icon-Small-50@2x.png" />
+    <BundleResource Include="Resources\Icon-Small-40.png" />
+    <BundleResource Include="Resources\Icon-Small-40@2x.png" />
+    <BundleResource Include="Resources\Icon.png" />
+    <BundleResource Include="Resources\Icon-Small.png" />
+    <BundleResource Include="Resources\Default.png" />
+    <BundleResource Include="Resources\Default@2x.png" />
+    <BundleResource Include="Resources\Default-568h@2x.png" />
+    <BundleResource Include="Resources\Default-Portrait.png" />
+    <BundleResource Include="Resources\Default-Portrait@2x.png" />
+    <BundleResource Include="Resources\Default-Landscape@2x.png" />
+    <BundleResource Include="Resources\Default-Landscape.png" />
     <Content Include="_Definitions\_project.vstemplate.xml" />
-    <Content Include="_preprocess.xml">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="_preprocess.xml" />
     <None Include="Info.plist">
       <SubType>Designer</SubType>
     </None>
@@ -105,6 +121,8 @@
     <Content Include="Entitlements.plist">
       <SubType>Designer</SubType>
     </Content>
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork@2x" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Binding.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -129,6 +147,8 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Controls\" />
+    <Folder Include="Converters\" />
     <Folder Include="Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
