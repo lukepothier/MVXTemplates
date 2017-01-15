@@ -5,9 +5,9 @@
     <Name>MVX Android Parallax Layout</Name>
     <Description>XML template for an Android parallax layout</Description>
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>34f29c86-bc47-48ad-b402-fb4f58076115</TemplateID>
-    <SortOrder>1000</SortOrder>
+    <SortOrder>90</SortOrder>
     <TemplateGroupID>MonoAndroid</TemplateGroupID>
   </TemplateData>
   <TemplateContent>

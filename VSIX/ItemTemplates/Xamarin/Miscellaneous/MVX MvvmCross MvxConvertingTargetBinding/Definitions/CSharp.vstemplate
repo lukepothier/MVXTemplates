@@ -5,9 +5,9 @@
     <Name>MVX MvvmCross MvxConvertingTargetBinding</Name>
     <Description>MvvmCross MvxConvertingTargetBinding</Description>    
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>e457adfa-cffb-4701-9b78-99332d0ac86a</TemplateID>
-    <SortOrder>1000</SortOrder>
+    <SortOrder>90</SortOrder>
     <TemplateGroupID>CSharp</TemplateGroupID>
     <AppliesTo>CSharp + MultiTarget</AppliesTo>
     <ShowByDefault>true</ShowByDefault>

@@ -5,9 +5,9 @@
     <Name>MVX MvvmCross ViewModel</Name>
     <Description>MvvmCross ViewModel</Description>
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>35edbce6-31a9-4841-9507-19999cd7925e</TemplateID>
-    <SortOrder>1000</SortOrder>
+    <SortOrder>90</SortOrder>
     <TemplateGroupID>CSharp</TemplateGroupID>
     <AppliesTo>CSharp + MultiTarget</AppliesTo>
     <ShowByDefault>true</ShowByDefault>

@@ -5,9 +5,9 @@
     <Name>MVX MvvmCross VisibilityConverter</Name>
     <Description>MvvmCross VisibilityConverter</Description>    
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>f7e4ce56-c898-4fdd-af87-8f0ec5b91030</TemplateID>
-    <SortOrder>1000</SortOrder>
+    <SortOrder>90</SortOrder>
     <TemplateGroupID>CSharp</TemplateGroupID>
     <AppliesTo>CSharp + MultiTarget</AppliesTo>
     <ShowByDefault>true</ShowByDefault>

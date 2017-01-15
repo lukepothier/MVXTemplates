@@ -5,9 +5,9 @@
     <Name>MVX Android Collapsing Toolbar Layout</Name>
     <Description>XML template for a collapsing toolbar</Description>
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>fe80dbb1-c5e3-4c92-8286-85a97f428341</TemplateID>
-    <SortOrder>1000</SortOrder>
+    <SortOrder>90</SortOrder>
     <TemplateGroupID>MonoAndroid</TemplateGroupID>
   </TemplateData>
   <TemplateContent>

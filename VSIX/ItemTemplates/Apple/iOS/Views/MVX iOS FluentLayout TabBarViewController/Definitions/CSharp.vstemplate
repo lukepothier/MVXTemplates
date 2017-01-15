@@ -5,9 +5,9 @@
     <Name>MVX iOS MvvmCross FluentLayout UITabBarViewController</Name>
     <Description>iOS MvvmCross UITabBarViewController with FluentLayout</Description>
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>193fd6e3-3eaa-4b8a-bcda-383e5b10841b</TemplateID>
-    <SortOrder>1000</SortOrder>
+    <SortOrder>90</SortOrder>
     <TemplateGroupID>Xamarin.iOS</TemplateGroupID>
   </TemplateData>
   <TemplateContent>

@@ -5,9 +5,9 @@
     <Name>MVX MvvmCross ValueConverter</Name>
     <Description>MvvmCross ValueConverter</Description>    
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>dcc7ca55-82ce-4ee2-a254-176915e5d395</TemplateID>
-    <SortOrder>1000</SortOrder>
+    <SortOrder>90</SortOrder>
     <TemplateGroupID>CSharp</TemplateGroupID>
     <AppliesTo>CSharp + MultiTarget</AppliesTo>
     <ShowByDefault>true</ShowByDefault>

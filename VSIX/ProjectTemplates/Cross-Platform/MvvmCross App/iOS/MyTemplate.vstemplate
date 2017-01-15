@@ -4,14 +4,14 @@
     <Description>MvvmCross iOS App</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType />
-    <SortOrder>1000</SortOrder>
+    <SortOrder>90</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>$saferootprojectname$.iOS</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="$safeprojectname$.iOS.csproj" File="iOS.csproj" ReplaceParameters="true" />

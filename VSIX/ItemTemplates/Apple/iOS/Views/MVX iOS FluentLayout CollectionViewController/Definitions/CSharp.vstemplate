@@ -5,9 +5,9 @@
     <Name>MVX iOS MvvmCross FluentLayout UICollectionViewController</Name>
     <Description>iOS MvvmCross UICollectionViewController with FluentLayout</Description>
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>09ddacfa-bf4a-459f-9e03-1e5e764b4ef5</TemplateID>
-    <SortOrder>1000</SortOrder>
+    <SortOrder>90</SortOrder>
     <TemplateGroupID>Xamarin.iOS</TemplateGroupID>
   </TemplateData>
   <TemplateContent>
@@ -29,7 +29,7 @@
       </Reference>
     </References>
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">CollectionViewController.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$CollectionSource.cs">CollectionSource.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$CollectionCell.cs">CollectionCell.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$CollectionSource.cs">CollectionSource.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$CollectionCell.cs">CollectionCell.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

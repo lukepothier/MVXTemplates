@@ -5,14 +5,14 @@
     <DefaultName>iOS</DefaultName>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>iOS</ProjectSubType>
-    <SortOrder>1000</SortOrder>
+    <SortOrder>90</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>icon.png</Icon>
     <TemplateID>$guid1$</TemplateID>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
