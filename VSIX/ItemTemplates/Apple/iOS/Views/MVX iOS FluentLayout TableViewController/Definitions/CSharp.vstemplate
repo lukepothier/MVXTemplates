@@ -29,7 +29,7 @@
       </Reference>
     </References>
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">TableViewController.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$TableSource.cs">TableSource.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$TableCell.cs">TableCell.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$TableSource.cs">TableSource.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$TableCell.cs">TableCell.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
