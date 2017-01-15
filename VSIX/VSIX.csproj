@@ -47,37 +47,37 @@
     <TemplateBuilderTargets Condition=" '$(TemplateBuilderTargets)'=='' ">$([System.IO.Path]::GetFullPath( $(MSBuildProjectDirectory)\..\packages\TemplateBuilder.1.1.4.9-beta\tools\ligershark.templates.targets ))</TemplateBuilderTargets>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="ItemTemplates\Android\Miscellaneous\MVX Android MvvmCross Setup Class - Advanced\Setup.cs" />
-    <Content Include="ItemTemplates\Android\Miscellaneous\MVX Android MvvmCross Setup Class - Basic\Setup.cs" />
-    <Content Include="ItemTemplates\Android\Views\MVX Android MvvmCross Activity\Activity.cs" />
-    <Content Include="ItemTemplates\Android\Views\MVX Android MvvmCross Fragment\Fragment.cs" />
-    <Content Include="ItemTemplates\Apple\iOS\Miscellaneous\MVX iOS MvvmCross Setup Class - Advanced\Setup.cs" />
-    <Content Include="ItemTemplates\Apple\iOS\Miscellaneous\MVX iOS MvvmCross Setup Class - Basic\Setup.cs" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\Test CollectionViewController\CollectionCell.cs" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\Test CollectionViewController\CollectionSource.cs" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\Test CollectionViewController\CollectionViewController.cs" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout TabBarViewController\TabBarViewController.cs" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout TableViewController\TableCell.cs" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout TableViewController\TableSource.cs" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout TableViewController\TableViewController.cs" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout ViewController\ViewController.cs" />
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross App Class\App.cs" />
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross ColorConverter\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross MvxConvertingTargetBinding\icon.png" />
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross ValueConverter\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross VisibilityConverter\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross MvxConvertingTargetBinding\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Xamarin\ViewModels\MVX MvvmCross ViewModel\ViewModel.cs" />
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross ColorConverter\ColorConverter.cs" />
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross MvxConvertingTargetBinding\MyCustomBinding.cs" />
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross ValueConverter\ValueConverter.cs" />
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross VisibilityConverter\VisibilityConverter.cs" />
+    <Content Include="ItemTemplates\Android\Android Setup Class - Advanced\Setup.cs" />
+    <Content Include="ItemTemplates\Android\Android Setup Class - Basic\Setup.cs" />
+    <Content Include="ItemTemplates\Android\Activity Codebehind\Activity.cs" />
+    <Content Include="ItemTemplates\Android\Fragment Codebehind\Fragment.cs" />
+    <Content Include="ItemTemplates\iOS\iOS Setup Class - Advanced\Setup.cs" />
+    <Content Include="ItemTemplates\iOS\iOS Setup Class - Basic\Setup.cs" />
+    <Content Include="ItemTemplates\iOS\CollectionViewController\CollectionCell.cs" />
+    <Content Include="ItemTemplates\iOS\CollectionViewController\CollectionSource.cs" />
+    <Content Include="ItemTemplates\iOS\CollectionViewController\CollectionViewController.cs" />
+    <Content Include="ItemTemplates\iOS\TabBarViewController\TabBarViewController.cs" />
+    <Content Include="ItemTemplates\iOS\TableViewController\TableCell.cs" />
+    <Content Include="ItemTemplates\iOS\TableViewController\TableSource.cs" />
+    <Content Include="ItemTemplates\iOS\TableViewController\TableViewController.cs" />
+    <Content Include="ItemTemplates\iOS\ViewController\ViewController.cs" />
+    <Content Include="ItemTemplates\Xamarin\App Class\App.cs" />
+    <Content Include="ItemTemplates\Xamarin\ColorConverter\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Xamarin\Custom Binding\icon.png" />
+    <Content Include="ItemTemplates\Xamarin\ValueConverter\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Xamarin\VisibilityConverter\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Xamarin\Custom Binding\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Xamarin\ViewModel\ViewModel.cs" />
+    <Content Include="ItemTemplates\Xamarin\ColorConverter\ColorConverter.cs" />
+    <Content Include="ItemTemplates\Xamarin\Custom Binding\MyCustomBinding.cs" />
+    <Content Include="ItemTemplates\Xamarin\ValueConverter\ValueConverter.cs" />
+    <Content Include="ItemTemplates\Xamarin\VisibilityConverter\VisibilityConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross ColorConverter\icon.png" />
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross ValueConverter\icon.png" />
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross VisibilityConverter\icon.png" />
+    <Content Include="ItemTemplates\Xamarin\ColorConverter\icon.png" />
+    <Content Include="ItemTemplates\Xamarin\ValueConverter\icon.png" />
+    <Content Include="ItemTemplates\Xamarin\VisibilityConverter\icon.png" />
     <Content Include="mvxtemplates_large.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -193,56 +193,56 @@
     <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\MyTemplate.vstemplate" />
     <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\_preprocess.xml" />
     <Content Include="template-report.xml" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Activity Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Activity Layout\mvx_activity.xml" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Collapsing Toolbar Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Collapsing Toolbar Layout\mvx_collapsing_toolbar.xml" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Drawer Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Drawer Layout\mvx_drawer.xml" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Fragment Activity Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Fragment Activity Layout\mvx_fragment_activity.xml" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Fragment Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Fragment Layout\mvx_fragment.xml" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Parallax Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Parallax Layout\mvx_parallax.xml" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Slide-out Menu Layout\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Slide-out Menu Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Slide-out Menu Layout\mvx_slideout_menu.xml" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Toolbar Layout\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Miscellaneous\MVX Android MvvmCross Setup Class - Advanced\icon.png" />
-    <Content Include="ItemTemplates\Android\Miscellaneous\MVX Android MvvmCross Setup Class - Basic\icon.png" />
-    <Content Include="ItemTemplates\Android\Views\MVX Android MvvmCross Activity\icon.png" />
-    <Content Include="ItemTemplates\Android\Views\MVX Android MvvmCross Fragment\icon.png" />
-    <Content Include="ItemTemplates\Android\Views\MVX Android MvvmCross Activity\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Apple\iOS\Miscellaneous\MVX iOS MvvmCross Setup Class - Advanced\icon.png" />
-    <Content Include="ItemTemplates\Apple\iOS\Miscellaneous\MVX iOS MvvmCross Setup Class - Basic\icon.png" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout TabBarViewController\icon.png" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\Test CollectionViewController\icon.png" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout TableViewController\icon.png" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\Test CollectionViewController\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout ViewController\icon.png" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout ViewController\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross App Class\icon.png" />
-    <Content Include="ItemTemplates\Xamarin\ViewModels\MVX MvvmCross ViewModel\icon.png" />
+    <Content Include="ItemTemplates\Android\Activity\icon.png" />
+    <Content Include="ItemTemplates\Android\Activity\mvx_activity.xml" />
+    <Content Include="ItemTemplates\Android\Collapsing Toolbar\icon.png" />
+    <Content Include="ItemTemplates\Android\Collapsing Toolbar\mvx_collapsing_toolbar.xml" />
+    <Content Include="ItemTemplates\Android\Drawer\icon.png" />
+    <Content Include="ItemTemplates\Android\Drawer\mvx_drawer.xml" />
+    <Content Include="ItemTemplates\Android\Fragment Activity\icon.png" />
+    <Content Include="ItemTemplates\Android\Fragment Activity\mvx_fragment_activity.xml" />
+    <Content Include="ItemTemplates\Android\Fragment\icon.png" />
+    <Content Include="ItemTemplates\Android\Fragment\mvx_fragment.xml" />
+    <Content Include="ItemTemplates\Android\Parallax\icon.png" />
+    <Content Include="ItemTemplates\Android\Parallax\mvx_parallax.xml" />
+    <Content Include="ItemTemplates\Android\Slide-out Menu\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Slide-out Menu\icon.png" />
+    <Content Include="ItemTemplates\Android\Slide-out Menu\mvx_slideout_menu.xml" />
+    <Content Include="ItemTemplates\Android\Toolbar\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Android Setup Class - Advanced\icon.png" />
+    <Content Include="ItemTemplates\Android\Android Setup Class - Basic\icon.png" />
+    <Content Include="ItemTemplates\Android\Activity Codebehind\icon.png" />
+    <Content Include="ItemTemplates\Android\Fragment Codebehind\icon.png" />
+    <Content Include="ItemTemplates\Android\Activity Codebehind\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\iOS Setup Class - Advanced\icon.png" />
+    <Content Include="ItemTemplates\iOS\iOS Setup Class - Basic\icon.png" />
+    <Content Include="ItemTemplates\iOS\TabBarViewController\icon.png" />
+    <Content Include="ItemTemplates\iOS\CollectionViewController\icon.png" />
+    <Content Include="ItemTemplates\iOS\TableViewController\icon.png" />
+    <Content Include="ItemTemplates\iOS\CollectionViewController\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\ViewController\icon.png" />
+    <Content Include="ItemTemplates\iOS\ViewController\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Xamarin\App Class\icon.png" />
+    <Content Include="ItemTemplates\Xamarin\ViewModel\icon.png" />
     <Content Include="LICENSE">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Activity Layout\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Fragment Layout\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Parallax Layout\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Miscellaneous\MVX Android MvvmCross Setup Class - Basic\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Collapsing Toolbar Layout\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Drawer Layout\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Fragment Activity Layout\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Views\MVX Android MvvmCross Fragment\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Miscellaneous\MVX Android MvvmCross Setup Class - Advanced\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Apple\iOS\Miscellaneous\MVX iOS MvvmCross Setup Class - Basic\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Apple\iOS\Miscellaneous\MVX iOS MvvmCross Setup Class - Advanced\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout TableViewController\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout TabBarViewController\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross App Class\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Xamarin\ViewModels\MVX MvvmCross ViewModel\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Activity\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Fragment\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Parallax\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Android Setup Class - Basic\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Collapsing Toolbar\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Drawer\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Fragment Activity\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Fragment Codebehind\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Android Setup Class - Advanced\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\iOS Setup Class - Basic\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\iOS Setup Class - Advanced\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\TableViewController\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\TabBarViewController\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Xamarin\App Class\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Xamarin\ViewModel\Definitions\CSharp.vstemplate" />
     <Content Include="packages.config" />
     <Content Include="Packages\cirrious.fluentlayout.2.5.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -256,8 +256,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Toolbar Layout\icon.png" />
-    <Content Include="ItemTemplates\Android\Layouts\MVX Android Toolbar Layout\mvx_toolbar.xml" />
+    <Content Include="ItemTemplates\Android\Toolbar\icon.png" />
+    <Content Include="ItemTemplates\Android\Toolbar\mvx_toolbar.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
