@@ -5,9 +5,10 @@
     <Name>MVX iOS MvvmCross FluentLayout UICollectionViewController</Name>
     <Description>iOS MvvmCross UICollectionViewController with FluentLayout</Description>
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <TemplateID>09ddacfa-bf4a-459f-9e03-1e5e764b4ef5</TemplateID>
     <SortOrder>1000</SortOrder>
+    <TemplateGroupID>Xamarin.iOS</TemplateGroupID>
   </TemplateData>
   <TemplateContent>
     <References>

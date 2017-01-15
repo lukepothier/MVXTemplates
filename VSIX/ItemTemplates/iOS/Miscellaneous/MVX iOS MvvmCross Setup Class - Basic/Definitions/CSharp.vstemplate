@@ -5,9 +5,10 @@
     <Name>MVX iOS MvvmCross Setup Class - Basic</Name>
     <Description>Basic setup Class for a Xamarin MvvmCross iOS app</Description>
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <TemplateID>52cabb46-6847-4f23-9f9b-ba3f8def1f4a</TemplateID>
     <SortOrder>1000</SortOrder>
+    <TemplateGroupID>Xamarin.iOS</TemplateGroupID>
   </TemplateData>
   <TemplateContent>
     <References>
