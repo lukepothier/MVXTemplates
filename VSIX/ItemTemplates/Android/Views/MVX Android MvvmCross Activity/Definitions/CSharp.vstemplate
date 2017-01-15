@@ -5,9 +5,10 @@
     <Name>MVX Android MvvmCross Activity Class</Name>
     <Description>AppCompat Activity based on the Android support libraries for backwards compatibility</Description>
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <TemplateID>c14bf808-1878-4d46-a73b-6f429d52f2eb</TemplateID>
     <SortOrder>1000</SortOrder>
+    <TemplateGroupID>MonoAndroid</TemplateGroupID>
   </TemplateData>
   <TemplateContent>
     <References>

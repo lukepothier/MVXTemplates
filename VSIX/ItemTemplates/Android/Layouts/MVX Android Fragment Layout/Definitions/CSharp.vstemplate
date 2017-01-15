@@ -5,9 +5,10 @@
     <Name>MVX Android Fragment Layout</Name>
     <Description>XML template for an empty Android fragment</Description>
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <TemplateID>d4de2664-3632-4bc6-8c99-c2579d9d7500</TemplateID>
     <SortOrder>1000</SortOrder>
+    <TemplateGroupID>MonoAndroid</TemplateGroupID>
   </TemplateData>
   <TemplateContent>
     <References />

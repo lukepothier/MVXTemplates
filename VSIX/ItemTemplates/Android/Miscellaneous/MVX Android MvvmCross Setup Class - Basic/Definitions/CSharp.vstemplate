@@ -5,9 +5,10 @@
     <Name>MVX Android MvvmCross Setup Class - Basic</Name>
     <Description>Basic setup Class for a Xamarin MvvmCross Android app</Description>
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <TemplateID>6f731be7-fbc2-4bc9-b3ca-05a580e79985</TemplateID>
     <SortOrder>1000</SortOrder>
+    <TemplateGroupID>MonoAndroid</TemplateGroupID>
   </TemplateData>
   <TemplateContent>
     <References>

@@ -5,9 +5,10 @@
     <Name>MVX Android Drawer Layout</Name>
     <Description>XML template for Android drawer layout</Description>
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <TemplateID>b854aeef-4f0a-4b0f-97cf-651f5ffac6b1</TemplateID>
     <SortOrder>1000</SortOrder>
+    <TemplateGroupID>MonoAndroid</TemplateGroupID>
   </TemplateData>
   <TemplateContent>
     <References />

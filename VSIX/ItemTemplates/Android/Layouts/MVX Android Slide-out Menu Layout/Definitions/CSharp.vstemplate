@@ -5,9 +5,10 @@
     <Name>MVX Slide-out Menu Layout</Name>
     <Description>XML template for Android slide-out menu layout</Description>
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <TemplateID>12c2f640-44ed-4f24-8152-8f61a44425f6</TemplateID>
     <SortOrder>1000</SortOrder>
+    <TemplateGroupID>MonoAndroid</TemplateGroupID>
   </TemplateData>
   <TemplateContent>
     <References />
