@@ -61,23 +61,23 @@
     <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout TableViewController\TableSource.cs" />
     <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout TableViewController\TableViewController.cs" />
     <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout ViewController\ViewController.cs" />
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross App Class\App.cs" />
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ColorConverter\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross MvxConvertingTargetBinding\icon.png" />
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ValueConverter\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross VisibilityConverter\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross MvxConvertingTargetBinding\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Shared\ViewModels\MVX MvvmCross ViewModel\ViewModel.cs" />
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ColorConverter\ColorConverter.cs" />
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross MvxConvertingTargetBinding\MyCustomBinding.cs" />
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ValueConverter\ValueConverter.cs" />
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross VisibilityConverter\VisibilityConverter.cs" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross App Class\App.cs" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross ColorConverter\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross MvxConvertingTargetBinding\icon.png" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross ValueConverter\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross VisibilityConverter\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross MvxConvertingTargetBinding\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Xamarin\ViewModels\MVX MvvmCross ViewModel\ViewModel.cs" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross ColorConverter\ColorConverter.cs" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross MvxConvertingTargetBinding\MyCustomBinding.cs" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross ValueConverter\ValueConverter.cs" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross VisibilityConverter\VisibilityConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ColorConverter\icon.png" />
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross ValueConverter\icon.png" />
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross VisibilityConverter\icon.png" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross ColorConverter\icon.png" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross ValueConverter\icon.png" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross VisibilityConverter\icon.png" />
     <Content Include="mvxtemplates_large.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -222,8 +222,8 @@
     <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout CollectionViewController\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout ViewController\icon.png" />
     <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout ViewController\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross App Class\icon.png" />
-    <Content Include="ItemTemplates\Shared\ViewModels\MVX MvvmCross ViewModel\icon.png" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross App Class\icon.png" />
+    <Content Include="ItemTemplates\Xamarin\ViewModels\MVX MvvmCross ViewModel\icon.png" />
     <Content Include="LICENSE">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -241,8 +241,8 @@
     <Content Include="ItemTemplates\Apple\iOS\Miscellaneous\MVX iOS MvvmCross Setup Class - Advanced\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout TableViewController\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Apple\iOS\Views\MVX iOS FluentLayout TabBarViewController\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Shared\Miscellaneous\MVX MvvmCross App Class\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Shared\ViewModels\MVX MvvmCross ViewModel\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Xamarin\Miscellaneous\MVX MvvmCross App Class\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Xamarin\ViewModels\MVX MvvmCross ViewModel\Definitions\CSharp.vstemplate" />
     <Content Include="packages.config" />
     <Content Include="Packages\cirrious.fluentlayout.2.5.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

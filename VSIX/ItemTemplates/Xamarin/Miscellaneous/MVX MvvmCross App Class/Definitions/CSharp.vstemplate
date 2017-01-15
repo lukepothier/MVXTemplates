@@ -5,9 +5,12 @@
     <Name>MVX MvvmCross App Class</Name>
     <Description>MvvmCross App Class</Description>
     <Icon>icon.png</Icon>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <TemplateID>c1ae3129-4402-4398-95bd-f8e9e794e6c4</TemplateID>
     <SortOrder>1000</SortOrder>
+    <TemplateGroupID>CSharp</TemplateGroupID>
+    <AppliesTo>CSharp + MultiTarget</AppliesTo>
+    <ShowByDefault>true</ShowByDefault>
   </TemplateData>
   <TemplateContent>
     <References>
