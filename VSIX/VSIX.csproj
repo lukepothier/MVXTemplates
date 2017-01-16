@@ -50,7 +50,11 @@
     <Content Include="ItemTemplates\Android\Android Setup Class - Advanced\Setup.cs" />
     <Content Include="ItemTemplates\Android\Android Setup Class - Basic\Setup.cs" />
     <Content Include="ItemTemplates\Android\Activity Codebehind\Activity.cs" />
+    <Content Include="ItemTemplates\Android\Android Custom Binding\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Android Custom Binding\icon.png" />
     <Content Include="ItemTemplates\Android\Fragment Codebehind\Fragment.cs" />
+    <Content Include="ItemTemplates\Android\Android ValueConverter\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Android\Android ValueConverter\icon.png" />
     <Content Include="ItemTemplates\iOS\iOS Setup Class - Advanced\Setup.cs" />
     <Content Include="ItemTemplates\iOS\iOS Setup Class - Basic\Setup.cs" />
     <Content Include="ItemTemplates\iOS\CollectionViewController\CollectionCell.cs" />
@@ -60,23 +64,30 @@
     <Content Include="ItemTemplates\iOS\TableViewController\TableCell.cs" />
     <Content Include="ItemTemplates\iOS\TableViewController\TableSource.cs" />
     <Content Include="ItemTemplates\iOS\TableViewController\TableViewController.cs" />
+    <Content Include="ItemTemplates\iOS\iOS ValueConverter\Definitions\CSharp.vstemplate">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ItemTemplates\iOS\iOS ValueConverter\icon.png" />
     <Content Include="ItemTemplates\iOS\ViewController\ViewController.cs" />
     <Content Include="ItemTemplates\Xamarin\App Class\App.cs" />
     <Content Include="ItemTemplates\Xamarin\ColorConverter\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Xamarin\Custom Binding\icon.png" />
-    <Content Include="ItemTemplates\Xamarin\ValueConverter\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\iOS Custom Binding\icon.png" />
+    <Content Include="ItemTemplates\Xamarin\Core ValueConverter\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Xamarin\VisibilityConverter\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Xamarin\Custom Binding\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\iOS\iOS Custom Binding\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Xamarin\ViewModel\ViewModel.cs" />
     <Content Include="ItemTemplates\Xamarin\ColorConverter\ColorConverter.cs" />
-    <Content Include="ItemTemplates\Xamarin\Custom Binding\MyCustomBinding.cs" />
-    <Content Include="ItemTemplates\Xamarin\ValueConverter\ValueConverter.cs" />
+    <Content Include="ItemTemplates\iOS\iOS Custom Binding\MyCustomBinding.cs" />
+    <Content Include="ItemTemplates\Xamarin\Core ValueConverter\ValueConverter.cs" />
     <Content Include="ItemTemplates\Xamarin\VisibilityConverter\VisibilityConverter.cs" />
+    <Content Include="ItemTemplates\Android\Android Custom Binding\MyCustomBinding.cs" />
+    <Content Include="ItemTemplates\iOS\iOS ValueConverter\ValueConverter.cs" />
+    <Content Include="ItemTemplates\Android\Android ValueConverter\ValueConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ItemTemplates\Xamarin\ColorConverter\icon.png" />
-    <Content Include="ItemTemplates\Xamarin\ValueConverter\icon.png" />
+    <Content Include="ItemTemplates\Xamarin\Core ValueConverter\icon.png" />
     <Content Include="ItemTemplates\Xamarin\VisibilityConverter\icon.png" />
     <Content Include="mvxtemplates_large.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

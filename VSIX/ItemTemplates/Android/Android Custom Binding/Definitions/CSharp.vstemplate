@@ -6,11 +6,9 @@
     <Description>MvvmCross MvxConvertingTargetBinding</Description>    
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
-    <TemplateID>e457adfa-cffb-4701-9b78-99332d0ac86a</TemplateID>
+    <TemplateID>1d1bc429-6921-4e42-a732-75d91a0d1c69</TemplateID>
     <SortOrder>90</SortOrder>
-    <TemplateGroupID>CSharp</TemplateGroupID>
-    <AppliesTo>CSharp + MultiTarget</AppliesTo>
-    <ShowByDefault>true</ShowByDefault>
+    <TemplateGroupID>MonoAndroid</TemplateGroupID>
   </TemplateData>
   <TemplateContent>
     <References />

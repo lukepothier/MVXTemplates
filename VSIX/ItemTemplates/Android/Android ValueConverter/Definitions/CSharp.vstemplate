@@ -1,0 +1,17 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>ValueConverter.cs</DefaultName>
+    <Name>MVX MvvmCross ValueConverter</Name>
+    <Description>MvvmCross ValueConverter</Description>    
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
+    <TemplateID>dc4c39e3-85b3-4713-9ade-5a255c2b3daa</TemplateID>
+    <SortOrder>90</SortOrder>
+    <TemplateGroupID>MonoAndroid</TemplateGroupID>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">ValueConverter.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

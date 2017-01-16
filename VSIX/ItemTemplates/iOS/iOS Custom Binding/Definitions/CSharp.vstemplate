@@ -1,0 +1,17 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>MyCustomBinding.cs</DefaultName>
+    <Name>MVX MvvmCross MvxConvertingTargetBinding</Name>
+    <Description>MvvmCross MvxConvertingTargetBinding</Description>    
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
+    <TemplateID>e457adfa-cffb-4701-9b78-99332d0ac86a</TemplateID>
+    <SortOrder>90</SortOrder>
+    <TemplateGroupID>Xamarin.iOS</TemplateGroupID>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">MyCustomBinding.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,17 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>ValueConverter.cs</DefaultName>
+    <Name>MVX MvvmCross ValueConverter</Name>
+    <Description>MvvmCross ValueConverter</Description>    
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
+    <TemplateID>fdc58dcd-2171-43f8-8cec-d65425f9f59a</TemplateID>
+    <SortOrder>90</SortOrder>
+    <TemplateGroupID>Xamarin.iOS</TemplateGroupID>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">ValueConverter.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
