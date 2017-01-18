@@ -46,12 +46,19 @@ A collection of Visual Studio item and project templates for use in MvvmCross Xa
 
 each of which are avilable individually as well. It looks like this:
 
+![](http://i.imgur.com/NtZlnVb.png)
+
+The app is built with MvvmCross 4.4.0.
+
+
 ## Sample
 
-A sample MvvmCross App, which implements many of the templates available in the .vsix (and some other nifty stuff that might be useful) is in progress, and will eventually be available [here](https://github.com/lukepothier/MVXTemplates-Samples).
+A sample MvvmCross app, which implements many of the templates available in the .vsix (and some other nifty stuff that might be useful) is in progress, and will eventually be available [here](https://github.com/lukepothier/MVXTemplates-Samples).
 
 ## Acknowledgements
 
 * Everyone who makes [MvvmCross](https://github.com/mvvmcross/mvvmcross)
 * Jonathan Froon [(@Plac3hold3r)](https://github.com/Plac3hold3r) for his contributions
 * [SideWaffle](https://github.com/LigerShark/side-waffle)
+
+For any comments, questions, complaints, suggestions or requests, please don't hesitate to [create an issue](https://github.com/lukepothier/MVXTemplates/issues/new) or contact me at [lukepothier@gmail.com](mailto:lukepothier@gmail.com).
