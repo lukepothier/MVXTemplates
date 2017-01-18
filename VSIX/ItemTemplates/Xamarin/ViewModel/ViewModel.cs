@@ -4,9 +4,16 @@ namespace $rootnamespace$
 {
     public class $safeitemname$ : MvxViewModel
     {
-        protected override void Init()
+        public $safeitemname$()
         {
+        }
 
+        public void Init()
+        {
+        }
+
+        public override void Start()
+        {
         }
     }
 }

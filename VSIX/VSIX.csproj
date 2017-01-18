@@ -63,13 +63,6 @@
     <Content Include="ItemTemplates\Android\Android ValueConverter\icon.png" />
     <Content Include="ItemTemplates\iOS\iOS Setup Class - Advanced\Setup.cs" />
     <Content Include="ItemTemplates\iOS\iOS Setup Class - Basic\Setup.cs" />
-    <Content Include="ItemTemplates\iOS\CollectionViewController\CollectionCell.cs" />
-    <Content Include="ItemTemplates\iOS\CollectionViewController\CollectionSource.cs" />
-    <Content Include="ItemTemplates\iOS\CollectionViewController\CollectionViewController.cs" />
-    <Content Include="ItemTemplates\iOS\TabBarViewController\TabBarViewController.cs" />
-    <Content Include="ItemTemplates\iOS\TableViewController\TableCell.cs" />
-    <Content Include="ItemTemplates\iOS\TableViewController\TableSource.cs" />
-    <Content Include="ItemTemplates\iOS\TableViewController\TableViewController.cs" />
     <Content Include="ItemTemplates\iOS\iOS ValueConverter\Definitions\CSharp.vstemplate">
       <SubType>Designer</SubType>
     </Content>
@@ -212,20 +205,8 @@
     <Content Include="template-report.xml" />
     <Content Include="ItemTemplates\Android\Activity\icon.png" />
     <Content Include="ItemTemplates\Android\Activity\mvx_activity.xml" />
-    <Content Include="ItemTemplates\Android\Collapsing Toolbar\icon.png" />
-    <Content Include="ItemTemplates\Android\Collapsing Toolbar\mvx_collapsing_toolbar.xml" />
-    <Content Include="ItemTemplates\Android\Drawer\icon.png" />
-    <Content Include="ItemTemplates\Android\Drawer\mvx_drawer.xml" />
-    <Content Include="ItemTemplates\Android\Fragment Activity\icon.png" />
-    <Content Include="ItemTemplates\Android\Fragment Activity\mvx_fragment_activity.xml" />
     <Content Include="ItemTemplates\Android\Fragment\icon.png" />
     <Content Include="ItemTemplates\Android\Fragment\mvx_fragment.xml" />
-    <Content Include="ItemTemplates\Android\Parallax\icon.png" />
-    <Content Include="ItemTemplates\Android\Parallax\mvx_parallax.xml" />
-    <Content Include="ItemTemplates\Android\Slide-out Menu\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Slide-out Menu\icon.png" />
-    <Content Include="ItemTemplates\Android\Slide-out Menu\mvx_slideout_menu.xml" />
-    <Content Include="ItemTemplates\Android\Toolbar\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Android Setup Class - Advanced\icon.png" />
     <Content Include="ItemTemplates\Android\Android Setup Class - Basic\icon.png" />
     <Content Include="ItemTemplates\Android\Activity Codebehind\icon.png" />
@@ -233,10 +214,6 @@
     <Content Include="ItemTemplates\Android\Activity Codebehind\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\iOS\iOS Setup Class - Advanced\icon.png" />
     <Content Include="ItemTemplates\iOS\iOS Setup Class - Basic\icon.png" />
-    <Content Include="ItemTemplates\iOS\TabBarViewController\icon.png" />
-    <Content Include="ItemTemplates\iOS\CollectionViewController\icon.png" />
-    <Content Include="ItemTemplates\iOS\TableViewController\icon.png" />
-    <Content Include="ItemTemplates\iOS\CollectionViewController\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\iOS\ViewController\icon.png" />
     <Content Include="ItemTemplates\iOS\ViewController\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Xamarin\App Class\icon.png" />
@@ -247,17 +224,11 @@
     </Content>
     <Content Include="ItemTemplates\Android\Activity\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Fragment\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Parallax\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Android Setup Class - Basic\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Collapsing Toolbar\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Drawer\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Android\Fragment Activity\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Fragment Codebehind\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Android\Android Setup Class - Advanced\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\iOS\iOS Setup Class - Basic\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\iOS\iOS Setup Class - Advanced\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\iOS\TableViewController\Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\iOS\TabBarViewController\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Xamarin\App Class\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Xamarin\ViewModel\Definitions\CSharp.vstemplate" />
     <Content Include="packages.config" />
@@ -272,10 +243,6 @@
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ItemTemplates\Android\Toolbar\icon.png" />
-    <Content Include="ItemTemplates\Android\Toolbar\mvx_toolbar.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

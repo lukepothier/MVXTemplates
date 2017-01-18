@@ -46,7 +46,7 @@ A collection of Visual Studio item and project templates for use in MvvmCross Xa
 
 each of which are avilable individually as well. It looks like this:
 
-![](http://i.imgur.com/NtZlnVb.png)
+![](http://i.imgur.com/cByPv1J.png)
 
 The app is built with MvvmCross 4.4.0.
 
