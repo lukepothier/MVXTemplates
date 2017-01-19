@@ -9,16 +9,17 @@
     <TemplateID>c14bf808-1878-4d46-a73b-6f429d52f2eb</TemplateID>
     <SortOrder>90</SortOrder>
     <TemplateGroupID>MonoAndroid</TemplateGroupID>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
-    <References>
+    <!--<References>
       <Reference>
         <Assembly>Mono.Android</Assembly>
       </Reference>
       <Reference>
         <Assembly>Xamarin.Android.Support.v7.AppCompat</Assembly>
       </Reference>
-    </References>
+    </References>-->
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">Activity.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

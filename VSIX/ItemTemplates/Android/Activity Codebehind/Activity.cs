@@ -3,7 +3,9 @@ using Android.Content.PM;
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Views;
-using Mvx.Droid.Support.V7.AppCompat;
+using Android.Widget;
+using MvvmCross.Droid.Platform;
+using MvvmCross.Droid.Support.V7.AppCompat;
 
 namespace $rootnamespace$
 {

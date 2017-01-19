@@ -9,9 +9,10 @@
     <TemplateID>249ae20b-359d-488f-9ee2-b0fc781d04c7</TemplateID>
     <SortOrder>90</SortOrder>
     <TemplateGroupID>MonoAndroid</TemplateGroupID>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
-    <References>
+    <!--<References>
       <Reference>
         <Assembly>Mono.Android</Assembly>
       </Reference>
@@ -21,7 +22,7 @@
       <Reference>
         <Assembly>MvvmCross.Droid.Support.V4</Assembly>
       </Reference>
-    </References>
+    </References>-->
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">Fragment.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Reflection;
 using Android.Content;
+using Android.Support.Design.Widget;
 using MvvmCross.Binding.Bindings.Target.Construction;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Core.Views;
 using MvvmCross.Droid.Shared.Presenter;
 using MvvmCross.Droid.Support.V7.AppCompat;
+using MvvmCross.Droid.Support.V7.RecyclerView;
 using MvvmCross.Droid.Views;
 using MvvmCross.Platform;
 
@@ -48,8 +50,8 @@ namespace $rootnamespace$
         protected override IEnumerable<Assembly> AndroidViewAssemblies 
             => new List<Assembly>(base.AndroidViewAssemblies)
             {
-                typeof(Android.Support.Design.Widget.FloatingActionButton).Assembly,
-                typeof(MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView).Assembly
+                typeof(FloatingActionButton).Assembly,
+                typeof(MvxRecyclerView).Assembly
             };
 
         // Using Android fragments requires the use of MvxFragmentsPresenter, which will happen by default within MvxAppCompatSetup

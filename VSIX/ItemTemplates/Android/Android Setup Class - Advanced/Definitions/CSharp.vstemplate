@@ -9,9 +9,10 @@
     <TemplateID>e7795739-1f67-4410-9889-6856dc42d607</TemplateID>
     <SortOrder>90</SortOrder>
     <TemplateGroupID>MonoAndroid</TemplateGroupID>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
-    <References>
+    <!--<References>
       <Reference>
         <Assembly>Mono.Android</Assembly>
       </Reference>
@@ -24,7 +25,7 @@
       <Reference>
         <Assembly>MvvmCross.Droid.Support.V7.AppCompat</Assembly>
       </Reference>
-    </References>
+    </References>-->
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">Setup.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

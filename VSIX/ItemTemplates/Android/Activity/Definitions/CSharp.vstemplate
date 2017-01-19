@@ -9,9 +9,10 @@
     <TemplateID>65197798-4682-45e6-9bf4-d2d9e2929527</TemplateID>
     <SortOrder>90</SortOrder>
     <TemplateGroupID>MonoAndroid</TemplateGroupID>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
-    <References />
+    <!--<References />-->
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.xml">mvx_activity.xml</ProjectItem>
   </TemplateContent>
 </VSTemplate>

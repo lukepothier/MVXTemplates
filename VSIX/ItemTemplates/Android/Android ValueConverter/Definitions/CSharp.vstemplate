@@ -9,9 +9,10 @@
     <TemplateID>dc4c39e3-85b3-4713-9ade-5a255c2b3daa</TemplateID>
     <SortOrder>90</SortOrder>
     <TemplateGroupID>MonoAndroid</TemplateGroupID>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
-    <References />
+    <!--<References />-->
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">ValueConverter.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

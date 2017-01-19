@@ -1,10 +1,11 @@
 ﻿using System;
+using Android.Widget;
 using MvvmCross.Binding;
 using MvvmCross.Binding.Bindings.Target;
 
 namespace $rootnamespace$
 {
-    // For more information on custom binding see:
+    // For more information on custom bindings, see:
     // https://mvvmcross.com/docs/customize-app#section-registering-custom-bindings
     // http://slodge.blogspot.co.za/2013/06/n28-custom-bindings-n1-days-of-mvvmcross.html
     public class $safeitemname$ : MvxConvertingTargetBinding

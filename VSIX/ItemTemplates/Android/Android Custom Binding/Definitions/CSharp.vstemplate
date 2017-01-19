@@ -9,9 +9,10 @@
     <TemplateID>1d1bc429-6921-4e42-a732-75d91a0d1c69</TemplateID>
     <SortOrder>90</SortOrder>
     <TemplateGroupID>MonoAndroid</TemplateGroupID>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
-    <References />
+    <!--<References />-->
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">MyCustomBinding.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
