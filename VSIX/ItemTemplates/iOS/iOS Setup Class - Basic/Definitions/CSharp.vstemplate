@@ -9,16 +9,17 @@
     <TemplateID>52cabb46-6847-4f23-9f9b-ba3f8def1f4a</TemplateID>
     <SortOrder>90</SortOrder>
     <TemplateGroupID>Xamarin.iOS</TemplateGroupID>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
-    <References>
+    <!--<References>
       <Reference>
         <Assembly>MvvmCross.Core</Assembly>
       </Reference>
       <Reference>
         <Assembly>MvvmCross.iOS</Assembly>
       </Reference>
-    </References>
+    </References>-->
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">Setup.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

@@ -1,6 +1,7 @@
 ﻿using System;
 using MvvmCross.Binding;
 using MvvmCross.Binding.Bindings.Target;
+using UIKit;
 
 namespace $rootnamespace$
 {

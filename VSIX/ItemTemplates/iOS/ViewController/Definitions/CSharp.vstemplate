@@ -9,9 +9,10 @@
     <TemplateID>3bf30f94-adeb-4d88-a08e-21d4f7b14940</TemplateID>
     <SortOrder>90</SortOrder>
     <TemplateGroupID>Xamarin.iOS</TemplateGroupID>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
-    <References>
+    <!--<References>
       <Reference>
         <Assembly>Cirrious.FluentLayouts.Touch</Assembly>
       </Reference>
@@ -24,7 +25,7 @@
       <Reference>
         <Assembly>Xamarin.iOS</Assembly>
       </Reference>
-    </References>
+    </References>-->
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">ViewController.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

@@ -9,9 +9,10 @@
     <TemplateID>fdc58dcd-2171-43f8-8cec-d65425f9f59a</TemplateID>
     <SortOrder>90</SortOrder>
     <TemplateGroupID>Xamarin.iOS</TemplateGroupID>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
-    <References />
+    <!--<References />-->
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">ValueConverter.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

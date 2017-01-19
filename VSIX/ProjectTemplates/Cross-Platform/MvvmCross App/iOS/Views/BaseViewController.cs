@@ -30,7 +30,6 @@ namespace $safeprojectname$.Views
         {
             base.ViewWillAppear(animated);
 
-            // This can be removed if you're not using FluentLayout
             View.SubviewsDoNotTranslateAutoresizingMaskIntoConstraints();
         }
     }
