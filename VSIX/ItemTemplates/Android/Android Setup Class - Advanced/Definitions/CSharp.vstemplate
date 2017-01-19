@@ -2,8 +2,10 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>Setup.cs</DefaultName>
-    <Name>MVX Android MvvmCross Setup Class - Advanced</Name>
-    <Description>Advanced setup Class for a Xamarin MvvmCross Android app</Description>
+    <Name>MvvmCross Android Setup - Advanced</Name>
+    <Description>MvvmCross Version: 4.4.0
+    
+Advanced setup Class for an MvvmCross Android app</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>e7795739-1f67-4410-9889-6856dc42d607</TemplateID>

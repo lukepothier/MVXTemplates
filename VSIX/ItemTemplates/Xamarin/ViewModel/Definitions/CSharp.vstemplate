@@ -2,8 +2,10 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>ViewModel.cs</DefaultName>
-    <Name>MVX MvvmCross ViewModel</Name>
-    <Description>MvvmCross ViewModel</Description>
+    <Name>MvvmCross ViewModel</Name>
+    <Description>MvvmCross Version: 4.4.0
+    
+MvvmCross ViewModel template</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>35edbce6-31a9-4841-9507-19999cd7925e</TemplateID>

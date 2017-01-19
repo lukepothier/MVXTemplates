@@ -1,7 +1,9 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>MvvmCross Android App</Name>
-    <Description>A project template for a MvvmCross Android application. This template is dependent on the 'MvvmCross Core' project template being in the same solution.</Description>
+    <Name>MvvmCross Android App (Android only)</Name>
+    <Description>MvvmCross Version: 4.4.0
+    
+A project template for a MvvmCross Android application. This template is dependent on the 'MvvmCross Core' project template (or similar).</Description>
     <DefaultName>Android</DefaultName>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Android</ProjectSubType>

@@ -2,8 +2,10 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>Activity.cs</DefaultName>
-    <Name>MVX Android MvvmCross Activity Class</Name>
-    <Description>AppCompat Activity based on the Android support libraries for backwards compatibility</Description>
+    <Name>MvvmCross Android Activity (codebehind)</Name>
+    <Description>MvvmCross Version: 4.4.0
+    
+AppCompat Activity based on the Android support libraries for backwards compatibility</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>c14bf808-1878-4d46-a73b-6f429d52f2eb</TemplateID>

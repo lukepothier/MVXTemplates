@@ -2,8 +2,10 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>App.cs</DefaultName>
-    <Name>MVX MvvmCross App Class</Name>
-    <Description>MvvmCross App Class</Description>
+    <Name>MvvmCross App Class</Name>
+    <Description>MvvmCross Version: 4.4.0
+    
+MvvmCross App startup class</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>c1ae3129-4402-4398-95bd-f8e9e794e6c4</TemplateID>

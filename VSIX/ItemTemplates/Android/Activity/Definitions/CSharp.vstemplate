@@ -2,8 +2,10 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>mvx_activity.xml</DefaultName>
-    <Name>MVX Android Activity Layout</Name>
-    <Description>XML template for an empty Android activity</Description>
+    <Name>MvvmCross Android Activity (.xml)</Name>
+    <Description>MvvmCross Version: 4.4.0
+    
+XML template for an empty Android fragment activity</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>65197798-4682-45e6-9bf4-d2d9e2929527</TemplateID>

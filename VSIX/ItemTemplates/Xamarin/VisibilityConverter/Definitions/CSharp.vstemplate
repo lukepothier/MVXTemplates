@@ -2,8 +2,10 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>VisibilityConverter.cs</DefaultName>
-    <Name>MVX MvvmCross VisibilityConverter</Name>
-    <Description>MvvmCross VisibilityConverter</Description>    
+    <Name>MvvmCross VisibilityConverter</Name>
+    <Description>MvvmCross Version: 4.4.0
+    
+MvvmCross VisibilityConverter template</Description>    
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>f7e4ce56-c898-4fdd-af87-8f0ec5b91030</TemplateID>

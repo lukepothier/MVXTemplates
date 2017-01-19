@@ -2,8 +2,10 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>ViewController.cs</DefaultName>
-    <Name>MVX iOS MvvmCross FluentLayout UIViewController</Name>
-    <Description>iOS MvvmCross UIViewController with FluentLayout</Description>
+    <Name>MvvmCross FluentLayout UIViewController</Name>
+    <Description>MvvmCross Version: 4.4.0
+    
+iOS MvvmCross UIViewController with FluentLayout</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>3bf30f94-adeb-4d88-a08e-21d4f7b14940</TemplateID>

@@ -2,8 +2,10 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>Setup.cs</DefaultName>
-    <Name>MVX iOS MvvmCross Setup Class - Basic</Name>
-    <Description>Basic setup Class for a Xamarin MvvmCross iOS app</Description>
+    <Name>MvvmCross iOS Setup - Basic</Name>
+    <Description>MvvmCross Version: 4.4.0
+
+Basic setup Class for an MvvmCross iOS app</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>52cabb46-6847-4f23-9f9b-ba3f8def1f4a</TemplateID>

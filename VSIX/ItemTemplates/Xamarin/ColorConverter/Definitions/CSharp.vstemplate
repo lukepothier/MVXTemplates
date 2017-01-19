@@ -2,8 +2,10 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>ColorConverter.cs</DefaultName>
-    <Name>MVX MvvmCross ColorConverter</Name>
-    <Description>MvvmCross ColorConverter</Description>    
+    <Name>MvvmCross ColorConverter</Name>
+    <Description>MvvmCross Version: 4.4.0
+    
+MvvmCross ColorConverter template</Description>    
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>147e5241-28d8-4cd8-afab-3543ea32486d</TemplateID>

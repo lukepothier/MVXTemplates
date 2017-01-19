@@ -1,7 +1,9 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
   <TemplateData>
     <Name>MvvmCross App</Name>
-    <Description>A multi-project template for a MvvmCross application for iOS and Android.</Description>
+    <Description>MvvmCross Version: 4.4.0
+    
+A multi-project template for a MvvmCross application for iOS and Android. Project includes an MvvmCross Android app, an MvvmCross iOS app, and an MvvmCross Core portable class library.</Description>
     <DefaultName>App</DefaultName>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Cross-Platform</ProjectSubType>

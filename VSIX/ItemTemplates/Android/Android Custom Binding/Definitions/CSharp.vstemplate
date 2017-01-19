@@ -2,8 +2,10 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>MyCustomBinding.cs</DefaultName>
-    <Name>MVX MvvmCross MvxConvertingTargetBinding</Name>
-    <Description>MvvmCross MvxConvertingTargetBinding</Description>    
+    <Name>MvvmCross Android MvxConvertingTargetBinding</Name>
+    <Description>MvvmCross Version: 4.4.0
+    
+MvvmCross custom binding template</Description>    
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>1d1bc429-6921-4e42-a732-75d91a0d1c69</TemplateID>

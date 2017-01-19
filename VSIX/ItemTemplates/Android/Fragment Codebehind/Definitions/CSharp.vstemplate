@@ -2,8 +2,10 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>Fragment.cs</DefaultName>
-    <Name>MVX Android MvvmCross Fragment Class</Name>
-    <Description>Fragment based on the Android support libraries for backwards compatibility</Description>
+    <Name>MvvmCross Fragment (codebehind)</Name>
+    <Description>MvvmCross Version: 4.4.0
+    
+Fragment based on the Android support libraries for backwards compatibility</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>249ae20b-359d-488f-9ee2-b0fc781d04c7</TemplateID>

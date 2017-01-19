@@ -2,8 +2,10 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>ValueConverter.cs</DefaultName>
-    <Name>MVX MvvmCross ValueConverter</Name>
-    <Description>MvvmCross ValueConverter</Description>    
+    <Name>MvvmCross ValueConverter</Name>
+    <Description>MvvmCross Version: 4.4.0
+    
+MvvmCross ValueConverter template</Description>    
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>9</NumberOfParentCategoriesToRollUp>
     <TemplateID>dc4c39e3-85b3-4713-9ade-5a255c2b3daa</TemplateID>
