@@ -82,6 +82,31 @@
     <Content Include="ItemTemplates\Android\Android Custom Binding\MyCustomBinding.cs" />
     <Content Include="ItemTemplates\iOS\iOS ValueConverter\ValueConverter.cs" />
     <Content Include="ItemTemplates\Android\Android ValueConverter\ValueConverter.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Bootstrap\JsonPluginBootstrap.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\LinkerPleaseInclude.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Properties\AssemblyInfo.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\Resource.Designer.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Setup.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Views\Activities\BaseActivity.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Views\Activities\MainActivity.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Views\Activities\SplashActivity.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Views\Fragments\BaseFragment.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Views\Fragments\FirstFragment.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Views\Fragments\SecondFragment.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Core\App.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Core\Properties\AssemblyInfo.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Core\ViewModels\FirstViewModel.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Core\ViewModels\MainContainerViewModel.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Core\ViewModels\SecondViewModel.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\AppDelegate.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Bootstrap\JsonPluginBootstrap.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\LinkerPleaseInclude.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Main.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Properties\AssemblyInfo.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Setup.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Views\BaseViewController.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Views\FirstViewController.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Views\SecondViewController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -196,11 +221,57 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Android.csproj" />
     <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\MyTemplate.vstemplate" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Properties\AndroidManifest.xml" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\drawable-hdpi\icon.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\drawable-mdpi\icon.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\drawable-xhdpi\icon.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\drawable-xxhdpi\icon.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\drawable-xxxhdpi\icon.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\drawable\splash.xml" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\layout\layout_activity.xml" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\layout\layout_fragment_first.xml" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\layout\layout_fragment_second.xml" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\layout\toolbar.xml" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\mipmap-hdpi\icon.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\mipmap-mdpi\icon.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\mipmap-xhdpi\icon.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\mipmap-xxhdpi\icon.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\mipmap-xxxhdpi\icon.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\values-v21\styles.xml" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\values\colors.xml" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\values\dimens.xml" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\values\strings.xml" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\values\styles.xml" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Core\Core.csproj" />
     <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Core\MyTemplate.vstemplate" />
     <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\Definitions\CSharp.vstemplate" />
     <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\icon.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Entitlements.plist" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Info.plist" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\iOS.csproj" />
     <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\MyTemplate.vstemplate" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Default%402x.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Default-568h%402x.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Default-Landscape%402x.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Default-Landscape.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Default-Portrait%402x.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Default-Portrait.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Default.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Icon%402x.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Icon-60%402x.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Icon-72%402x.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Icon-72.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Icon-76%402x.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Icon-76.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Icon-Small%402x.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Icon-Small-40%402x.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Icon-Small-40.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Icon-Small-50%402x.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Icon-Small-50.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Icon-Small.png" />
+    <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Resources\Icon.png" />
     <Content Include="ProjectTemplates\Cross-Platform\MvvmCross App\_preprocess.xml" />
     <Content Include="template-report.xml" />
     <Content Include="ItemTemplates\Android\Activity\icon.png" />
@@ -237,6 +308,8 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="mvxtemplates_keyfile.pfx" />
+    <None Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\iTunesArtwork" />
+    <None Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\iTunesArtwork%402x" />
     <None Include="Properties\template-builder.props">
       <SubType>Designer</SubType>
     </None>
