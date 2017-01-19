@@ -11,9 +11,10 @@
     <TemplateGroupID>CSharp</TemplateGroupID>
     <AppliesTo>CSharp + MultiTarget</AppliesTo>
     <ShowByDefault>true</ShowByDefault>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
-    <References />
+    <!--<References />-->
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">ValueConverter.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

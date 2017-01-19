@@ -11,16 +11,17 @@
     <TemplateGroupID>CSharp</TemplateGroupID>
     <AppliesTo>CSharp + MultiTarget</AppliesTo>
     <ShowByDefault>true</ShowByDefault>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
-    <References>
+    <!--<References>
       <Reference>
         <Assembly>MvvmCross.Core</Assembly>
       </Reference>
       <Reference>
         <Assembly>MvvmCross.Platform</Assembly>
       </Reference>
-    </References>
+    </References>-->
     <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">App.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
