@@ -8,16 +8,9 @@
   <include
     layout="@layout/toolbar" /> <!--Your toolbar here-->
 
-  <RelativeLayout
+  <FrameLayout
+    android:id="@+id/content_frame"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <FrameLayout
-      android:id="@+id/content_frame"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent" />
-
-  </RelativeLayout>
+    android:layout_height="match_parent" />
 
 </android.support.design.widget.CoordinatorLayout>
