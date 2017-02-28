@@ -9,7 +9,7 @@ using MvvmCross.Droid.Support.V4;
 
 namespace $safeprojectname$.Views
 {
-    [MvxFragment(typeof(MainContainerViewModel), Resource.Id.content_frame)]
+    [MvxFragment(typeof(MainContainerViewModel), Resource.Id.content_frame, true)]
     [Register(nameof(FirstFragment))]
     public class FirstFragment : BaseFragment<FirstViewModel>
     {

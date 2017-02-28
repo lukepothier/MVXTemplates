@@ -7,7 +7,7 @@ using MvvmCross.Droid.Support.V4;
 
 namespace $rootnamespace$
 {
-    [MvxFragment(typeof(MyViewModel), Resource.Id.my_content_frame_resource_id)]
+    [MvxFragment(typeof(MyViewModel), Resource.Id.my_content_frame_resource_id, true)]
     [Register("$rootnamespace$.$safeitemname$")]
     public class $safeitemname$ : MvxFragment<MyViewModel>
     {
