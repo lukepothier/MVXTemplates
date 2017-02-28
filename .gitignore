@@ -250,3 +250,4 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+/MvvmCross Android App/MvvmCross.Android.App.csproj.bak
