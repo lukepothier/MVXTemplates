@@ -84,7 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
-    <Compile Include="LinkerPleaseInclude.cs" />
+    <Compile Include="Linker\LinkerPleaseInclude.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Views\Activities\BaseActivity.cs" />
     <Compile Include="Views\Activities\MainActivity.cs" />

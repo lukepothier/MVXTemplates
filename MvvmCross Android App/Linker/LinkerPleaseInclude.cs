@@ -4,7 +4,7 @@ using System.Windows.Input;
 using Android.Widget;
 using MvvmCross.Platform.IoC;
 
-namespace $safeprojectname$
+namespace $safeprojectname$.Linker
 {
 	// LinkerPleaseInclude is never actually executed, but when Xamarin linking is enabled it ensures types and properties are preserved in the deployed app
     // Included are some examples of types and properties you may need preserved in a linked version of your app

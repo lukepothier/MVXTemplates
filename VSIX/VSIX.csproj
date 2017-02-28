@@ -83,7 +83,7 @@
     <Content Include="ItemTemplates\iOS\iOS ValueConverter\ValueConverter.cs" />
     <Content Include="ItemTemplates\Android\Android ValueConverter\ValueConverter.cs" />
     <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Bootstrap\JsonPluginBootstrap.cs" />
-    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\LinkerPleaseInclude.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Linker\LinkerPleaseInclude.cs" />
     <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Properties\AssemblyInfo.cs" />
     <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Resources\Resource.Designer.cs" />
     <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\Setup.cs" />
@@ -100,7 +100,7 @@
     <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\Core\ViewModels\SecondViewModel.cs" />
     <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\AppDelegate.cs" />
     <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Bootstrap\JsonPluginBootstrap.cs" />
-    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\LinkerPleaseInclude.cs" />
+    <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Linker\LinkerPleaseInclude.cs" />
     <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Main.cs" />
     <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Properties\AssemblyInfo.cs" />
     <Compile Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\Setup.cs" />
