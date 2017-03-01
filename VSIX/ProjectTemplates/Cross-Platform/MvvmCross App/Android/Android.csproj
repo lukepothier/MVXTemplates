@@ -101,6 +101,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
+    <ProguardConfiguration Include="proguard.cfg" />
     <AndroidResource Include="Resources\values\strings.xml" />
   </ItemGroup>
   <ItemGroup>

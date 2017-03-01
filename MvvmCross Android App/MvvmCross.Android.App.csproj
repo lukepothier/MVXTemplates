@@ -101,6 +101,7 @@
     <AndroidResource Include="Resources\values\strings.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ProguardConfiguration Include="proguard.cfg" />
     <None Include="Properties\AndroidManifest.xml" />
     <AndroidResource Include="Resources\layout\toolbar.xml">
       <SubType>Designer</SubType>

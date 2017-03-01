@@ -308,6 +308,7 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="mvxtemplates_keyfile.pfx" />
+    <None Include="ProjectTemplates\Cross-Platform\MvvmCross App\Android\proguard.cfg" />
     <None Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\iTunesArtwork" />
     <None Include="ProjectTemplates\Cross-Platform\MvvmCross App\iOS\iTunesArtwork%402x" />
     <None Include="Properties\template-builder.props">
