@@ -18,7 +18,7 @@ namespace $safeprojectname$.Views
 
             SetContentView(ActivityLayoutId);
 
-            SetSupportActionBar(_toolbar);
+            SetSupportActionBar(Toolbar);
         }
     }
 }
