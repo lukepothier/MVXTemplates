@@ -51,4 +51,7 @@
     <Asset Type="xamarin.android.support.v7.recyclerview.24.2.1.nupkg" d:Source="File" Path="Packages\xamarin.android.support.v7.recyclerview.24.2.1.nupkg" d:VsixSubPath="Packages" />
     <Asset Type="xamarin.android.support.vector.drawable.24.2.1.nupkg" d:Source="File" Path="Packages\xamarin.android.support.vector.drawable.24.2.1.nupkg" d:VsixSubPath="Packages" />
   </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Component.Xamarin" Version="[15.0.26228.0,16.0)" DisplayName="Xamarin" />
+  </Prerequisites>
 </PackageManifest>
