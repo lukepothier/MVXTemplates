@@ -1618,8 +1618,8 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0b000a
 			public const int MvxBindingTagUnique = 2131427338;
 			
-			// aapt resource value: 0x7f0b005a
-			public const int action0 = 2131427418;
+			// aapt resource value: 0x7f0b0059
+			public const int action0 = 2131427417;
 			
 			// aapt resource value: 0x7f0b0047
 			public const int action_bar = 2131427399;
@@ -1645,8 +1645,8 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0b0048
 			public const int action_context_bar = 2131427400;
 			
-			// aapt resource value: 0x7f0b005e
-			public const int action_divider = 2131427422;
+			// aapt resource value: 0x7f0b005d
+			public const int action_divider = 2131427421;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -1675,8 +1675,8 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0b001f
 			public const int always = 2131427359;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int appbar = 2131427431;
+			// aapt resource value: 0x7f0b0066
+			public const int appbar = 2131427430;
 			
 			// aapt resource value: 0x7f0b001c
 			public const int beginning = 2131427356;
@@ -1684,20 +1684,20 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0b0024
 			public const int bottom = 2131427364;
 			
-			// aapt resource value: 0x7f0b0059
-			public const int button = 2131427417;
+			// aapt resource value: 0x7f0b0058
+			public const int button = 2131427416;
 			
 			// aapt resource value: 0x7f0b0030
 			public const int buttonPanel = 2131427376;
 			
-			// aapt resource value: 0x7f0b005b
-			public const int cancel_action = 2131427419;
+			// aapt resource value: 0x7f0b005a
+			public const int cancel_action = 2131427418;
 			
 			// aapt resource value: 0x7f0b003e
 			public const int checkbox = 2131427390;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int chronometer = 2131427425;
+			// aapt resource value: 0x7f0b0060
+			public const int chronometer = 2131427424;
 			
 			// aapt resource value: 0x7f0b0020
 			public const int collapseActionView = 2131427360;
@@ -1705,8 +1705,8 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0b0036
 			public const int contentPanel = 2131427382;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int content_frame = 2131427416;
+			// aapt resource value: 0x7f0b0057
+			public const int content_frame = 2131427415;
 			
 			// aapt resource value: 0x7f0b0056
 			public const int coordinator_layout = 2131427414;
@@ -1732,8 +1732,8 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0b001d
 			public const int end = 2131427357;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int end_padder = 2131427430;
+			// aapt resource value: 0x7f0b0065
+			public const int end_padder = 2131427429;
 			
 			// aapt resource value: 0x7f0b002a
 			public const int expand_activities_button = 2131427370;
@@ -1756,14 +1756,14 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0b002b
 			public const int image = 2131427371;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int info = 2131427429;
+			// aapt resource value: 0x7f0b0064
+			public const int info = 2131427428;
 			
-			// aapt resource value: 0x7f0b005f
-			public const int line1 = 2131427423;
+			// aapt resource value: 0x7f0b005e
+			public const int line1 = 2131427422;
 			
-			// aapt resource value: 0x7f0b0063
-			public const int line3 = 2131427427;
+			// aapt resource value: 0x7f0b0062
+			public const int line3 = 2131427426;
 			
 			// aapt resource value: 0x7f0b000b
 			public const int listMode = 2131427339;
@@ -1771,8 +1771,8 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0b002d
 			public const int list_item = 2131427373;
 			
-			// aapt resource value: 0x7f0b005d
-			public const int media_actions = 2131427421;
+			// aapt resource value: 0x7f0b005c
+			public const int media_actions = 2131427420;
 			
 			// aapt resource value: 0x7f0b001e
 			public const int middle = 2131427358;
@@ -1873,8 +1873,8 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0b001a
 			public const int src_over = 2131427354;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int status_bar_latest_event_content = 2131427420;
+			// aapt resource value: 0x7f0b005b
+			public const int status_bar_latest_event_content = 2131427419;
 			
 			// aapt resource value: 0x7f0b0041
 			public const int submenuarrow = 2131427393;
@@ -1885,11 +1885,11 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0b000d
 			public const int tabMode = 2131427341;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int text = 2131427428;
+			// aapt resource value: 0x7f0b0063
+			public const int text = 2131427427;
 			
-			// aapt resource value: 0x7f0b0062
-			public const int text2 = 2131427426;
+			// aapt resource value: 0x7f0b0061
+			public const int text2 = 2131427425;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int textSpacerNoButtons = 2131427385;
@@ -1897,8 +1897,8 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0b0068
 			public const int textview_toolbar_title = 2131427432;
 			
-			// aapt resource value: 0x7f0b0060
-			public const int time = 2131427424;
+			// aapt resource value: 0x7f0b005f
+			public const int time = 2131427423;
 			
 			// aapt resource value: 0x7f0b002f
 			public const int title = 2131427375;
@@ -1906,8 +1906,8 @@ namespace $safeprojectname$
 			// aapt resource value: 0x7f0b0034
 			public const int title_template = 2131427380;
 			
-			// aapt resource value: 0x7f0b0057
-			public const int toolbar = 2131427415;
+			// aapt resource value: 0x7f0b0067
+			public const int toolbar = 2131427431;
 			
 			// aapt resource value: 0x7f0b0025
 			public const int top = 2131427365;
