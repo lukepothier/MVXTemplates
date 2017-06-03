@@ -4,7 +4,7 @@
     <Description>MvvmCross Version: 4.4.0
     
 A project template for a MvvmCross Android application. This template is dependent on the 'MvvmCross Core' project template (or similar).</Description>
-    <DefaultName>Android</DefaultName>
+    <DefaultName>Droid</DefaultName>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Android</ProjectSubType>
     <SortOrder>90</SortOrder>

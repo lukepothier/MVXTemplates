@@ -19,7 +19,7 @@ A multi-project template for an MvvmCross application for iOS and Android. Proje
   </TemplateData>
   <TemplateContent>
     <ProjectCollection>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.Android">Android\MyTemplate.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Droid">Android\MyTemplate.vstemplate</ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="$safeprojectname$.iOS">iOS\MyTemplate.vstemplate</ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="$safeprojectname$.Core">Core\MyTemplate.vstemplate</ProjectTemplateLink>
     </ProjectCollection>
