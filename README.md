@@ -48,7 +48,7 @@ each of which are avilable individually as well. It looks like this:
 
 ![](http://i.imgur.com/cByPv1J.png)
 
-The app is built with MvvmCross 4.4.0.
+The app is built with MvvmCross 5.0.1.
 
 
 ## Sample
