@@ -3,6 +3,10 @@ MVXTemplates
 
 A collection of Visual Studio item and project templates for use in MvvmCross Xamarin applications.
 
+## Old versions
+
+Version 1.1 of the extension, which is designed for MvvmCross v4.4.0, can be downloaded [here](https://github.com/lukepothier/MVXTemplates/raw/master/v1.1%20Release/MVXTemplates.vsix).
+
 ## Item templates
 
 ### Shared
