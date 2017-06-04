@@ -3,7 +3,7 @@
     <ProjectType>CSharp</ProjectType>
     <DefaultName>App.cs</DefaultName>
     <Name>MvvmCross App Class</Name>
-    <Description>MvvmCross Version: 4.4.0
+    <Description>MvvmCross Version: 5.0.1
     
 MvvmCross App startup class</Description>
     <Icon>icon.png</Icon>

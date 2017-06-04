@@ -3,7 +3,7 @@
     <ProjectType>CSharp</ProjectType>
     <DefaultName>ViewModel.cs</DefaultName>
     <Name>MvvmCross ViewModel</Name>
-    <Description>MvvmCross Version: 4.4.0
+    <Description>MvvmCross Version: 5.0.1
     
 MvvmCross ViewModel template</Description>
     <Icon>icon.png</Icon>

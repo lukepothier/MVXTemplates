@@ -3,7 +3,7 @@
     <ProjectType>CSharp</ProjectType>
     <DefaultName>MyCustomBinding.cs</DefaultName>
     <Name>MvvmCross MvxConvertingTargetBinding</Name>
-    <Description>MvvmCross Version: 4.4.0
+    <Description>MvvmCross Version: 5.0.1
     
 MvvmCross custom binding template</Description>    
     <Icon>icon.png</Icon>

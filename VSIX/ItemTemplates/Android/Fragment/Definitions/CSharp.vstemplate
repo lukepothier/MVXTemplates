@@ -3,7 +3,7 @@
     <ProjectType>CSharp</ProjectType>
     <DefaultName>mvx_fragment.xml</DefaultName>
     <Name>MvvmCross Android Fragment (.xml)</Name>
-    <Description>MvvmCross Version: 4.4.0
+    <Description>MvvmCross Version: 5.0.1
     
 XML template for an empty Android fragment</Description>
     <Icon>icon.png</Icon>

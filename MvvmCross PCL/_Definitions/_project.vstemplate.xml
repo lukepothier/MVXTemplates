@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>MvvmCross Core (Core only)</Name>
-    <Description>MvvmCross Version: 4.4.0
+    <Description>MvvmCross Version: 5.0.1
     
 A project template for a shared class library for use by an MvvmCross Android and/or iOS application.</Description>
     <DefaultName>Core</DefaultName>
@@ -26,11 +26,11 @@ A project template for a shared class library for use by an MvvmCross Android an
   </WizardExtension>
   <WizardData>
     <packages repository="extension" repositoryId="VSIX.Luke Pothier.3b4a0b56-7f92-4f5e-8de3-fe5bb43c7678">
-      <package id="MvvmCross.Core" version="4.4.0" />
-      <package id="MvvmCross.CodeAnalysis" version="4.4.0" />
-      <package id="MvvmCross.Platform" version="4.4.0" />
-      <package id="MvvmCross.Plugin.Json" version="4.4.0" />
-      <package id="Newtonsoft.Json" version="9.0.1" />
+      <package id="MvvmCross.Core" version="5.0.1" />
+      <package id="MvvmCross.CodeAnalysis" version="5.0.1" />
+      <package id="MvvmCross.Platform" version="5.0.1" />
+      <package id="MvvmCross.Plugin.Json" version="5.0.1" />
+      <package id="Newtonsoft.Json" version="10.0.2" />
     </packages>
   </WizardData>
 </VSTemplate>

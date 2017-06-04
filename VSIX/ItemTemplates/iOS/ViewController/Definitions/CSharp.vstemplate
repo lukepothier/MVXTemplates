@@ -3,7 +3,7 @@
     <ProjectType>CSharp</ProjectType>
     <DefaultName>ViewController.cs</DefaultName>
     <Name>MvvmCross FluentLayout UIViewController</Name>
-    <Description>MvvmCross Version: 4.4.0
+    <Description>MvvmCross Version: 5.0.1
     
 iOS MvvmCross UIViewController with FluentLayout</Description>
     <Icon>icon.png</Icon>

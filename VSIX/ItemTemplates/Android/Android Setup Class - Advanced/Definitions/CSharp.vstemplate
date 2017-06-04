@@ -3,7 +3,7 @@
     <ProjectType>CSharp</ProjectType>
     <DefaultName>Setup.cs</DefaultName>
     <Name>MvvmCross Android Setup - Advanced</Name>
-    <Description>MvvmCross Version: 4.4.0
+    <Description>MvvmCross Version: 5.0.1
     
 Advanced setup Class for an MvvmCross Android app</Description>
     <Icon>icon.png</Icon>

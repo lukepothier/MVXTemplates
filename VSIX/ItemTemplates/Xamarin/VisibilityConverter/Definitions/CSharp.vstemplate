@@ -3,7 +3,7 @@
     <ProjectType>CSharp</ProjectType>
     <DefaultName>VisibilityConverter.cs</DefaultName>
     <Name>MvvmCross VisibilityConverter</Name>
-    <Description>MvvmCross Version: 4.4.0
+    <Description>MvvmCross Version: 5.0.1
     
 MvvmCross VisibilityConverter template</Description>    
     <Icon>icon.png</Icon>

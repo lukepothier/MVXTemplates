@@ -3,7 +3,7 @@
     <ProjectType>CSharp</ProjectType>
     <DefaultName>ValueConverter.cs</DefaultName>
     <Name>MvvmCross ValueConverter</Name>
-    <Description>MvvmCross Version: 4.4.0
+    <Description>MvvmCross Version: 5.0.1
     
 MvvmCross ValueConverter template</Description>    
     <Icon>icon.png</Icon>
