@@ -34,7 +34,6 @@
     <Asset Type="mvvmcross.droid.support.core.utils.5.0.1.nupkg" d:Source="File" Path="Packages\mvvmcross.droid.support.core.utils.5.0.1.nupkg" d:VsixSubPath="Packages" />
     <Asset Type="mvvmcross.droid.support.design.5.0.1.nupkg" d:Source="File" Path="Packages\mvvmcross.droid.support.design.5.0.1.nupkg" d:VsixSubPath="Packages" />
     <Asset Type="mvvmcross.droid.support.fragment.5.0.1.nupkg" d:Source="File" Path="Packages\mvvmcross.droid.support.fragment.5.0.1.nupkg" d:VsixSubPath="Packages" />
-    <Asset Type="mvvmcross.droid.support.v4.4.4.1.nupkg" d:Source="File" Path="Packages\mvvmcross.droid.support.v4.4.4.1.nupkg" d:VsixSubPath="Packages" />
     <Asset Type="mvvmcross.droid.support.v7.appcompat.5.0.1.nupkg" d:Source="File" Path="Packages\mvvmcross.droid.support.v7.appcompat.5.0.1.nupkg" d:VsixSubPath="Packages" />
     <Asset Type="mvvmcross.droid.support.v7.recyclerview.5.0.1.nupkg" d:Source="File" Path="Packages\mvvmcross.droid.support.v7.recyclerview.5.0.1.nupkg" d:VsixSubPath="Packages" />
     <Asset Type="mvvmcross.platform.5.0.1.nupkg" d:Source="File" Path="Packages\mvvmcross.platform.5.0.1.nupkg" d:VsixSubPath="Packages" />

@@ -35,7 +35,6 @@
       <package id="MvvmCross.Droid.Support.Core.Utils" version="5.0.1" />
       <package id="MvvmCross.Droid.Support.Design" version="5.0.1" />
       <package id="MvvmCross.Droid.Support.Fragment" version="5.0.1" />
-      <package id="MvvmCross.Droid.Support.V4" version="4.4.1" />
       <package id="MvvmCross.Droid.Support.V7.AppCompat" version="5.0.1" />
       <package id="MvvmCross.Droid.Support.V7.RecyclerView" version="5.0.1" />
       <package id="MvvmCross.Platform" version="5.0.1" />
