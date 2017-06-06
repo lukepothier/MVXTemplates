@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="VSIX.Luke Pothier.3b4a0b56-7f92-4f5e-8de3-fe5bb43c7678" Version="1.1" Language="en-US" Publisher="Luke Pothier" />
+    <Identity Id="VSIX.Luke Pothier.3b4a0b56-7f92-4f5e-8de3-fe5bb43c7678" Version="1.2" Language="en-US" Publisher="Luke Pothier" />
     <DisplayName>MVXTemplates</DisplayName>
     <Description xml:space="preserve">Template pack for MvvmCross mobile applications</Description>
     <MoreInfo>https://github.com/lukepothier/MVXTemplates</MoreInfo>
